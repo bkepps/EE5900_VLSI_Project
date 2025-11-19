@@ -8,11 +8,11 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>Group2_VLSI_EE5900_1-Bit_FullAdder_Testbench_1
+			<test>Progress_Main_VLSI_LIbrary_SKywater_not_testBench_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>1-Bit_FullAdder_Testbench</value>
+						<value>not_testBench</value>
 					</option>
 					<option>lib
 						<value>Group2_VLSI_EE5900</value>
@@ -30,6 +30,7 @@
 						<value>active</value>
 					</option>
 				</tooloptions>
+				<origoptions></origoptions>
 			</test>
 		</tests>
 		<extensions>
@@ -41,7 +42,7 @@
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">Group2_VLSI_EE5900_1-Bit_FullAdder_Testbench_1</test>
+			<test netlist="0" netlistscope="all">Progress_Main_VLSI_LIbrary_SKywater_not_testBench_1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
