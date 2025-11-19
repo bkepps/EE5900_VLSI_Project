@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>Nov 19 16:12:42 2025</timestamp>
+			<uuid>{1676b7d9-1233-4474-9f44-859173ac18bb}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/home/campus15/mmunoria/Progress_Main_VLSI_LIbrary_SKywater/AND4_testBench/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/home/campus15/mmunoria/Progress_Main_VLSI_LIbrary_SKywater/AND4_testBench/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/home/campus15/mmunoria/cadence/simulation/Progress_Main_VLSI_LIbrary_SKywater/AND4_testBench/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Progress_Main_VLSI_LIbrary_SKywater/AND4_testBench/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+			<historyPsfSize>Not Computed</historyPsfSize>
+		</historyentry>
+	</history>
+</setupdb>
