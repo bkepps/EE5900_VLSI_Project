@@ -1,0 +1,2 @@
+Group2_VLSI_EE5900 XOR layout XOR
+Group2_VLSI_EE5900 NOT layout NOT
