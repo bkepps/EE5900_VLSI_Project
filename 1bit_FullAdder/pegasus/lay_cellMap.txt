@@ -1,0 +1,2 @@
+Group2_VLSI_EE5900 1bit_FullAdder layout 1bit_FullAdder
+Group2_VLSI_EE5900 NOT layout NOT

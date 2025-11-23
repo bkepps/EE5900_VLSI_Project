@@ -2,9 +2,9 @@
 <statedb ICVersion="IC23.1-64b.ISR14.32" modifiedTime="11/10/2025 17:12:27" version="5">active
 	<Test Name="Group2_VLSI_EE5900_1-Bit_FullAdder_Testbench_1">
 		<component Name="adeInfo" Type="skillTable">adeinfo
-			<field Name="designInfo" Type="list">("Group2_VLSI_EE5900" "1-Bit_FullAdder_Testbench" "schematic" "spectre")</field>
+			<field Name="designInfo" Type="list">("Group2_VLSI_EE5900" "1bit_FullAdder_Testbench" "schematic" "spectre")</field>
 			<field Name="descriptiontext" Type="string">"None"</field>
-			<field Name="projectDir" Type="string">"/home/campus31/bskepper/cadence/simulation/Group2_VLSI_EE5900/1-Bit_FullAdder_Testbench/maestro/results/maestro/.tmpADEDir_bskepper/Group2_VLSI_EE5900_1-Bit_FullAdder_Testbench_1/simulation"</field>
+			<field Name="projectDir" Type="string">"/home/campus31/bskepper/cadence/simulation/Group2_VLSI_EE5900/1bit_FullAdder_Testbench/maestro/results/maestro/.tmpADEDir_bskepper/Group2_VLSI_EE5900_1-Bit_FullAdder_Testbench_1/simulation"</field>
 		</component>
 		<component Name="rfstim" Type="skillTable">rfstim</component>
 		<component Name="analyses" Type="skillTable">asiEnvSaveTable
