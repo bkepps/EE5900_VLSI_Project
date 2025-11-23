@@ -18,12 +18,12 @@ VIRTUAL_CONNECT -colon no;
 VIRTUAL_CONNECT -semicolon_as_colon yes;
 VIRTUAL_CONNECT -report no;
 VIRTUAL_CONNECT -depth -primary;
-REPORT_SUMMARY -drc "1bit_FullAddSub.sum" -replace;
+REPORT_SUMMARY -drc "4bit_FullAddSub.sum" -replace;
 MAX_RESULTS -drc 1000;
-RESULTS_DB -drc "/home/campus31/bskepper/Group2_VLSI_EE5900/Group2_VLSI_EE5900/1bit_FullAddSub/pegasus/1bit_FullAddSub.drc_errors.ascii" -ascii;
+RESULTS_DB -drc "/home/campus31/bskepper/Group2_VLSI_EE5900/Group2_VLSI_EE5900/1bit_FullAddSub/pegasus/4bit_FullAddSub.drc_errors.ascii" -ascii;
 ABORT_ON_LAYOUT_ERROR yes;
 LAYOUT_FORMAT gdsii;
-LAYOUT_PATH "/home/campus31/bskepper/Group2_VLSI_EE5900/Group2_VLSI_EE5900/1bit_FullAddSub/pegasus/1bit_FullAddSub.gds.gz";
+LAYOUT_PATH "/home/campus31/bskepper/Group2_VLSI_EE5900/Group2_VLSI_EE5900/1bit_FullAddSub/pegasus/4bit_FullAddSub.gds.gz";
 
 ########################################################################
 Parsing Rule File /opt/cadence-suite/sky130_release_0.0.4/Sky130_DRC/sky130_rev_0.0_1.0.drc.pvl ...
@@ -74,10 +74,10 @@ LAYOUT_FORMAT gdsii;
 LAYOUT_PATH "./sky130_fd_sc_ls__bufinv_16.gds";
 [WARN]: LAYOUT_PATH at line 34 in file /opt/cadence-suite/sky130_release_0.0.4/Sky130_DRC/sky130_rev_0.0_1.0.drc.pvl is skipped. It is set in control file.
 LAYOUT_PRIMARY "sky130_fd_sc_ls__bufinv_16";
-[WARN] Cmd-line override: LAYOUT_PRIMARY "1bit_FullAddSub";
+[WARN] Cmd-line override: LAYOUT_PRIMARY "4bit_FullAddSub";
 REPORT_SUMMARY -drc "sky130_fd_sc_ls__bufinv_16.sum" -replace;
 [WARN] REPORT_SUMMARY statement at line 42 in file /opt/cadence-suite/sky130_release_0.0.4/Sky130_DRC/sky130_rev_0.0_1.0.drc.pvl is ignored.
-       summary file has been specified as 1bit_FullAddSub.sum
+       summary file has been specified as 4bit_FullAddSub.sum
 RESULTS_DB -drc "./sky130_fd_sc_ls__bufinv_16.drc_errors.ascii" -ascii;
 [WARN]: RESULTS_DB -ascii at line 46 in file /opt/cadence-suite/sky130_release_0.0.4/Sky130_DRC/sky130_rev_0.0_1.0.drc.pvl is skipped. It is set in control file.
 MAX_RESULTS -drc 1000;
@@ -1965,7 +1965,7 @@ LAYER_MAP 64 -datatype 20 1004;
 LAYOUT_PATH "/dpc/project46/djb/GlobalFoundries/PegasusGapAnalysis/IT121009/djb/Sky130/For_Praneeth/hvnwell/hvnwell.gds";
 [WARN]: LAYOUT_PATH at line 6 in file /opt/cadence-suite/sky130_release_0.0.4/Sky130_DRC/Include/hvnwell.drc.pvl is skipped. It is set in control file.
 LAYOUT_PRIMARY "hvnwell";
-[WARN] Cmd-line override: LAYOUT_PRIMARY "1bit_FullAddSub";
+[WARN] Cmd-line override: LAYOUT_PRIMARY "4bit_FullAddSub";
 RESULTS_DB -drc "./sky130_fd_sc_ls__bufinv_16.drc_errors.ascii" -ascii;
 [WARN]: RESULTS_DB -ascii at line 8 in file /opt/cadence-suite/sky130_release_0.0.4/Sky130_DRC/Include/hvnwell.drc.pvl is skipped. It is set in control file.
 
@@ -4670,6 +4670,6 @@ operation group: 462/462
 Completed execution after parsing the rules, as requested by the "-p" flag or "-get_rules" flag 
 
 
-Design rule check finished normally. Sun Nov 23 16:10:15 2025
+Design rule check finished normally. Sun Nov 23 16:39:59 2025
 
 

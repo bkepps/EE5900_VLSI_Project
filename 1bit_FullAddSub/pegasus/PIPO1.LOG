@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 04/22/2025 22:31 (cpgbld17) $
           : sub-version  IC23.1-64b.ISR14.32 
-Started at: 23-Nov-2025  16:10:13
+Started at: 23-Nov-2025  16:39:57
 User Name : bskepper
 Host Name : c17-orng-08.ad.mtu.edu
 Directory : /home/campus31/bskepper
@@ -10,6 +10,7 @@ CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
+WARNING (XSTRM-20): Output Stream file '/home/campus31/bskepper/Group2_VLSI_EE5900/Group2_VLSI_EE5900/1bit_FullAddSub/pegasus/4bit_FullAddSub.gds.gz' already exists. It will be overwritten.
 INFO (XSTRM-217): Reading the layer map file, /opt/cadence-suite/sky130_release_0.0.4/libs/sky130_fd_pr_main/sky130_fd_pr_main.layermap
 WARNING (XSTRM-333): The '-enableColoring' option will be ignored during XStream Out. This is because there is no color entry in the layer map and the object map file.
 INFO (XSTRM-427): Based on current hardware configuration, running XStream Out translation in multi-threaded mode with 4 threads.
@@ -18,8 +19,8 @@ INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess desi
 
 Summary of Options :
 library                                 Group2_VLSI_EE5900
-strmFile                                /home/campus31/bskepper/Group2_VLSI_EE5900/Group2_VLSI_EE5900/1bit_FullAddSub/pegasus/1bit_FullAddSub.gds.gz
-topCell                                 1bit_FullAddSub
+strmFile                                /home/campus31/bskepper/Group2_VLSI_EE5900/Group2_VLSI_EE5900/1bit_FullAddSub/pegasus/4bit_FullAddSub.gds.gz
+topCell                                 4bit_FullAddSub
 view                                    layout
 runDir                                  /home/campus31/bskepper/Group2_VLSI_EE5900/Group2_VLSI_EE5900/1bit_FullAddSub/pegasus
 logFile                                 /home/campus31/bskepper/Group2_VLSI_EE5900/Group2_VLSI_EE5900/1bit_FullAddSub/pegasus/PIPO1.LOG
@@ -33,48 +34,49 @@ case                                    Preserve
 convertDot                              node
 
 INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
-INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_763932213580.
-INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/PYL1CON_C/layout as STRUCTURE PYL1CON_C_CDNS_763932213581.
-INFO (XSTRM-223): 3. Translating customVia sky130_fd_pr_main/polyConn/layout as STRUCTURE polyConn_CDNS_763932213580.
-INFO (XSTRM-223): 4. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_763932213582.
-INFO (XSTRM-223): 5. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_763932213581.
-INFO (XSTRM-223): 6. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_763932213582.
-INFO (XSTRM-223): 7. Translating customVia sky130_fd_pr_main/subTap/layout as STRUCTURE subTap_CDNS_763932213583.
-INFO (XSTRM-223): 8. Translating customVia sky130_fd_pr_main/nwellTap/layout as STRUCTURE nwellTap_CDNS_763932213584.
+INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_763933997990.
+INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/PYL1CON_C/layout as STRUCTURE PYL1CON_C_CDNS_763933997991.
+INFO (XSTRM-223): 3. Translating customVia sky130_fd_pr_main/polyConn/layout as STRUCTURE polyConn_CDNS_763933997990.
+INFO (XSTRM-223): 4. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_763933997992.
+INFO (XSTRM-223): 5. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_763933997991.
+INFO (XSTRM-223): 6. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_763933997992.
+INFO (XSTRM-223): 7. Translating customVia sky130_fd_pr_main/subTap/layout as STRUCTURE subTap_CDNS_763933997993.
+INFO (XSTRM-223): 8. Translating customVia sky130_fd_pr_main/nwellTap/layout as STRUCTURE nwellTap_CDNS_763933997994.
 INFO (XSTRM-223): 9. Translating cellview Group2_VLSI_EE5900/NOT/layout as STRUCTURE NOT.
-INFO (XSTRM-223): 10. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_763932213585.
-INFO (XSTRM-223): 11. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_763932213586.
-INFO (XSTRM-223): 12. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_763932213587.
-INFO (XSTRM-223): 13. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_763932213588.
-INFO (XSTRM-223): 14. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_763932213589.
-INFO (XSTRM-223): 15. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7639322135810.
-INFO (XSTRM-223): 16. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7639322135811.
-INFO (XSTRM-223): 17. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7639322135812.
-INFO (XSTRM-223): 18. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7639322135813.
-INFO (XSTRM-223): 19. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7639322135814.
-INFO (XSTRM-223): 20. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7639322135815.
-INFO (XSTRM-223): 21. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7639322135816.
-INFO (XSTRM-223): 22. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7639322135817.
-INFO (XSTRM-223): 23. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7639322135818.
-INFO (XSTRM-223): 24. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7639322135819.
-INFO (XSTRM-223): 25. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7639322135820.
+INFO (XSTRM-223): 10. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_763933997995.
+INFO (XSTRM-223): 11. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_763933997996.
+INFO (XSTRM-223): 12. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_763933997997.
+INFO (XSTRM-223): 13. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_763933997998.
+INFO (XSTRM-223): 14. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_763933997999.
+INFO (XSTRM-223): 15. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7639339979910.
+INFO (XSTRM-223): 16. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7639339979911.
+INFO (XSTRM-223): 17. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7639339979912.
+INFO (XSTRM-223): 18. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7639339979913.
+INFO (XSTRM-223): 19. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7639339979914.
+INFO (XSTRM-223): 20. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7639339979915.
+INFO (XSTRM-223): 21. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7639339979916.
+INFO (XSTRM-223): 22. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7639339979917.
+INFO (XSTRM-223): 23. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7639339979918.
+INFO (XSTRM-223): 24. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7639339979919.
+INFO (XSTRM-223): 25. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7639339979920.
 INFO (XSTRM-223): 26. Translating cellview Group2_VLSI_EE5900/1bit_FullAdder/layout as STRUCTURE 1bit_FullAdder.
-INFO (XSTRM-223): 27. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_763932213583.
-INFO (XSTRM-223): 28. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_763932213584.
-INFO (XSTRM-223): 29. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7639322135821.
-INFO (XSTRM-223): 30. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7639322135822.
-INFO (XSTRM-223): 31. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7639322135823.
-INFO (XSTRM-223): 32. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7639322135824.
-INFO (XSTRM-223): 33. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7639322135825.
+INFO (XSTRM-223): 27. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_763933997993.
+INFO (XSTRM-223): 28. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_763933997994.
+INFO (XSTRM-223): 29. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7639339979921.
+INFO (XSTRM-223): 30. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7639339979922.
+INFO (XSTRM-223): 31. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7639339979923.
+INFO (XSTRM-223): 32. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7639339979924.
+INFO (XSTRM-223): 33. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7639339979925.
 INFO (XSTRM-223): 34. Translating cellview Group2_VLSI_EE5900/XOR/layout as STRUCTURE XOR.
 INFO (XSTRM-223): 35. Translating cellview Group2_VLSI_EE5900/1bit_FullAddSub/layout as STRUCTURE 1bit_FullAddSub.
+INFO (XSTRM-223): 36. Translating cellview Group2_VLSI_EE5900/4bit_FullAddSub/layout as STRUCTURE 4bit_FullAddSub.
 
 Summary of Objects Translated:
-	Scalar Instances:                       40
+	Scalar Instances:                       44
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             339
+	Rectangles:                             355
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -87,13 +89,13 @@ Summary of Objects Translated:
 	Markers:                                0
 	Rows:                                   0
 	Stitch:                                 0
-	Standard Vias                           19
+	Standard Vias                           39
 	Custom Vias:                            25
 	CdsGen Vias:                            0
-	Pathsegs:                               251
+	Pathsegs:                               286
 	Text:                                   0
 	TextDisplay:                            0
-	Cells:                                  35
+	Cells:                                  36
 
-Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 38172KB
-INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 38332KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.
