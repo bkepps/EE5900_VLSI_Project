@@ -83,5 +83,6 @@
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 	</active>
-	<history>History</history>
+	<history>History
+	</history>
 </setupdb>

@@ -1,6 +1,6 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Mon Nov 10 17:14:45 2025 
+Current time: Sun Nov 23 12:44:12 2025 
 Best design point: 1
 Design specs: 
 	Group2_VLSI_EE5900_1-Bit_FullAdder_Testbench_1	corner	Nominal - 
@@ -10,4 +10,4 @@ ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Mon Nov 10 17:14:51 2025 
+Current time: Sun Nov 23 12:44:21 2025 

@@ -3,16 +3,16 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Nov 10 17:14:44 2025</timestamp>
-			<uuid>{c982e91b-a2c1-4a50-b480-875e9cb655ae}</uuid>
+			<timestamp>Nov 23 12:44:12 2025</timestamp>
+			<uuid>{07c2a6db-b1ab-48e0-b510-2d45959bf3b5}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname>/home/campus15/mmunoria/Group2_VLSI_EE5900/1#2dBit_FullAdder_Testbench/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
-			<simresults>/home/campus15/mmunoria/Group2_VLSI_EE5900/1#2dBit_FullAdder_Testbench/maestro/results/maestro/ExplorerRun.0.rdb</simresults>
+			<resultsname>/home/campus31/bskepper/Group2_VLSI_EE5900/Group2_VLSI_EE5900/1bit_FullAdder_Testbench/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
 			<runlog>/home/campus31/bskepper/Group2_VLSI_EE5900/Group2_VLSI_EE5900/1bit_FullAdder_Testbench/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
-			<psfdir></psfdir>
-			<simdir></simdir>
+			<psfdir>/home/campus31/bskepper/cadence/simulation/Group2_VLSI_EE5900/1bit_FullAdder_Testbench/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/Group2_VLSI_EE5900/1bit_FullAdder_Testbench/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
 			<historyPsfSize>Not Computed</historyPsfSize>
 		</historyentry>
 	</history>
