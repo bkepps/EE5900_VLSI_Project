@@ -1,0 +1,12 @@
+text_depth -primary;
+virtual_connect -colon no;
+virtual_connect -semicolon_as_colon yes;
+virtual_connect -noname;
+virtual_connect -report no;
+virtual_connect -depth -primary;
+report_summary -drc "1bit_FullAddSub.sum" -replace;
+max_results -drc 1000;
+results_db -drc "/home/campus31/bskepper/Group2_VLSI_EE5900/Group2_VLSI_EE5900/1bit_FullAddSub/pegasus/1bit_FullAddSub.drc_errors.ascii" -ascii;
+abort_on_layout_error yes;
+layout_format gdsii;
+layout_path "/home/campus31/bskepper/Group2_VLSI_EE5900/Group2_VLSI_EE5900/1bit_FullAddSub/pegasus/1bit_FullAddSub.gds.gz";
