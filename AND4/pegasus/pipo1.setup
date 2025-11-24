@@ -1,0 +1,17 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometry"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"Group2_VLSI_EE5900"
+logFile	"/home/campus31/bskepper/Group2_VLSI_EE5900/Group2_VLSI_EE5900/AND4/pegasus/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/home/campus31/bskepper/Group2_VLSI_EE5900/Group2_VLSI_EE5900/AND4/pegasus"
+strmFile	"/home/campus31/bskepper/Group2_VLSI_EE5900/Group2_VLSI_EE5900/AND4/pegasus/AND4.gds.gz"
+strmVersion	5
+techLib	"sky130_fd_pr_main"
+topCell	"AND4"
+view	"layout"
+enableColoring
