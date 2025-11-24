@@ -1,0 +1,3 @@
+Group2_VLSI_EE5900 OR4 layout OR4
+Group2_VLSI_EE5900 NOR layout NOR
+Group2_VLSI_EE5900 NOT layout NOT
