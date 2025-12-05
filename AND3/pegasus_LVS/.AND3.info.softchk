@@ -1,0 +1,7 @@
+cell: "AND3"
+selected net: "6"
+rejected nets: "3" 
+contact layer: ""
+lower layer: "pwell"
+upper layer:  "ptap"
+command:  "sconnect ptap pwell"

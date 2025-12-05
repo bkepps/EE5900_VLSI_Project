@@ -1,0 +1,78 @@
+*****************************************************************************
+* CDL Netlist:
+* Cell Name: AND3
+* Netlisted on: Dec  1 16:14:57 2025
+*****************************************************************************
+
+*****************************************************************************
+* BIPOLAR Declarations
+*****************************************************************************
+*.BIPOLAR
+*.RESI = 2000.000000
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.SCALE METER
+
+
+*****************************************************************************
+* Parameter Statement
+*****************************************************************************
+.PARAM
+
+
+*******************************************************************************
+* Sub-Circuit Netlist:                                                        *
+*                                                                             *
+* Library: Group2_VLSI_EE5900                                                 *
+* Cell   : NOT                                                                *
+* View   : schematic                                                          *
+* Last Time Saved: Nov 10 16:51:06 2025                                       *
+*******************************************************************************
+.subckt NOT Out A Vdd Vss
+*.PININFO Out:O A:I Vdd:I Vss:I 
+.ends NOT
+
+
+*******************************************************************************
+* Sub-Circuit Netlist:                                                        *
+*                                                                             *
+* Library: Group2_VLSI_EE5900                                                 *
+* Cell   : NAND                                                               *
+* View   : schematic                                                          *
+* Last Time Saved: Nov  3 17:14:07 2025                                       *
+*******************************************************************************
+.subckt NAND Out Vdd Vss A B
+*.PININFO Out:O Vdd:B Vss:B A:I B:I 
+.ends NAND
+
+
+*******************************************************************************
+* Sub-Circuit Netlist:                                                        *
+*                                                                             *
+* Library: Group2_VLSI_EE5900                                                 *
+* Cell   : AND                                                                *
+* View   : schematic                                                          *
+* Last Time Saved: Nov 19 19:59:50 2025                                       *
+*******************************************************************************
+.subckt AND Out Vdd Vss A B
+*.PININFO Out:O Vdd:B Vss:B A:I B:I 
+XI1 Out net6 Vdd Vss NOT
+XI0 net6 Vdd Vss A B NAND
+.ends AND
+
+
+*******************************************************************************
+* Main Circuit Netlist:                                                       *
+*                                                                             *
+* Library: Group2_VLSI_EE5900                                                 *
+* Cell   : AND3                                                               *
+* View   : schematic                                                          *
+* Last Time Saved: Nov 30 18:09:09 2025                                       *
+*******************************************************************************
+.subckt AND3 Vout A B C Vdd Vss
+*.PININFO Vout:O A:I B:I C:I Vdd:I Vss:I 
+XI1 Vout Vdd Vss net3 C AND
+XI0 net3 Vdd Vss A B AND
+.ends AND3

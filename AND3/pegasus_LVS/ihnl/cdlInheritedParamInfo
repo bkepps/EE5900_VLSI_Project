@@ -1,0 +1,6 @@
+cdlListOfAllCellsInfo = list(
+ list(  list("Group2_VLSI_EE5900" "NOT")  list( ) )
+ list(  list("Group2_VLSI_EE5900" "NAND")  list( ) )
+ list(  list("Group2_VLSI_EE5900" "AND")  list( ) )
+ list(  list("Group2_VLSI_EE5900" "AND3")  list( ) )
+)
