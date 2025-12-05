@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      bskepper
+HostName                       c17-orng-10.ad.mtu.edu
+ProcessIdentifier              1719741
+ProcessCreationTime_UTC        1764966156
+ProcessCreationTime_Readable   Fri Dec  5 15:22:36 2025 EST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/campus31/bskepper/Group2_VLSI_EE5900/Group2_VLSI_EE5900/AND3/layout/layout.oa.cdslck
+TimeEditLocked                 Fri Dec  5 15:30:43 2025 EST
