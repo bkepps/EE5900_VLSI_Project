@@ -1,0 +1,17 @@
+
+/opt/cadence-suite/PEGASUS/tools.lnx86/Pegasus/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : AND3_1017340.db
+ECDB dir        : ./
+Top Cell        : AND3
+CDL netlist     : ./AND3.net
+Layer map file  : ./AND3.ecdbmap
+Text map file   : ./AND3.ports
+Dependency map  : AND3.lmap.perc
+Lvs file        : ./AND3.lvsfile
+Float net file  : .AND3.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : AND3_1017340

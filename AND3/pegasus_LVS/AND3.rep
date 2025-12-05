@@ -1,0 +1,30 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : AND3.rep
+ERC Summary File         : /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.sum
+LVS Comparison Report    : AND3.rep.cls
+Layout Name              : /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.gds.gz ("AND3")
+User Name                : mmunoria
+Creation Time            : Mon Dec  1 16:15:09 2025
+Current directory        : /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS
+Pegasus Version          : 23.14-s006 Thu Jan 25 18:41:38 PST 2024
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+
+Warnings and errors of connectivity for cell "AND3"
+---------------------------------------------------
+
+[WARN] Stamping conflict in SCONNECT(Multiple source nets stamp one target net)
+       Use lvs_softchk or lvs_report_opt S statement to get detailed information.

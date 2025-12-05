@@ -1,0 +1,4 @@
+Group2_VLSI_EE5900 AND3 layout AND3
+Group2_VLSI_EE5900 AND layout AND
+Group2_VLSI_EE5900 NOT layout NOT
+Group2_VLSI_EE5900 NAND layout NAND

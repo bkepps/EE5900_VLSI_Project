@@ -1,0 +1,13 @@
+
+
+*******************************************************************************
+* Sub-Circuit Netlist:                                                        *
+*                                                                             *
+* Library: Group2_VLSI_EE5900                                                 *
+* Cell   : NAND                                                               *
+* View   : schematic                                                          *
+* Last Time Saved: Nov  3 17:14:07 2025                                       *
+*******************************************************************************
+.subckt NAND Out Vdd Vss A B
+*.PININFO Out:O Vdd:B Vss:B A:I B:I 
+.ends NAND

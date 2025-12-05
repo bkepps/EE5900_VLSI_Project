@@ -1,0 +1,15 @@
+
+
+*******************************************************************************
+* Sub-Circuit Netlist:                                                        *
+*                                                                             *
+* Library: Group2_VLSI_EE5900                                                 *
+* Cell   : AND                                                                *
+* View   : schematic                                                          *
+* Last Time Saved: Nov 19 19:59:50 2025                                       *
+*******************************************************************************
+.subckt AND Out Vdd Vss A B
+*.PININFO Out:O Vdd:B Vss:B A:I B:I 
+XI1 Out net6 Vdd Vss NOT
+XI0 net6 Vdd Vss A B NAND
+.ends AND

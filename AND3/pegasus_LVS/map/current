@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "AND3"
+  repList "cdl schematic cmos_sch gate_sch cmos.sch gate.sch symbol"
+  stopList "cdl"
+  hierDelim "."
+  netlistDir "/home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/"
+ )
+( model
+( "Group2_VLSI_EE5900/AND/schematic" "AND" )
+( "Group2_VLSI_EE5900/AND3/schematic" "AND3" )
+( "Group2_VLSI_EE5900/NOT/schematic" "NOT" )
+( "Group2_VLSI_EE5900/NAND/schematic" "NAND" )
+ )
+( "NAND" "ihnl/cds1/map" )
+( "AND3" "ihnl/cds3/map" )
+( "NOT" "ihnl/cds0/map" )
+( "AND" "ihnl/cds2/map" )
+ )

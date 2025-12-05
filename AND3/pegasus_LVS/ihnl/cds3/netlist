@@ -1,0 +1,15 @@
+
+
+*******************************************************************************
+* Main Circuit Netlist:                                                       *
+*                                                                             *
+* Library: Group2_VLSI_EE5900                                                 *
+* Cell   : AND3                                                               *
+* View   : schematic                                                          *
+* Last Time Saved: Nov 30 18:09:09 2025                                       *
+*******************************************************************************
+.subckt AND3 Vout A B C Vdd Vss
+*.PININFO Vout:O A:I B:I C:I Vdd:I Vss:I 
+XI1 Vout Vdd Vss net3 C AND
+XI0 net3 Vdd Vss A B AND
+.ends AND3
