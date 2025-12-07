@@ -1,0 +1,10 @@
+Pegasus 23.14-s006 W6eUyhvWDSmkstMrnkYP8g 2025-12-03 18:46:50 159792 c17-orng-10.ad.mtu.edu
+Copyright 2024 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: -lvs -top_cell 1to2_demux -log_dir LOGS -source_top_cell 1to2_demux -spice /home/campus03/vmbasvi/Group2_VLSI_EE5900/1to2_demux/lvs/1to2_demux.spi -control /home/campus03/vmbasvi/Group2_VLSI_EE5900/1to2_demux/lvs/pegasuslvsctl -ui_data -gdb_data /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl
+INFO:    Launch host CPU: Model: 13th Gen Intel(R) Core(TM) i7-13700, OS: Red Hat Enterprise Linux release 9.6 (Plow), Logical cores: 24, Physical cores: 16, Cache: 30720 KB, CPU Speed: 800.343 MHz
+         Launch host Memory: MemTotal: 31522 MB,  MemFree: 14619 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 206 MB
+INFO:    Current path: /home/campus03/vmbasvi/Group2_VLSI_EE5900/1to2_demux/lvs
+INFO:    Run directory same as current path
+INFO:    Log directory: /home/campus03/vmbasvi/Group2_VLSI_EE5900/1to2_demux/lvs/LOGS

@@ -1,0 +1,7 @@
+cell: "1to2_demux"
+selected net: "6"
+rejected nets: "9" 
+contact layer: ""
+lower layer: "pwell"
+upper layer:  "ptap"
+command:  "sconnect ptap pwell"

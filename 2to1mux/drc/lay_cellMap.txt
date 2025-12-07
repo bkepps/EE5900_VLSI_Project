@@ -1,0 +1,5 @@
+Group2_VLSI_EE5900 2to1mux layout 2to1mux
+Group2_VLSI_EE5900 NOT layout NOT
+Group2_VLSI_EE5900 AND layout AND
+Group2_VLSI_EE5900 NAND layout NAND
+Group2_VLSI_EE5900 NOR layout NOR

@@ -1,0 +1,586 @@
+avCompareRules(
+commandLineOptions((-shorts))
+commandLineOptions((layout_format "GDSII" "-gds /dev/zero"))
+commandLineOptions((layout_path "/dev/zero" "-gds /dev/zero"))
+commandLineOptions((layout_primary "1to2_demux" "-tc 1to2_demux"))
+( pvsLvsRules ( text_depth "-primary" ))
+( pvsLvsRules ( virtual_connect "no" "-colon" ))
+( pvsLvsRules ( virtual_connect "yes" "-semicolon_as_colon" ))
+( pvsLvsRules ( virtual_connect "-report" "no" ))
+( pvsLvsRules ( virtual_connect "-depth" "primary" ))
+( pvsLvsRules ( lvs_ignore_ports "no" ))
+( pvsLvsRules ( lvs_expand_cell_on_error "no" ))
+( pvsLvsRules ( lvs_break_ambig_max "32" ))
+( pvsLvsRules ( lvs_abort "-softchk" "no" ))
+( pvsLvsRules ( lvs_abort "-supply_error" "no" ))
+( pvsLvsRules ( lvs_find_shorts "no" ))
+( pvsLvsRules ( lvs_report_file "1to2_demux.rep" ))
+( pvsLvsRules ( lvs_report_max "50" "-mismatched_net_limit" "100" ))
+sectionLineLimit(50)
+lineLimit(20000)
+mismatchedNetLimit(100)
+( pvsLvsRules ( schematic_format "cdl" ))
+( pvsLvsRules ( schematic_path "/home/campus03/vmbasvi/Group2_VLSI_EE5900/1to2_demux/lvs/1to2_demux.cdl" ))
+( pvsLvsRules ( layout_format "gdsii" ))
+( pvsLvsRules ( layout_path "/home/campus03/vmbasvi/Group2_VLSI_EE5900/1to2_demux/lvs/1to2_demux.gds.gz" ))
+( pvsLvsRules ( layout_format "gdsii" ))
+( pvsLvsRules ( layout_primary "sky130_fd_sc_ls__bufinv_16" ))
+( pvsLvsRules ( text_depth "-primary" ))
+( pvsLvsRules ( lvs_recognize_gates "-none" ))
+formGate(none)
+( pvsLvsRules ( port "-text_layer" "met1_pin" "met1_label" "met2_label" "met3_label" "met4_label" "met5_label" "li1_label" "nwell_label" "pwell_label" ))
+( pvsLvsRules ( device "R" "(" "res_generic_m1" ")" "met1_res" "met1" "(" "P" ")" "met1" "(" "N" ")" ))
+( pvsLvsRules ( device "R" "(" "res_generic_m2" ")" "met2_res" "met2" "(" "P" ")" "met2" "(" "N" ")" ))
+( pvsLvsRules ( device "R" "(" "res_generic_m3" ")" "met3_res" "met3" "(" "P" ")" "met3" "(" "N" ")" ))
+( pvsLvsRules ( device "R" "(" "res_generic_m4" ")" "met4_res" "met4" "(" "P" ")" "met4" "(" "N" ")" ))
+( pvsLvsRules ( device "R" "(" "res_generic_m5" ")" "met5_res" "met5" "(" "P" ")" "met5" "(" "N" ")" ))
+( pvsLvsRules ( device "R" "(" "RES_GENERIC_ND" ")" "diff_res" "np_term" "(" "P" ")" "np_term" "(" "N" ")" ))
+( pvsLvsRules ( device "R" "(" "RES_GENERIC_PD" ")" "diff_res" "pp_term" "(" "P" ")" "pp_term" "(" "N" ")" ))
+( pvsLvsRules ( device "MN" "(" "nfet_01v8" ")" "nfet_01v8_rec" "nfet" "(" "G" ")" "nSourceDrain" "(" "S" ")" "nSourceDrain" "(" "D" ")" "pwell" "(" "B" ")" ))
+( pvsLvsRules ( device "MP" "(" "pfet_01v8" ")" "pfet_01v8_rec" "pfet" "(" "G" ")" "pSourceDrain" "(" "S" ")" "pSourceDrain" "(" "D" ")" "nwell" "(" "B" ")" ))
+( pvsLvsRules ( device "MP" "(" "pfet_01v8_lvt" ")" "lvtpfet_01v8_rec" "lvtpfet" "(" "G" ")" "pSourceDrain" "(" "S" ")" "pSourceDrain" "(" "D" ")" "nwell" "(" "B" ")" ))
+( pvsLvsRules ( device "MN" "(" "nfet_01v8_lvt" ")" "lvtnfet_01v8_rec" "lvtnfet" "(" "G" ")" "nSourceDrain" "(" "S" ")" "nSourceDrain" "(" "D" ")" "pwell" "(" "B" ")" ))
+( pvsLvsRules ( device "MP" "(" "pfet_01v8_hvt" ")" "hvtpfet_01v8_rec" "hvtpfet" "(" "G" ")" "pSourceDrain" "(" "S" ")" "pSourceDrain" "(" "D" ")" "nwell" "(" "B" ")" ))
+( pvsLvsRules ( device "MN" "(" "nfet_03v3_nvt" ")" "HV_ngate_3v3" "HV_FET_gate" "(" "G" ")" "HV_source_drain" "(" "S" ")" "HV_source_drain" "(" "D" ")" "pwell" "(" "B" ")" ))
+( pvsLvsRules ( device "MN" "(" "nfet_05v0_nvt" ")" "HV_ngate_5v0" "HV_FET_gate" "(" "G" ")" "HV_source_drain" "(" "S" ")" "HV_source_drain" "(" "D" ")" "pwell" "(" "B" ")" ))
+( pvsLvsRules ( device "MN" "(" "nfet_g5v0d10v5" ")" "HV_ngate_5v10v" "HV_FET_gate" "(" "G" ")" "HV_source_drain" "(" "S" ")" "HV_source_drain" "(" "D" ")" "pwell" "(" "B" ")" ))
+( pvsLvsRules ( device "MP" "(" "pfet_g5v0d10v5" ")" "HV_pgate_5v10v" "HV_FET_gate" "(" "G" ")" "HV_source_drain" "(" "S" ")" "HV_source_drain" "(" "D" ")" "nwell" "(" "B" ")" ))
+( pvsLvsRules ( device "R" "(" "res_high_po_0p35" ")" "res_high_po_0p35_rec" "prec_resistor_term" "(" "P" ")" "prec_resistor_term" "(" "N" ")" "pwell" "(" "B" ")" "-element" "R" ))
+( pvsLvsRules ( device "R" "(" "res_high_po_0p69" ")" "res_high_po_0p69_rec" "prec_resistor_term" "(" "P" ")" "prec_resistor_term" "(" "N" ")" "pwell" "(" "B" ")" "-element" "R" ))
+( pvsLvsRules ( device "R" "(" "res_high_po_1p41" ")" "res_high_po_1p41_rec" "prec_resistor_term" "(" "P" ")" "prec_resistor_term" "(" "N" ")" "pwell" "(" "B" ")" "-element" "R" ))
+( pvsLvsRules ( device "R" "(" "res_high_po_2p85" ")" "res_high_po_2p85_rec" "prec_resistor_term" "(" "P" ")" "prec_resistor_term" "(" "N" ")" "pwell" "(" "B" ")" "-element" "R" ))
+( pvsLvsRules ( device "R" "(" "res_high_po_5p73" ")" "res_high_po_5p73_rec" "prec_resistor_term" "(" "P" ")" "prec_resistor_term" "(" "N" ")" "pwell" "(" "B" ")" "-element" "R" ))
+( pvsLvsRules ( device "R" "(" "res_xhigh_po_0p35" ")" "res_xhigh_po_0p35_rec" "prec_resistor_term" "(" "P" ")" "prec_resistor_term" "(" "N" ")" "pwell" "(" "B" ")" "-element" "R" ))
+( pvsLvsRules ( device "R" "(" "res_xhigh_po_0p69" ")" "res_xhigh_po_0p69_rec" "prec_resistor_term" "(" "P" ")" "prec_resistor_term" "(" "N" ")" "pwell" "(" "B" ")" "-element" "R" ))
+( pvsLvsRules ( device "R" "(" "res_xhigh_po_1p41" ")" "res_xhigh_po_1p41_rec" "prec_resistor_term" "(" "P" ")" "prec_resistor_term" "(" "N" ")" "pwell" "(" "B" ")" "-element" "R" ))
+( pvsLvsRules ( device "R" "(" "res_xhigh_po_2p85" ")" "res_xhigh_po_2p85_rec" "prec_resistor_term" "(" "P" ")" "prec_resistor_term" "(" "N" ")" "pwell" "(" "B" ")" "-element" "R" ))
+( pvsLvsRules ( device "R" "(" "res_xhigh_po_5p73" ")" "res_xhigh_po_5p73_rec" "prec_resistor_term" "(" "P" ")" "prec_resistor_term" "(" "N" ")" "pwell" "(" "B" ")" "-element" "R" ))
+( pvsLvsRules ( device "C" "(" "cap_mim_m3__base" ")" "capacitor" "top_plate" "(" "PLUS" ")" "bottom_plate" "(" "MINUS" ")" "<" "cap_width" ">" "<" "cap_length" ">" "-element" "C" ))
+( pvsLvsRules ( lvs_cdn_flow_options "-cdl_use_scale" ))
+( pvsLvsRules ( lvs_recognize_gates "-none" ))
+( pvsLvsRules ( lvs_reduce "yes" "-parallel_mos" ))
+( pvsLvsRules ( lvs_reduce "yes" "-series_mos" ))
+( pvsLvsRules ( lvs_generic_device "C" "(" "cap_vpp_02p4x04p6_m1m2_noshield" ")" "[" "PLUS" "=" "C0" "MINUS" "=" "C1" "BULK" "=" "B" "]" "-source" ))
+( pvsLvsRules ( lvs_generic_device "C" "(" "cap_vpp_04p4x04p6_m1m2_noshield" ")" "[" "PLUS" "=" "C0" "MINUS" "=" "C1" "BULK" "=" "B" "]" "-source" ))
+( pvsLvsRules ( lvs_generic_device "C" "(" "cap_vpp_04p4x04p6_m1m2m3_shieldl1" ")" "[" "PLUS" "=" "C0" "MINUS" "=" "C1" "BULK" "=" "B" "]" "-source" ))
+( pvsLvsRules ( lvs_generic_device "C" "(" "cap_vpp_08p6x07p8_m1m2_noshield" ")" "[" "PLUS" "=" "C0" "MINUS" "=" "C1" "BULK" "=" "B" "]" "-source" ))
+( pvsLvsRules ( lvs_generic_device "C" "(" "cap_vpp_08p6x07p8_m1m2m3_shieldl1" ")" "[" "PLUS" "=" "C0" "MINUS" "=" "C1" "BULK" "=" "B" "]" "-source" ))
+( pvsLvsRules ( lvs_generic_device "C" "(" "cap_vpp_08p6x07p8_m1m2m3_shieldl1m5_floatm4" ")" "[" "PLUS" "=" "C0" "MINUS" "=" "C1" "BULK" "=" "B" "]" "-source" ))
+( pvsLvsRules ( lvs_generic_device "C" "(" "cap_vpp_11p5x11p7_l1m1m2_shieldpom3" ")" "[" "PLUS" "=" "C0" "MINUS" "=" "C1" "BULK" "=" "B" "]" "-source" ))
+( pvsLvsRules ( lvs_generic_device "C" "(" "cap_vpp_11p5x11p7_l1m1m2m3_shieldm4" ")" "[" "PLUS" "=" "C0" "MINUS" "=" "C1" "BULK" "=" "B" "]" "-source" ))
+( pvsLvsRules ( lvs_generic_device "C" "(" "cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4" ")" "[" "PLUS" "=" "C0" "MINUS" "=" "C1" "BULK" "=" "B" "]" "-source" ))
+( pvsLvsRules ( lvs_generic_device "C" "(" "cap_vpp_11p5x11p7_l1m1m2m3m4_shieldm5" ")" "[" "PLUS" "=" "C0" "MINUS" "=" "C1" "BULK" "=" "B" "]" "-source" ))
+( pvsLvsRules ( lvs_generic_device "C" "(" "cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5" ")" "[" "PLUS" "=" "C0" "MINUS" "=" "C1" "BULK" "=" "B" "]" "-source" ))
+( pvsLvsRules ( lvs_generic_device "C" "(" "cap_vpp_11p5x11p7_m1m2_noshield" ")" "[" "PLUS" "=" "C0" "MINUS" "=" "C1" "BULK" "=" "B" "]" "-source" ))
+( pvsLvsRules ( lvs_generic_device "C" "(" "cap_vpp_11p5x11p7_m1m2m3_shieldl1" ")" "[" "PLUS" "=" "C0" "MINUS" "=" "C1" "BULK" "=" "B" "]" "-source" ))
+( pvsLvsRules ( lvs_generic_device "C" "(" "cap_vpp_11p5x11p7_m1m2m3m4_shieldl1m5" ")" "[" "PLUS" "=" "C0" "MINUS" "=" "C1" "BULK" "=" "B" "]" "-source" ))
+( pvsLvsRules ( lvs_generic_device "C" "(" "cap_vpp_11p5x11p7_m1m2m3m4_shieldm5" ")" "[" "PLUS" "=" "C0" "MINUS" "=" "C1" "BULK" "=" "B" "]" "-source" ))
+( pvsLvsRules ( lvs_short_equivalent_nodes "yes" ))
+( pvsLvsRules ( lvs_check_property "MP" "L" "l" ))
+( pvsLvsRules ( lvs_check_property "MP" "W" "w" ))
+( pvsLvsRules ( lvs_check_property "MN" "L" "l" ))
+( pvsLvsRules ( lvs_check_property "MN" "W" "w" ))
+( pvsLvsRules ( lvs_check_property "R" "W" "W" ))
+( pvsLvsRules ( lvs_check_property "R" "L" "L" ))
+( pvsLvsRules ( lvs_check_property "C" "L" "L" ))
+( pvsLvsRules ( lvs_check_property "C" "W" "W" ))
+( pvsLvsRules ( lvs_black_box "-grey" "cap_vpp_02p4x04p6_m1m2_noshield" ))
+blackBox("cap_vpp_02p4x04p6_m1m2_noshield" sch)
+blackBox("cap_vpp_02p4x04p6_m1m2_noshield" lay)
+( pvsLvsRules ( lvs_black_box "-grey" "cap_vpp_04p4x04p6_m1m2_noshield" ))
+blackBox("cap_vpp_04p4x04p6_m1m2_noshield" sch)
+blackBox("cap_vpp_04p4x04p6_m1m2_noshield" lay)
+( pvsLvsRules ( lvs_black_box "-grey" "cap_vpp_04p4x04p6_m1m2m3_shieldl1" ))
+blackBox("cap_vpp_04p4x04p6_m1m2m3_shieldl1" sch)
+blackBox("cap_vpp_04p4x04p6_m1m2m3_shieldl1" lay)
+( pvsLvsRules ( lvs_black_box "-grey" "cap_vpp_08p6x07p8_m1m2_noshield" ))
+blackBox("cap_vpp_08p6x07p8_m1m2_noshield" sch)
+blackBox("cap_vpp_08p6x07p8_m1m2_noshield" lay)
+( pvsLvsRules ( lvs_black_box "-grey" "cap_vpp_08p6x07p8_m1m2m3_shieldl1" ))
+blackBox("cap_vpp_08p6x07p8_m1m2m3_shieldl1" sch)
+blackBox("cap_vpp_08p6x07p8_m1m2m3_shieldl1" lay)
+( pvsLvsRules ( lvs_black_box "-grey" "cap_vpp_08p6x07p8_m1m2m3_shieldl1m5_floatm4" ))
+blackBox("cap_vpp_08p6x07p8_m1m2m3_shieldl1m5_floatm4" sch)
+blackBox("cap_vpp_08p6x07p8_m1m2m3_shieldl1m5_floatm4" lay)
+( pvsLvsRules ( lvs_black_box "-grey" "cap_vpp_11p5x11p7_l1m1m2_shieldpom3" ))
+blackBox("cap_vpp_11p5x11p7_l1m1m2_shieldpom3" sch)
+blackBox("cap_vpp_11p5x11p7_l1m1m2_shieldpom3" lay)
+( pvsLvsRules ( lvs_black_box "-grey" "cap_vpp_11p5x11p7_l1m1m2m3_shieldm4" ))
+blackBox("cap_vpp_11p5x11p7_l1m1m2m3_shieldm4" sch)
+blackBox("cap_vpp_11p5x11p7_l1m1m2m3_shieldm4" lay)
+( pvsLvsRules ( lvs_black_box "-grey" "cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4" ))
+blackBox("cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4" sch)
+blackBox("cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4" lay)
+( pvsLvsRules ( lvs_black_box "-grey" "cap_vpp_11p5x11p7_l1m1m2m3m4_shieldm5" ))
+blackBox("cap_vpp_11p5x11p7_l1m1m2m3m4_shieldm5" sch)
+blackBox("cap_vpp_11p5x11p7_l1m1m2m3m4_shieldm5" lay)
+( pvsLvsRules ( lvs_black_box "-grey" "cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5" ))
+blackBox("cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5" sch)
+blackBox("cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5" lay)
+( pvsLvsRules ( lvs_black_box "-grey" "cap_vpp_11p5x11p7_m1m2_noshield" ))
+blackBox("cap_vpp_11p5x11p7_m1m2_noshield" sch)
+blackBox("cap_vpp_11p5x11p7_m1m2_noshield" lay)
+( pvsLvsRules ( lvs_black_box "-grey" "cap_vpp_11p5x11p7_m1m2m3_shieldl1" ))
+blackBox("cap_vpp_11p5x11p7_m1m2m3_shieldl1" sch)
+blackBox("cap_vpp_11p5x11p7_m1m2m3_shieldl1" lay)
+( pvsLvsRules ( lvs_black_box "-grey" "cap_vpp_11p5x11p7_m1m2m3m4_shieldl1m5" ))
+blackBox("cap_vpp_11p5x11p7_m1m2m3m4_shieldl1m5" sch)
+blackBox("cap_vpp_11p5x11p7_m1m2m3m4_shieldl1m5" lay)
+( pvsLvsRules ( lvs_black_box "-grey" "cap_vpp_11p5x11p7_m1m2m3m4_shieldm5" ))
+blackBox("cap_vpp_11p5x11p7_m1m2m3m4_shieldm5" sch)
+blackBox("cap_vpp_11p5x11p7_m1m2m3m4_shieldm5" lay)
+runName("1to2_demux.rep")
+)
+avCompareRules(
+)
+avCompareRules(
+autoPinSwap(unboundPinsOnly 10000)
+builtinDevicePinSwap(t)
+breakAmbiguityThreshold(32)
+highShortsThreshold(10000000)
+( pvsLvsRules ( lvs_reduce_split_gates "no" ))
+layout(swapPins(C nil))
+schematic(swapPins(C nil))
+layout(cdlGlobalMode(ignore))
+schematic(cdlGlobalMode(ignore))
+schematic(lvsIgnorePorts(nil))
+layout(   lvsIgnorePorts(nil))
+schematic(lvsCheckPortNames(nil))
+layout(   lvsCheckPortNames(nil))
+schematic(lvsGlobalsArePorts(t))
+layout(   lvsGlobalsArePorts(t))
+compareCase( nil )
+ignoreCaseWhenBinding( (cell t)(pin t)(instance t)(net t) )
+layout(spiceSlashIsSpace(t))
+schematic(spiceSlashIsSpace(t))
+layout(spiceConditionalLDD(nil))
+schematic(spiceConditionalLDD(nil))
+spiceRedefineParam(nil)
+spiceAllowUnquotedStrings(nil)
+spiceCalculateMosArea(nil)
+cullPrimitiveSubckts(nil)
+layout(genericDevice(emptySubckt))
+schematic(genericDevice(emptySubckt))
+verilogBusNameDiffIEEE(nil)
+verilogBusMapIEEE(nil)
+rootCell("1to2_demux")
+schematic(netlist(cdl "/home/campus03/vmbasvi/Group2_VLSI_EE5900/1to2_demux/lvs/1to2_demux.cdl"))
+layout(netlist(cdl "1to2_demux.net"))
+lvsKeepData(no)
+schematic(ignoreCase(t))
+layout(ignoreCase(t))
+sramReduce(t)
+dramReduce(nil)
+romReduce(nil)
+nameBinding((cell nil)(pin "^[0-9]+$")(net "^[0-9]+$")(instance nil))
+expandOnError((swap t)(reduce nil)(pins nil)(swapThres nil)(instCount t)(skipMatchOnReduceError t)(ambiguousPinAssignment nil)(parameter nil))
+abortOnUnboundDevices( nil )
+allowFloatingInstancePorts(t)
+compareParameter(C percent("l" 0))
+compareParameter(C percent("w" 0))
+compareParameter(MN percent("l" 0))
+compareParameter(MN percent("w" 0))
+compareParameter(MP percent("l" 0))
+compareParameter(MP percent("w" 0))
+compareParameter(R percent("w" 0))
+compareParameter(R percent("l" 0))
+layout(swapPins("res_generic_m1(R)" "(p PLUS MINUS)"))
+layout(swapPins("res_generic_m2(R)" "(p PLUS MINUS)"))
+layout(swapPins("res_generic_m3(R)" "(p PLUS MINUS)"))
+layout(swapPins("res_generic_m4(R)" "(p PLUS MINUS)"))
+layout(swapPins("res_generic_m5(R)" "(p PLUS MINUS)"))
+layout(swapPins("RES_GENERIC_ND(R)" "(p PLUS MINUS)"))
+layout(swapPins("RES_GENERIC_PD(R)" "(p PLUS MINUS)"))
+layout(swapPins("nfet_01v8(MN)" "(p D S)"))
+layout(swapPins("pfet_01v8(MP)" "(p D S)"))
+layout(swapPins("pfet_01v8_lvt(MP)" "(p D S)"))
+layout(swapPins("nfet_01v8_lvt(MN)" "(p D S)"))
+layout(swapPins("pfet_01v8_hvt(MP)" "(p D S)"))
+layout(swapPins("nfet_03v3_nvt(MN)" "(p D S)"))
+layout(swapPins("nfet_05v0_nvt(MN)" "(p D S)"))
+layout(swapPins("nfet_g5v0d10v5(MN)" "(p D S)"))
+layout(swapPins("pfet_g5v0d10v5(MP)" "(p D S)"))
+layout(swapPins("res_high_po_0p35(R)" "(p PLUS MINUS)"))
+layout(swapPins("res_high_po_0p69(R)" "(p PLUS MINUS)"))
+layout(swapPins("res_high_po_1p41(R)" "(p PLUS MINUS)"))
+layout(swapPins("res_high_po_2p85(R)" "(p PLUS MINUS)"))
+layout(swapPins("res_high_po_5p73(R)" "(p PLUS MINUS)"))
+layout(swapPins("res_xhigh_po_0p35(R)" "(p PLUS MINUS)"))
+layout(swapPins("res_xhigh_po_0p69(R)" "(p PLUS MINUS)"))
+layout(swapPins("res_xhigh_po_1p41(R)" "(p PLUS MINUS)"))
+layout(swapPins("res_xhigh_po_2p85(R)" "(p PLUS MINUS)"))
+layout(swapPins("res_xhigh_po_5p73(R)" "(p PLUS MINUS)"))
+mergeParallel(source("lvs_reduce") M merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") MP merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") MN merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") MD merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") ME merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") LDD merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") LDDP merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") LDDN merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") LDDD merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") LDDE merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeSeries(M merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(MP merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(MN merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(MD merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(ME merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(LDD merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(LDDP merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(LDDN merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(LDDD merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(LDDE merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeParallel( R merge
+    language("
+             effective R,W,L       \n
+             checkForZero = prod ( R )       \n
+             if(checkForZero != 0)       \n
+               R = 1/sum(1/R)        \n
+             else        \n
+               R = 0        \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             "
+            ))
+mergeSeries( R merge
+    language("
+             effective R,W,L       \n
+             R = sum(R)        \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+            ))
+mergeParallel( C merge
+    language("
+             effective C,A,P        \n
+             C = sum(C)        \n
+             A = sum(A)        \n
+             P = sum(P)        \n
+             "
+            ))
+mergeSeries( C merge
+    language("
+             effective C        \n
+             checkForZero = prod ( C )       \n
+             if(checkForZero != 0)       \n
+               C = 1/sum(1/C)        \n
+             else        \n
+               C = 0        \n
+             "
+            ))
+mergeParallel( Q merge
+    language("
+           effective A,W,L        \n
+           A = sum(A)        \n
+           P = sum(W*L)      \n
+           Q = sum(W/L)      \n
+           W = sqrt(P*Q)      \n
+           L = sqrt(P/Q) }     \n
+             "
+            ))
+mergeParallel( D merge
+    language("
+             effective A,P        \n
+             A = sum(A)        \n
+             P = sum(P)        \n
+             "
+            ))
+keepSeriesLoop()
+filterReduceStatistics((preExpand nil))
+saveCoordinates(t)
+spiceReverseWL(nil)
+strictSubTypes(nil)
+exactSubTypes(nil)
+preserveBoxPorts(nil)
+spiceStrictWL(nil)
+)

@@ -1,0 +1,17 @@
+
+/opt/cadence-suite/PEGASUS/tools.lnx86/Pegasus/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : 1to2_demux_159792.db
+ECDB dir        : ./
+Top Cell        : 1to2_demux
+CDL netlist     : ./1to2_demux.net
+Layer map file  : ./1to2_demux.ecdbmap
+Text map file   : ./1to2_demux.ports
+Dependency map  : 1to2_demux.lmap.perc
+Lvs file        : ./1to2_demux.lvsfile
+Float net file  : .1to2_demux.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : 1to2_demux_159792
