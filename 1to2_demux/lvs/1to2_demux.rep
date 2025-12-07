@@ -1,0 +1,30 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : 1to2_demux.rep
+ERC Summary File         : /home/campus03/vmbasvi/Group2_VLSI_EE5900/1to2_demux/lvs/1to2_demux.sum
+LVS Comparison Report    : 1to2_demux.rep.cls
+Layout Name              : /home/campus03/vmbasvi/Group2_VLSI_EE5900/1to2_demux/lvs/1to2_demux.gds.gz ("1to2_demux")
+User Name                : vmbasvi
+Creation Time            : Wed Dec  3 18:46:59 2025
+Current directory        : /home/campus03/vmbasvi/Group2_VLSI_EE5900/1to2_demux/lvs
+Pegasus Version          : 23.14-s006 Thu Jan 25 18:41:38 PST 2024
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+
+Warnings and errors of connectivity for cell "1to2_demux"
+---------------------------------------------------------
+
+[WARN] Stamping conflict in SCONNECT(Multiple source nets stamp one target net)
+       Use lvs_softchk or lvs_report_opt S statement to get detailed information.

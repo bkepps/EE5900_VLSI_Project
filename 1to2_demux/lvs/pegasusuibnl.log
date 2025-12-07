@@ -1,0 +1,19 @@
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_LVS' version 23.1
+INFO:    License checkout successful ... 2025-12-03 18:44:48
+Tool:      pegasusBuildNetlist 23.14-s006, sub-version s006
+
+COMMAND LINE INTERFACE
+   help                  This information 
+   cdl                   Load cdl     file
+   vlg                   Load verilog file
+   out                   Output filename  
+   top                   Top cell name    
+   q                     Exit             
+
+CmdLine: /opt/cadence-suite/pegasus/tools.lnx86/Pegasus/bin/64bit/pegasusBuildNetlist -o /home/campus03/vmbasvi/Group2_VLSI_EE5900/1to2_demux/lvs/1to2_demux.cdl -tc 1to2_demux -global_log_file /home/campus03/vmbasvi/Group2_VLSI_EE5900/1to2_demux/lvs//pegasusuibnl.log 
+> o /home/campus03/vmbasvi/Group2_VLSI_EE5900/1to2_demux/lvs/1to2_demux.cdl
+> tc 1to2_demux
+> q
+Quiting...
+INFO:    Checking in all SoftShare licenses.
