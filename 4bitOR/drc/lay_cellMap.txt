@@ -1,0 +1,3 @@
+Group2_VLSI_EE5900 4bitOR layout 4bitOR
+Group2_VLSI_EE5900 NOR layout NOR
+Group2_VLSI_EE5900 NOT layout NOT

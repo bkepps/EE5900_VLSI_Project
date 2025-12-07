@@ -1,0 +1,10 @@
+Pegasus 23.14-s006 W6eUyhvWDSmkstMrnkYP8g 2025-12-07 14:18:19 629058 c17-orng-06.ad.mtu.edu
+Copyright 2024 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: --log_dir LOGS -top_cell 4bitOR -ui_data --control /home/campus03/vmbasvi/Group2_VLSI_EE5900/4bitOR/drc/pegasusdrcctl /opt/cadence-suite/sky130_release_0.0.4/Sky130_DRC/sky130_rev_0.0_1.0.drc.pvl
+INFO:    Launch host CPU: Model: 13th Gen Intel(R) Core(TM) i7-13700, OS: Red Hat Enterprise Linux release 9.6 (Plow), Logical cores: 24, Physical cores: 16, Cache: 30720 KB, CPU Speed: 800.507 MHz
+         Launch host Memory: MemTotal: 31522 MB,  MemFree: 15805 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 201 MB
+INFO:    Current path: /home/campus03/vmbasvi/Group2_VLSI_EE5900/4bitOR/drc
+INFO:    Run directory same as current path
+INFO:    Log directory: /home/campus03/vmbasvi/Group2_VLSI_EE5900/4bitOR/drc/LOGS

@@ -1,0 +1,4 @@
+Group2_VLSI_EE5900  NOT                 schematic           NOT
+Group2_VLSI_EE5900  NAND                schematic           NAND
+Group2_VLSI_EE5900  AND                 schematic           AND
+Group2_VLSI_EE5900  1to2_demux          schematic           1to2_demux
