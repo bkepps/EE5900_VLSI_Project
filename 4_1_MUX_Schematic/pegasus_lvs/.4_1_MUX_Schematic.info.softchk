@@ -1,0 +1,7 @@
+cell: "4_1_MUX_Schematic"
+selected net: "Vdd"
+rejected nets: "Vss" 
+contact layer: ""
+lower layer: "nwell"
+upper layer:  "ntap"
+command:  "sconnect ntap nwell"

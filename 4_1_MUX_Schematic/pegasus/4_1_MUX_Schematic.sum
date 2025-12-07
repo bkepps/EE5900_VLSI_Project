@@ -1,7 +1,7 @@
 ********************************************************************************
 *** Pegasus DRC SUMMARY
 ***
-Execute on Date/Time    : Wed Dec  3 20:04:00 2025
+Execute on Date/Time    : Sun Dec  7 15:56:48 2025
 Pegasus VERSION         : 23.14-s006 Thu Jan 25 18:41:38 PST 2024
 Rule Deck Path          : /opt/cadence-suite/sky130_release_0.0.4/Sky130_DRC/sky130_rev_0.0_1.0.drc.pvl
 Rule Deck Title         :
@@ -29,7 +29,7 @@ DRC Results Database    :
 ---
 LAYER diff ................................. Total Original Geometry:         30 (       210)
 LAYER tap .................................. Total Original Geometry:          4 (        48)
-LAYER nwell ................................ Total Original Geometry:         16 (        92)
+LAYER nwell ................................ Total Original Geometry:         15 (        91)
 LAYER dnwell ............................... Total Original Geometry:          0 (         0)
 LAYER pwbm ................................. Total Original Geometry:          0 (         0)
 LAYER pwde ................................. Total Original Geometry:          0 (         0)
@@ -47,7 +47,7 @@ LAYER npc .................................. Total Original Geometry:          1
 LAYER licon1 ............................... Total Original Geometry:         19 (       190)
 LAYER li1 .................................. Total Original Geometry:         44 (       430)
 LAYER mcon ................................. Total Original Geometry:          6 (       136)
-LAYER met1 ................................. Total Original Geometry:        155 (       688)
+LAYER met1 ................................. Total Original Geometry:        140 (       655)
 LAYER via .................................. Total Original Geometry:          4 (        33)
 LAYER met2 ................................. Total Original Geometry:         43 (        72)
 LAYER via2 ................................. Total Original Geometry:          0 (         0)
@@ -378,7 +378,7 @@ RULECHECK vpp.9 ........................................ Total Result          0
 --- SUMMARY
 ---
 Total CPU Time                    : 1(s)
-Total Real Time                   : 3(s)
-Total Original Geometry           : 402 (2518)
+Total Real Time                   : 2(s)
+Total Original Geometry           : 386 (2484)
 Total DRC RuleChecks              : 279
 Total DRC Results                 : 2 (11)

@@ -1,10 +1,10 @@
-Pegasus 23.14-s006 W6eUyhvWDSmkstMrnkYP8g 2025-12-03 20:03:58 216596 c17-orng-07.ad.mtu.edu
+Pegasus 23.14-s006 W6eUyhvWDSmkstMrnkYP8g 2025-12-07 15:56:46 1091977 c17-orng-07.ad.mtu.edu
 Copyright 2024 Cadence Design Systems, Inc.
 All rights reserved worldwide.
 
 INFO:    Command Line Options: --log_dir LOGS -top_cell 4_1_MUX_Schematic -ui_data --control /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus/pegasusdrcctl /opt/cadence-suite/sky130_release_0.0.4/Sky130_DRC/sky130_rev_0.0_1.0.drc.pvl
-INFO:    Launch host CPU: Model: 13th Gen Intel(R) Core(TM) i7-13700, OS: Red Hat Enterprise Linux release 9.6 (Plow), Logical cores: 24, Physical cores: 16, Cache: 30720 KB, CPU Speed: 2451.79 MHz
-         Launch host Memory: MemTotal: 31522 MB,  MemFree: 12245 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 205 MB
+INFO:    Launch host CPU: Model: 13th Gen Intel(R) Core(TM) i7-13700, OS: Red Hat Enterprise Linux release 9.6 (Plow), Logical cores: 24, Physical cores: 16, Cache: 30720 KB, CPU Speed: 800.991 MHz
+         Launch host Memory: MemTotal: 31522 MB,  MemFree: 12958 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 208 MB
 INFO:    Current path: /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus
 INFO:    Run directory same as current path
 INFO:    Log directory: /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus/LOGS

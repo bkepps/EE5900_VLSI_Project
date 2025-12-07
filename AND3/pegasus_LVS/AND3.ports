@@ -1,2 +1,8 @@
 # SVDB: Port Table (ports)
 # SVDB: Layout Primary AND3
+C 6 C 70 1040 met1
+Vdd 3 Vdd 3180 3930 met1
+Vout 7 Vout 8080 1470 met1
+A 1 A 70 2080 met1
+Vss 4 Vss 3400 70 met1
+B 2 B 70 1630 met1

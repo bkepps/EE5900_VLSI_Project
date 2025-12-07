@@ -19,18 +19,18 @@ Running: /opt/cadence-suite/pegasus/tools.lnx86/Pegasus/bin/64bit/pegasusvirt \
   -rulesFile /opt/cadence-suite/sky130_release_0.0.4/Sky130_DRC/sky130_rev_0.0_1.0.drc.pvl \
   -log_dir LOGS \
   -df2_version IC23.1.0 \
-  -sign IPVS_1764810236_215236 \
+  -sign IPVS_1765141004_1084650 \
   -run_dir /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus \
   -no_rules_check
 
 
 
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.06s.
 ********************************************************************************
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 04/22/2025 22:31 (cpgbld17) $
           : sub-version  IC23.1-64b.ISR14.32 
-Started at: 03-Dec-2025  20:03:58
+Started at: 07-Dec-2025  15:56:46
 User Name : mmunoria
 Host Name : c17-orng-07.ad.mtu.edu
 Directory : /home/campus15/mmunoria
@@ -38,6 +38,7 @@ CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
+WARNING (XSTRM-20): Output Stream file '/home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus/4_1_MUX_Schematic.gds.gz' already exists. It will be overwritten.
 Loading sky130_fd_pr_main/libInit.il ...
 	Loading sky130_fd_pr_main/loadCxt.ile ... done!
 	Loading context 'sky130_fd_pr_main' from library 'sky130_fd_pr_main' ... done!
@@ -69,28 +70,28 @@ case                                    Preserve
 convertDot                              node
 
 INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
-INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_764810238400.
-INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_764810238401.
-INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_764810238402.
-INFO (XSTRM-223): 4. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_764810238403.
-INFO (XSTRM-223): 5. Translating customVia sky130_fd_pr_main/subTap/layout as STRUCTURE subTap_CDNS_764810238400.
-INFO (XSTRM-223): 6. Translating customVia sky130_fd_pr_main/polyConn/layout as STRUCTURE polyConn_CDNS_764810238401.
-INFO (XSTRM-223): 7. Translating customVia sky130_fd_pr_main/nwellTap/layout as STRUCTURE nwellTap_CDNS_764810238402.
-INFO (XSTRM-223): 8. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_764810238404.
-INFO (XSTRM-223): 9. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_764810238403.
-INFO (XSTRM-223): 10. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_764810238404.
+INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_765141006020.
+INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_765141006021.
+INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_765141006022.
+INFO (XSTRM-223): 4. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_765141006023.
+INFO (XSTRM-223): 5. Translating customVia sky130_fd_pr_main/subTap/layout as STRUCTURE subTap_CDNS_765141006020.
+INFO (XSTRM-223): 6. Translating customVia sky130_fd_pr_main/polyConn/layout as STRUCTURE polyConn_CDNS_765141006021.
+INFO (XSTRM-223): 7. Translating customVia sky130_fd_pr_main/nwellTap/layout as STRUCTURE nwellTap_CDNS_765141006022.
+INFO (XSTRM-223): 8. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_765141006024.
+INFO (XSTRM-223): 9. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_765141006023.
+INFO (XSTRM-223): 10. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_765141006024.
 INFO (XSTRM-223): 11. Translating cellview Group2_VLSI_EE5900/NOT/layout as STRUCTURE NOT.
-INFO (XSTRM-223): 12. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_764810238405.
-INFO (XSTRM-223): 13. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_764810238406.
-INFO (XSTRM-223): 14. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_764810238407.
-INFO (XSTRM-223): 15. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_764810238408.
+INFO (XSTRM-223): 12. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_765141006025.
+INFO (XSTRM-223): 13. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_765141006026.
+INFO (XSTRM-223): 14. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_765141006027.
+INFO (XSTRM-223): 15. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_765141006028.
 INFO (XSTRM-223): 16. Translating cellview Group2_VLSI_EE5900/NAND/layout as STRUCTURE NAND.
 INFO (XSTRM-223): 17. Translating cellview Group2_VLSI_EE5900/AND/layout as STRUCTURE AND.
 INFO (XSTRM-223): 18. Translating cellview Group2_VLSI_EE5900/AND3/layout as STRUCTURE AND3.
-INFO (XSTRM-223): 19. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_764810238409.
-INFO (XSTRM-223): 20. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7648102384010.
-INFO (XSTRM-223): 21. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7648102384011.
-INFO (XSTRM-223): 22. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7648102384012.
+INFO (XSTRM-223): 19. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_765141006029.
+INFO (XSTRM-223): 20. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7651410060210.
+INFO (XSTRM-223): 21. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7651410060211.
+INFO (XSTRM-223): 22. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7651410060212.
 INFO (XSTRM-223): 23. Translating cellview Group2_VLSI_EE5900/NOR/layout as STRUCTURE NOR.
 INFO (XSTRM-223): 24. Translating cellview Group2_VLSI_EE5900/OR4/layout as STRUCTURE OR4.
 INFO (XSTRM-223): 25. Translating cellview Group2_VLSI_EE5900/4_1_MUX_Schematic/layout as STRUCTURE 4_1_MUX_Schematic.
@@ -100,7 +101,7 @@ Summary of Objects Translated:
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             223
+	Rectangles:                             222
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -121,17 +122,17 @@ Summary of Objects Translated:
 	TextDisplay:                            0
 	Cells:                                  25
 
-Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 37092KB
-INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 37028KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.
 
 
-Pegasus 23.14-s006 W6eUyhvWDSmkstMrnkYP8g 2025-12-03 20:03:58 216596 c17-orng-07.ad.mtu.edu
+Pegasus 23.14-s006 W6eUyhvWDSmkstMrnkYP8g 2025-12-07 15:56:46 1091977 c17-orng-07.ad.mtu.edu
 Copyright 2024 Cadence Design Systems, Inc.
 All rights reserved worldwide.
 
 INFO:    Command Line Options: --log_dir LOGS -top_cell 4_1_MUX_Schematic -ui_data --control /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus/pegasusdrcctl /opt/cadence-suite/sky130_release_0.0.4/Sky130_DRC/sky130_rev_0.0_1.0.drc.pvl
-INFO:    Launch host CPU: Model: 13th Gen Intel(R) Core(TM) i7-13700, OS: Red Hat Enterprise Linux release 9.6 (Plow), Logical cores: 24, Physical cores: 16, Cache: 30720 KB, CPU Speed: 2451.79 MHz
-         Launch host Memory: MemTotal: 31522 MB,  MemFree: 12245 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 205 MB
+INFO:    Launch host CPU: Model: 13th Gen Intel(R) Core(TM) i7-13700, OS: Red Hat Enterprise Linux release 9.6 (Plow), Logical cores: 24, Physical cores: 16, Cache: 30720 KB, CPU Speed: 800.991 MHz
+         Launch host Memory: MemTotal: 31522 MB,  MemFree: 12958 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 208 MB
 INFO:    Current path: /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus
 INFO:    Run directory same as current path
 INFO:    Log directory: /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus/LOGS
@@ -153,22 +154,22 @@ WARNING: RESULTS_DB -ascii at line 8 in file /opt/cadence-suite/sky130_release_0
 INFO:    See "/home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus/LOGS/pvl.log" for additional details.
 
 INFO:    Checking out 1 license(s) of feature: 'Pegasus_DRC' version 23.1
-INFO:    License checkout successful ... 2025-12-03 20:04:01
+INFO:    License checkout successful ... 2025-12-07 15:56:49
 
 INFO:    Checking out 1 license(s) of feature: 'Pegasus_16nm' version 23.1
-INFO:    License checkout successful ... 2025-12-03 20:04:01
+INFO:    License checkout successful ... 2025-12-07 15:56:49
 INFO:    Worker 0 started on host c17-orng-07.ad.mtu.edu with 1 cpu(s)
 sh: line 1: lsb_release: command not found
-         CPU: Model: 13th Gen Intel(R) Core(TM) i7-13700, OS: , Logical cores: 24, Physical cores: 16, Cache: 30720 KB, CPU Speed: 836.053 MHz
-         Memory: MemTotal: 31522 MB,  MemFree: 12223 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 205 MB
+         CPU: Model: 13th Gen Intel(R) Core(TM) i7-13700, OS: , Logical cores: 24, Physical cores: 16, Cache: 30720 KB, CPU Speed: 1044.64 MHz
+         Memory: MemTotal: 31522 MB,  MemFree: 12907 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 208 MB
 
 INFO:    Gdsii input summary
          File name: /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus/4_1_MUX_Schematic.gds.gz
-         File size: 4391
+         File size: 4397
          Version: 5.0
          Library name: Group2_VLSI_EE5900
-         Last modified: 2025-12-3 18:14:38
-         Last accessed: 2025-12-3 20:3:58
+         Last modified: 2025-12-7 15:28:3
+         Last accessed: 2025-12-7 15:56:46
          Database unit in user units: 0.001
          Database unit in meters: 1e-09
          Magnification: 1 
@@ -185,33 +186,33 @@ INFO:    Cell Summary:
          ----------------------------------------------------------------------------
              CELL                            INSTANCE    GEOMETRY      LABELS        HREF        FREF
          ----------------------------------------------------------------------------
-         M1M2_C_CDNS_764810238400                   0           3           0          14          14
-         M1M2_C_CDNS_764810238401                   0           3           0           6           6
-         M1M2_C_CDNS_764810238402                   0           3           0          11          11
-         M1M2_C_CDNS_764810238403                   0           3           0           2           2
-         subTap_CDNS_764810238400                   0           6           0           2          16
-         polyConn_CDNS_764810238401                 0           6           0           5          35
-         nwellTap_CDNS_764810238402                 0           7           0           2          16
-         L1M1_C_CDNS_764810238404                   0           3           0           6          53
-         pfet_01v8_CDNS_764810238403                0          14           0           1          13
-         nfet_01v8_CDNS_764810238404                0          13           0           1          13
+         M1M2_C_CDNS_765141006020                   0           3           0          14          14
+         M1M2_C_CDNS_765141006021                   0           3           0           6           6
+         M1M2_C_CDNS_765141006022                   0           3           0          11          11
+         M1M2_C_CDNS_765141006023                   0           3           0           2           2
+         subTap_CDNS_765141006020                   0           6           0           2          16
+         polyConn_CDNS_765141006021                 0           6           0           5          35
+         nwellTap_CDNS_765141006022                 0           7           0           2          16
+         L1M1_C_CDNS_765141006024                   0           3           0           6          53
+         pfet_01v8_CDNS_765141006023                0          14           0           1          13
+         nfet_01v8_CDNS_765141006024                0          13           0           1          13
          NOT                                        7          20           0           6          13
-         nfet_01v8_CDNS_764810238405                0          17           0           1           8
-         nfet_01v8_CDNS_764810238406                0          11           0           1           8
-         pfet_01v8_CDNS_764810238407                0          14           0           1           8
-         pfet_01v8_CDNS_764810238408                0          18           0           1           8
+         nfet_01v8_CDNS_765141006025                0          17           0           1           8
+         nfet_01v8_CDNS_765141006026                0          11           0           1           8
+         pfet_01v8_CDNS_765141006027                0          14           0           1           8
+         pfet_01v8_CDNS_765141006028                0          18           0           1           8
          NAND                                       9          31           0           1           8
          AND                                        2          11           0           2           8
-         AND3                                       2          14           0           4           4
-         nfet_01v8_CDNS_764810238409                0          11           0           1           3
-         pfet_01v8_CDNS_7648102384010               0          12           0           1           3
-         pfet_01v8_CDNS_7648102384011               0          12           0           1           3
-         nfet_01v8_CDNS_7648102384012               0          13           0           1           3
+         AND3                                       2           8           0           4           4
+         nfet_01v8_CDNS_765141006029                0          11           0           1           3
+         pfet_01v8_CDNS_7651410060210               0          12           0           1           3
+         pfet_01v8_CDNS_7651410060211               0          12           0           1           3
+         nfet_01v8_CDNS_7651410060212               0          13           0           1           3
          NOR                                        9          29           0           3           3
          OR4                                       10          33           0           1           1
-         4_1_MUX_Schematic                         36          95           0           1           1
+         4_1_MUX_Schematic                         36          85           0           1           1
          ----------------------------------------------------------------------------
-         TOTAL CELL = 25;  INSTANCE = 75;  GEOMETRY = 402;  LABEL = 0
+         TOTAL CELL = 25;  INSTANCE = 75;  GEOMETRY = 386;  LABEL = 0
 
 INFO:    Layer Summary:
          ----------------------------------------------------------------------------
@@ -219,7 +220,7 @@ INFO:    Layer Summary:
          ----------------------------------------------------------------------------
          diff                                  1001        30         0       210         0
          tap                                   1003         4         0        48         0
-         nwell                                 1004        16         0        92         0
+         nwell                                 1004        15         0        91         0
          dnwell                                1005         0         0         0         0
          pwbm                                  1006         0         0         0         0
          pwde                                  1007         0         0         0         0
@@ -237,7 +238,7 @@ INFO:    Layer Summary:
          licon1                                1022        19         0       190         0
          li1                                   1023        44         0       430         0
          mcon                                  1025         6         0       136         0
-         met1                                  1026       155         0       688         0
+         met1                                  1026       140         0       655         0
          via                                   1028         4         0        33         0
          met2                                  1029        43         0        72         0
          via2                                  1031         0         0         0         0
@@ -265,7 +266,7 @@ INFO:    Layer Summary:
          met4_fuse                             1096         0         0         0         0
          ----------------------------------------------------------------------------
 
-INFO:    CHIP EXTENT: 0 10 22660 17380
+INFO:    CHIP EXTENT: 140 10 22660 17380
 
 
 INFO:    Ports ...
@@ -308,26 +309,26 @@ INFO:    Layer Summary(Texts For DFM_TEXT):
          ----------------------------------------------------------------------------
 
 INFO:    Expanded Cell Summary
-         pfet_01v8_CDNS_764810238403 is expanded.
-         nfet_01v8_CDNS_764810238404 is expanded.
-         nfet_01v8_CDNS_764810238405 is expanded.
-         nfet_01v8_CDNS_764810238406 is expanded.
-         pfet_01v8_CDNS_764810238407 is expanded.
-         pfet_01v8_CDNS_764810238408 is expanded.
-         nfet_01v8_CDNS_764810238409 is expanded.
-         pfet_01v8_CDNS_7648102384010 is expanded.
-         pfet_01v8_CDNS_7648102384011 is expanded.
-         nfet_01v8_CDNS_7648102384012 is expanded.
+         pfet_01v8_CDNS_765141006023 is expanded.
+         nfet_01v8_CDNS_765141006024 is expanded.
+         nfet_01v8_CDNS_765141006025 is expanded.
+         nfet_01v8_CDNS_765141006026 is expanded.
+         pfet_01v8_CDNS_765141006027 is expanded.
+         pfet_01v8_CDNS_765141006028 is expanded.
+         nfet_01v8_CDNS_765141006029 is expanded.
+         pfet_01v8_CDNS_7651410060210 is expanded.
+         pfet_01v8_CDNS_7651410060211 is expanded.
+         nfet_01v8_CDNS_7651410060212 is expanded.
          OR4 is expanded.
          NAND is expanded.
-         M1M2_C_CDNS_764810238400 is expanded.
-         M1M2_C_CDNS_764810238401 is expanded.
-         M1M2_C_CDNS_764810238402 is expanded.
-         M1M2_C_CDNS_764810238403 is expanded.
-         subTap_CDNS_764810238400 is expanded.
-         polyConn_CDNS_764810238401 is expanded.
-         nwellTap_CDNS_764810238402 is expanded.
-         L1M1_C_CDNS_764810238404 is expanded.
+         M1M2_C_CDNS_765141006020 is expanded.
+         M1M2_C_CDNS_765141006021 is expanded.
+         M1M2_C_CDNS_765141006022 is expanded.
+         M1M2_C_CDNS_765141006023 is expanded.
+         subTap_CDNS_765141006020 is expanded.
+         polyConn_CDNS_765141006021 is expanded.
+         nwellTap_CDNS_765141006022 is expanded.
+         L1M1_C_CDNS_765141006024 is expanded.
 INFO:    Rule dnwell.2 completed with no violations, 1/279
 INFO:    Rule dnwell.3 completed with no violations, 2/279
 INFO:    Rule dnwell.4 completed with no violations, 3/279
@@ -617,26 +618,26 @@ INFO:    Rule pwres.7b completed with no violations, 277/279
 INFO:    Rule pwres.8 completed with no violations, 278/279
          Remaining rules: vpp.5 
 INFO:    Rule vpp.5 completed with no violations, 279/279
-INFO:    Status: Runset 100% complete as of 2025-12-03 20:04:03   Elapsed: 00:00:02
+INFO:    Status: Runset 100% complete as of 2025-12-07 15:56:50   Elapsed: 00:00:01
          Worker: Active CPUs  Total Mem(MB)  Active Mem(MB)  CPU time(s)
-              0:    1 /   1             24              12            1
-INFO:	 Status: Finishing as of 2025-12-03 20:04:03   Elapsed: 00:00:02   CPU time[s]: 2
+              0:    1 /   1             24              12            0
+INFO:	 Status: Finishing as of 2025-12-07 15:56:50   Elapsed: 00:00:01   CPU time[s]: 1
 INFO:    Resource usage by worker at exit:
                   CPU      Elapsed  CPUs       CPU       Peak        Peak engine
          Worker:  time[s]  time[s]  Allocated  usage[%]  Memory[MB]  Memory[MB]
-              0:        1        2          1     51.28          24           12
-         Worker resource usage  summary: Total CPU[s]: 1  Run duration[s]: 2  Max peak memory[MB]: 24
-         Worker CPU utilization summary: 1 of 2 available CPU seconds (50.00%) with 1 average available CPU(s)
+              0:        0        1          1     52.27          24           12
+         Worker resource usage  summary: Total CPU[s]: 0  Run duration[s]: 1  Max peak memory[MB]: 24
+         Worker CPU utilization summary: 0 of 1 available CPU seconds ( 0.00%) with 1 average available CPU(s)
 INFO:    Generating summary in /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus/4_1_MUX_Schematic.sum
 INFO:    All selected rules completed
          Total CPU Time                    : 1(s)
-         Total Real Time                   : 3(s)
-         Total Original Geometry           : 402(2518)
+         Total Real Time                   : 2(s)
+         Total Original Geometry           : 386(2484)
          Total DRC RuleChecks              : 279
          Total DRC Results                 : 2 (11)
          ASCII report database is /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus/4_1_MUX_Schematic.drc_errors.ascii
 INFO:    Checking in all SoftShare licenses.
 
-Pegasus finished normally. 2025-12-03 20:04:03
+Pegasus finished normally. 2025-12-07 15:56:50
 
 

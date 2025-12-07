@@ -1,0 +1,11 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary 4_1_MUX_Schematic
+B 12 B 70 10770 met1
+Vout 15 Vout 22590 11680 met1
+Vss 6 Vss 9030 170 met1
+A 9 A 70 11620 met1
+S1 1 S1 70 15060 met1
+D 10 D 70 2180 met1
+C 11 C 70 6460 met1
+S0 2 S0 70 15920 met1
+Vdd 5 Vdd 9290 17310 met1

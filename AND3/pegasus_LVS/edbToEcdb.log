@@ -3,15 +3,15 @@
 ========================================================================
 
 Delete EDB      : N
-EDB Library dir : AND3_1017340.db
+EDB Library dir : 4_1_MUX_Schematic_1040188.db
 ECDB dir        : ./
-Top Cell        : AND3
-CDL netlist     : ./AND3.net
-Layer map file  : ./AND3.ecdbmap
-Text map file   : ./AND3.ports
-Dependency map  : AND3.lmap.perc
-Lvs file        : ./AND3.lvsfile
-Float net file  : .AND3.info.softchk
+Top Cell        : 4_1_MUX_Schematic
+CDL netlist     : ./4_1_MUX_Schematic.net
+Layer map file  : ./4_1_MUX_Schematic.ecdbmap
+Text map file   : ./4_1_MUX_Schematic.ports
+Dependency map  : 4_1_MUX_Schematic.lmap.perc
+Lvs file        : ./4_1_MUX_Schematic.lvsfile
+Float net file  : .4_1_MUX_Schematic.info.softchk
 threads         : 32
 debug           : 0
-Source Library  : AND3_1017340
+Source Library  : 4_1_MUX_Schematic_1040188

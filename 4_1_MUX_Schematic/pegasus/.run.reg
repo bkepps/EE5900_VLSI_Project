@@ -5,14 +5,14 @@
 "Run Directory" internal none /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus
 "Current Directory" internal none /home/campus15/mmunoria
 "Cadence Directory" internal none /home/campus15/mmunoria/.cadence/
-"Job Signature" internal none IPVS_1764810236_215236
+"Job Signature" internal none IPVS_1765141004_1084650
 "Pegasus Job Mode" internal none drc
 "GUI Flow" internal none virtuoso6
 "GUI Preset" internal none /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus/.preset.autosave
 "Pegasus Version" internal none 23.14-s006
 "Binary Name" internal none pegasusgui
 "Pegasus Build Date" internal none "Thu Jan 25 18:41:38 PST 2024"
-"Pegasus Job Time" internal none 1764810237
+"Pegasus Job Time" internal none 1765141005
 "DFII version" internal none IC23.1.0
 "Run Directory" internal none /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus
 "Pegasus Job Mode" internal none drc
@@ -34,7 +34,7 @@
 "Enable Coloring" input none yes
 "Layout ReplaceBusBitChar" input none nil
 "Layout NoConvertHalfWidthPath" input none nil
-"Job Signature" internal none IPVS_1764810236_215236
+"Job Signature" internal none IPVS_1765141004_1084650
 "Do not check rules files before run" internal none ENABLED
 "Control File" input text /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus/pegasusdrcctl
 "Pegasus Job Log" log text /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus/pegasusuidrc.log
@@ -48,7 +48,7 @@
 "Pegasus Version" internal none 23.14-s006
 "Binary Name" internal none pegasusvirt
 "Pegasus Build Date" internal none "Thu Jan 25 18:41:38 PST 2024"
-"Pegasus Job Time" internal none 1764810238
+"Pegasus Job Time" internal none 1765141006
 "Pegasus Job Mode" internal none drc
 "Rule File" input text /opt/cadence-suite/sky130_release_0.0.4/Sky130_DRC/sky130_rev_0.0_1.0.drc.pvl
 "Layout GDSII" input none /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus/4_1_MUX_Schematic.gds.gz
@@ -56,9 +56,9 @@
 "ASCII DRC Report Database" output rdb /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus/4_1_MUX_Schematic.drc_errors.ascii
 "Run Directory" internal none /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus/
 "UI Data" internal none ENABLED
-"Pegasus Mode Info" internal none MIFIFDPEMBFCGKEOIGIFNOPHAMDJLLLH
+"Pegasus Mode Info" internal none DFEDGFLGMAKNPEHJPCPJFBMCLNKNHCOK
 "Report MaxResults" internal none 1000
 "Pegasus Version" internal none 23.14-s006
 "Binary Name" internal none Pegasus
 "Pegasus Build Date" internal none "Thu Jan 25 18:41:38 PST 2024"
-"Pegasus Job Time" internal none 1764810240
+"Pegasus Job Time" internal none 1765141008

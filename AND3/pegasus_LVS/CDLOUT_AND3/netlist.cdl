@@ -1,0 +1,51 @@
+
+
+***********************************************************
+* CDL produced by pvsBuildNetlist on Dec  7 14:45:15 2025 *
+***********************************************************
+
+
+*pvsViewList = auLvs schematic
+*pvsStopList = ("auLvs")
+*pvsSimName  = auLvs
+
+
+
+*.EXPAND_ON_M_FACTOR
+*.MEGA
+
+
+
+.subckt NOT A Out Vdd Vss
+*PVSCELL netlisted from Group2_VLSI_EE5900 NOT schematic
+  MNM0 Out A Vss Vss nfet_01v8 m=1 l=150n w=420n
+  MPM0 Out A Vdd Vdd pfet_01v8 m=1 l=150n w=550n
+.ends NOT
+
+
+.subckt NAND A B Out Vdd Vss
+*PVSCELL netlisted from Group2_VLSI_EE5900 NAND schematic
+  MNM0 Out A net1 Vss nfet_01v8 m=1 l=150n w=420n
+  MNM1 net1 B Vss Vss nfet_01v8 m=1 l=150n w=420n
+  MPM0 Out A Vdd Vdd pfet_01v8 m=1 l=150n w=550n
+  MPM1 Out B Vdd Vdd pfet_01v8 m=1 l=150n w=550n
+.ends NAND
+
+
+.subckt AND A B Out Vdd Vss
+*PVSCELL netlisted from Group2_VLSI_EE5900 AND schematic
+  XI0 NAND $PINS A=A B=B Out=net6 Vdd=Vdd Vss=Vss
+  XI1 NOT $PINS A=net6 Out=Out Vdd=Vdd Vss=Vss
+.ends AND
+
+
+.subckt AND3 A B C Vdd Vout Vss
+*PVSCELL netlisted from Group2_VLSI_EE5900 AND3 schematic
+  XI0 AND $PINS A=A B=B Out=net3 Vdd=Vdd Vss=Vss
+  XI1 AND $PINS A=net3 B=C Out=Vout Vdd=Vdd Vss=Vss
+.ends AND3
+
+
+***********************************************************
+*             Completed at Dec  7 14:45:15 2025           *
+***********************************************************

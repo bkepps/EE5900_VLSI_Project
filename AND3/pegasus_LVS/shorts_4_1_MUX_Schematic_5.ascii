@@ -1,0 +1,34 @@
+4_1_MUX_Schematic 4000
+SHORT     1. 6 - 5 in 4_1_MUX_Schematic
+4 4 3 Sun Dec  7 15:22:15 2025
+2 shorted texts:
+"5" at (13.230 2.990) on layer "ntap" SN 197
+"6" at (13.300 4.630) on layer "ntap" SN 1435
+p 1 4
+SN 197 ntap
+DV ntap
+52100 11620
+53740 11620
+53740 12300
+52100 12300
+p 2 4
+SN 303 nwell
+DV nwell
+37880 9600
+54480 9600
+54480 16080
+37880 16080
+p 3 4
+SN 1350 nwell
+DV nwell
+49600 16080
+54760 16080
+54760 24720
+49600 24720
+p 4 4
+SN 1435 ntap
+DV ntap
+52380 18180
+54020 18180
+54020 18860
+52380 18860

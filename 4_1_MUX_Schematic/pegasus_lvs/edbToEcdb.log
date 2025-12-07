@@ -1,0 +1,17 @@
+
+/opt/cadence-suite/PEGASUS/tools.lnx86/Pegasus/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : 4_1_MUX_Schematic_1090853.db
+ECDB dir        : ./
+Top Cell        : 4_1_MUX_Schematic
+CDL netlist     : ./4_1_MUX_Schematic.net
+Layer map file  : ./4_1_MUX_Schematic.ecdbmap
+Text map file   : ./4_1_MUX_Schematic.ports
+Dependency map  : 4_1_MUX_Schematic.lmap.perc
+Lvs file        : ./4_1_MUX_Schematic.lvsfile
+Float net file  : .4_1_MUX_Schematic.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : 4_1_MUX_Schematic_1090853

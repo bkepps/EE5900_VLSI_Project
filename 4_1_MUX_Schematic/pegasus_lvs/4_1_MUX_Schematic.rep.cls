@@ -3,38 +3,31 @@
 #####                                       Pegasus LVS COMPARISON
 #####  
 #####  Version                       :   23.14-s006
-#####  NVN Run Start                 :   Mon Dec  1 16:15:21 2025
-#####  ERC Summary File              :   AND3.sum
-#####  Extraction Report File        :   AND3.rep
-#####  Comparison Report File        :   AND3.rep.cls
-#####  Top Cell                      :   AND3  <vs>  AND3
+#####  NVN Run Start                 :   Sun Dec  7 15:54:09 2025
+#####  ERC Summary File              :   4_1_MUX_Schematic.sum
+#####  Extraction Report File        :   4_1_MUX_Schematic.rep
+#####  Comparison Report File        :   4_1_MUX_Schematic.rep.cls
+#####  Top Cell                      :   4_1_MUX_Schematic  <vs>  4_1_MUX_Schematic
 #####  
-#####                                :      @     @
-#####                                :       @   @ 
-#####                                :        @ @  
-#####  Run Result                    :     MISMATCH
-#####                                :        @ @  
-#####                                :       @   @ 
-#####                                :      @     @
+#####  Run Result                    :   MATCH
 #####  
-#####  Run Summary                   :   [ERROR] Connectivity Mismatches
-#####                                :   [WARN]  Extraction Warnings (refer to Extraction Report File)
-#####                                :   [INFO]  ERC Results: Empty
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
+#####                                :   [INFO]  Extraction Clean
 #####  
-#####  Layout Design                 :   Group2_VLSI_EE5900 AND3 layout
-#####  Schematic File                :   /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.cdl (cdl)
+#####  Layout Design                 :   Group2_VLSI_EE5900 4_1_MUX_Schematic layout
+#####  Schematic File                :   /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus_lvs/4_1_MUX_Schematic.cdl (cdl)
 #####  Rules File                    :   /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl
-#####  Pin Swap File                 :   AND3.rep.cps
+#####  Pin Swap File                 :   4_1_MUX_Schematic.rep.cps
 #####  
 #####  Extraction CPU Time           :   0h 0m 1s - (1s)
 #####  Extraction Exec Time          :   0h 0m 2s - (2s)
 #####  Extraction Peak Memory Usage  :   25.00MB
 #####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
-#####  NVN Exec Time                 :   0h 0m 0s - (0s)                 
-#####  NVN Peak Memory Usage         :   249.01MB
+#####  NVN Exec Time                 :   0h 0m 1s - (1s)                 
+#####  NVN Peak Memory Usage         :   255.71MB
 #####  LVS Total CPU Time            :   0h 0m 1s - (1s)                 
-#####  LVS Total Exec Time           :   0h 0m 2s - (2s)                 
-#####  LVS Total Peak Memory Usage   :   249.01MB
+#####  LVS Total Exec Time           :   0h 0m 3s - (3s)                 
+#####  LVS Total Peak Memory Usage   :   255.71MB
 #####  
 ##############################################################################################################
 
@@ -47,10 +40,10 @@
 
 Cell Statistic Descriptions                  | Count
 ---------------------------------------------+----------
-Cells matched                                |         0
+Cells matched                                |         1
 Cells expanded                               |         0
 Cells not run                                |         0
-Cells which mismatch                         |         1
+Cells which mismatch                         |         0
 ---------------------------------------------+----------
 Total                                        |         1
 
@@ -68,10 +61,10 @@ Cells that have been blackboxed              |         0
 #
 ##############################################################################################################
 
-         |     Initial Pins     |     Compare Pins     |              | 
-Cell     |   lay    :    sch    |   lay    :    sch    | Status       | Detail
----------+----------+-----------+----------+-----------+--------------+-------------------------
-AND3     |       *0 :         6 |       *0 :         6 | mismatch     | fatal pin mismatches
+                      |     Initial Pins     |     Compare Pins     |            | 
+Cell                  |   lay    :    sch    |   lay    :    sch    | Status     | Detail
+----------------------+----------+-----------+----------+-----------+------------+-----------
+4_1_MUX_Schematic     |        9 :         9 |        9 :         9 | match      | 
 
 
 ##############################################################################################################
@@ -83,18 +76,18 @@ AND3     |       *0 :         6 |       *0 :         6 | mismatch     | fatal pi
 Command Line LVS Rule Values
 ----------------------------
 
-    layout_primary                          AND3 {-top_cell AND3}
-    schematic_primary                       AND3 {-source_top_cell AND3}
+    layout_primary                          4_1_MUX_Schematic {-top_cell 4_1_MUX_Schematic}
+    schematic_primary                       4_1_MUX_Schematic {-source_top_cell 4_1_MUX_Schematic}
 
 LVS Rules Given in the Rules File
 ---------------------------------
 
     lvs_abort                               -softchk                               no  
     lvs_abort                               -supply_error                          no  
-    layout_path                             /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.gds.gz
+    layout_path                             /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus_lvs/4_1_MUX_Schematic.gds.gz
     layout_format                           gdsii
     layout_primary                          sky130_fd_sc_ls__bufinv_16
-    schematic_path                          /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.cdl
+    schematic_path                          /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus_lvs/4_1_MUX_Schematic.cdl
     schematic_format                        cdl
     lvs_black_box                           cap_vpp_02p4x04p6_m1m2_noshield -grey
     lvs_black_box                           cap_vpp_04p4x04p6_m1m2_noshield -grey
@@ -129,7 +122,7 @@ LVS Rules Given in the Rules File
     lvs_check_property                      R L L
     lvs_check_property                      C L L
     lvs_check_property                      C W W
-    lvs_report_file                         AND3.rep
+    lvs_report_file                         4_1_MUX_Schematic.rep
     lvs_report_max                          50 -mismatched_net_limit 100 
     lvs_short_equivalent_nodes              yes
     lvs_generic_device                      C ( cap_vpp_02p4x04p6_m1m2_noshield ) [ PLUS = C0 MINUS = C1 BULK
@@ -305,7 +298,7 @@ Effective LVS Rule Values
 -------------------------
 
     lvs_swap_non_cpoint_pins                yes -unbound_pin_threshold 10000
-    layout_primary                          AND3
+    layout_primary                          4_1_MUX_Schematic
     lvs_recognize_gates                     -none
     virtual_connect                         no  -report
 
@@ -316,157 +309,42 @@ Effective LVS Rule Values
 #
 ##############################################################################################################
 
-                              ##################################################
-                              #                                                #
-                              #       ------->>> $ MISMATCH $ <<<-------       #
-                              #                                                #
-                              #                AND3  <vs>  AND3                #
-                              #                                                #
-                              #            CONNECTIVITY MISMATCHES             #
-                              #                                                #
-                              ##################################################
+                              +------------------------------------------------+
+                              |                                                |
+                              |        ------->>>   MATCH   <<<-------         |
+                              |                                                |
+                              |   4_1_MUX_Schematic  <vs>  4_1_MUX_Schematic   |
+                              |                                                |
+                              |                                                |
+                              +------------------------------------------------+
 
-+===[AND3]====================================================================================================
++===[4_1_MUX_Schematic]=======================================================================================
 |                                                 STATISTICS                                                  
 +=============================================================================================================
 
 
-                        |     Original      |      Reduced      |     Unmatched     
-Cell                    |   lay   :   sch   |   lay   :   sch   |   lay   :   sch
-------------------------+---------+---------+---------+---------+---------+---------
-(MP [4 pins], -)        |         :         |         :         |         :         
- (MP(PFET_01V8), -)     |      *6 :       0 |      *6 :       0 |      *6 :        0
-(MN [4 pins], -)        |         :         |         :         |         :         
- (MN(NFET_01V8), -) .  .|.  .  *6 :.  .   0 |.  .  *6 :.  .   0 |.  .  *6 :.  .  . 0
-(-, NAND [5 pins])      |         :         |         :         |         :         
- (-, NAND())  .  .  .  .|.  .  *0 :.  .   2 |.  .  *0 :.  .   2 |.  .  *0 :.  .  . 2
-(-, NOT [4 pins])       |         :         |         :         |         :         
- (-, NOT())             |      *0 :       2 |      *0 :       2 |      *0 :        2
-------------------------+---------+---------+---------+---------+---------+---------
-Total                   |      12 :       4 |      12 :       4 |      12 :        4
-========================+=========+=========+=========+=========+=========+=========
-Pins                    |         :         |      *0 :       6 |      *0 :        6
-Nets                    |         :         |     *12 :       3 |       0 :        0
-========================+=========+=========+=========+=========+=========+=========
+                   |     Original      |     Reduced      
+Cell               |   lay   :   sch   |   lay   :  sch
+-------------------+---------+---------+---------+--------
+MP [4 pins]        |         :         |         :        
+ MP(PFET_01V8)     |      35 :      35 |      35 :      35
+MN [4 pins]        |         :         |         :        
+ MN(NFET_01V8)     |      35 :      35 |      35 :      35
+-------------------+---------+---------+---------+--------
+Total              |      70 :      70 |      70 :      70
+===================+=========+=========+=========+========
+Pins               |         :         |       9 :       9
+Nets               |         :         |      34 :      34
+===================+=========+=========+=========+========
 
-+===[AND3]====================================================================================================
-|                                               MISMATCHED NETS                                               
++===[4_1_MUX_Schematic]=======================================================================================
+|                                           INITIAL CORRESPONDENCES                                           
 +=============================================================================================================
-                                                           
-                                                           
-Layout Net: ** missing net **     | Schematic Pin: Vss
-==================================+==================(mn 1)
-                                                           
-                                                           
-Layout Net: ** missing net **     | Schematic Pin: Vdd
-==================================+==================(mn 2)
-                                                           
-                                                           
-Layout Net: ** missing net **     | Schematic Pin: C
-==================================+==================(mn 3)
-                                                           
-                                                           
-Layout Net: ** missing net **     | Schematic Pin: B
-==================================+==================(mn 4)
-                                                           
-                                                           
-Layout Net: ** missing net **     | Schematic Pin: A
-==================================+==================(mn 5)
-                                                           
-                                                           
-Layout Net: ** missing net **     | Schematic Pin: Vout
-==================================+==================(mn 6)
 
+Type     | Name
+---------+-------------------------------
+Pin      | A B C D S0 S1 Vdd Vout Vss
 
-+===[AND3]====================================================================================================
-|                                            MISMATCHED INSTANCES                                             
-+=============================================================================================================
-                                                                                      
-                                                                                      
-Layout Inst : ** missing inst **             | Schematic Inst : XI1/XI1
-Layout Model:                                | Schematic Model: NOT
-=============================================+==================================(mi 1)
-                                                                                      
-                                                                                      
-Layout Inst : ** missing inst **             | Schematic Inst : XI1/XI0
-Layout Model:                                | Schematic Model: NAND
-=============================================+==================================(mi 2)
-                                                                                      
-                                                                                      
-Layout Inst : ** missing inst **             | Schematic Inst : XI0/XI1
-Layout Model:                                | Schematic Model: NOT
-=============================================+==================================(mi 3)
-                                                                                      
-                                                                                      
-Layout Inst : ** missing inst **             | Schematic Inst : XI0/XI0
-Layout Model:                                | Schematic Model: NAND
-=============================================+==================================(mi 4)
-                                                                                      
-                                                                                      
-Layout Inst : X0/X0/X3/M0 @(4.970,7.320)     | Schematic Inst : ** missing inst **
-Layout Model: MP(PFET_01V8)                  | Schematic Model: 
-=============================================+==================================(mi 5)
-                                                                                      
-                                                                                      
-Layout Inst : X0/X0/X4/M0 @(4.970,6.090)     | Schematic Inst : ** missing inst **
-Layout Model: MN(NFET_01V8)                  | Schematic Model: 
-=============================================+==================================(mi 6)
-                                                                                      
-                                                                                      
-Layout Inst : X0/X1/X5/M0 @(3.330,6.860)     | Schematic Inst : ** missing inst **
-Layout Model: MN(NFET_01V8)                  | Schematic Model: 
-=============================================+==================================(mi 7)
-                                                                                      
-                                                                                      
-Layout Inst : X0/X1/X6/M0 @(3.690,6.860)     | Schematic Inst : ** missing inst **
-Layout Model: MN(NFET_01V8)                  | Schematic Model: 
-=============================================+==================================(mi 8)
-                                                                                      
-                                                                                      
-Layout Inst : X0/X1/X7/M0 @(2.750,7.950)     | Schematic Inst : ** missing inst **
-Layout Model: MP(PFET_01V8)                  | Schematic Model: 
-=============================================+==================================(mi 9)
-                                                                                      
-                                                                                      
-Layout Inst : X0/X1/X8/M0 @(3.330,8.500)     | Schematic Inst : ** missing inst **
-Layout Model: MP(PFET_01V8)                  | Schematic Model: 
-=============================================+=================================(mi 10)
-                                                                                      
-                                                                                      
-Layout Inst : X1/X0/X3/M0 @(8.070,2.750)     | Schematic Inst : ** missing inst **
-Layout Model: MP(PFET_01V8)                  | Schematic Model: 
-=============================================+=================================(mi 11)
-                                                                                      
-                                                                                      
-Layout Inst : X1/X0/X4/M0 @(8.070,1.520)     | Schematic Inst : ** missing inst **
-Layout Model: MN(NFET_01V8)                  | Schematic Model: 
-=============================================+=================================(mi 12)
-                                                                                      
-                                                                                      
-Layout Inst : X1/X1/X5/M0 @(6.430,2.290)     | Schematic Inst : ** missing inst **
-Layout Model: MN(NFET_01V8)                  | Schematic Model: 
-=============================================+=================================(mi 13)
-                                                                                      
-                                                                                      
-Layout Inst : X1/X1/X6/M0 @(6.790,2.290)     | Schematic Inst : ** missing inst **
-Layout Model: MN(NFET_01V8)                  | Schematic Model: 
-=============================================+=================================(mi 14)
-                                                                                      
-                                                                                      
-Layout Inst : X1/X1/X7/M0 @(5.850,3.380)     | Schematic Inst : ** missing inst **
-Layout Model: MP(PFET_01V8)                  | Schematic Model: 
-=============================================+=================================(mi 15)
-                                                                                      
-                                                                                      
-Layout Inst : X1/X1/X8/M0 @(6.430,3.930)     | Schematic Inst : ** missing inst **
-Layout Model: MP(PFET_01V8)                  | Schematic Model: 
-=============================================+=================================(mi 16)
-
-
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-++++++ 6 out of 6 pins were unmatched. 
-++++++ Further matching above this cell is disabled. 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ##############################################################################################################
 #

@@ -1,0 +1,34 @@
+##############################################################################################################
+#####  
+#####                                       Pegasus LVS COMPARISON
+#####  
+#####  Version                       :   23.14-s006
+#####  NVN Run Start                 :   Sun Dec  7 15:54:09 2025
+#####  ERC Summary File              :   4_1_MUX_Schematic.sum
+#####  Extraction Report File        :   4_1_MUX_Schematic.rep
+#####  Comparison Report File        :   4_1_MUX_Schematic.rep.cls
+#####  Top Cell                      :   4_1_MUX_Schematic  <vs>  4_1_MUX_Schematic
+#####  
+#####  Run Result                    :   MATCH
+#####  
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
+#####                                :   [INFO]  Extraction Clean
+#####  
+#####  Layout Design                 :   Group2_VLSI_EE5900 4_1_MUX_Schematic layout
+#####  Schematic File                :   /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus_lvs/4_1_MUX_Schematic.cdl (cdl)
+#####  Rules File                    :   /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl
+#####  Pin Swap File                 :   4_1_MUX_Schematic.rep.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 1s - (1s)
+#####  Extraction Exec Time          :   0h 0m 2s - (2s)
+#####  Extraction Peak Memory Usage  :   25.00MB
+#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 1s - (1s)                 
+#####  NVN Peak Memory Usage         :   255.71MB
+#####  LVS Total CPU Time            :   0h 0m 1s - (1s)                 
+#####  LVS Total Exec Time           :   0h 0m 3s - (3s)                 
+#####  LVS Total Peak Memory Usage   :   255.71MB
+#####  
+##############################################################################################################
+
+

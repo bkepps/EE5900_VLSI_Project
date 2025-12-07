@@ -5,72 +5,60 @@
 "Run Directory" internal none /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS
 "Current Directory" internal none /home/campus15/mmunoria
 "Cadence Directory" internal none /home/campus15/mmunoria/.cadence/
-"Job Signature" internal none IPVS_1764623692_861478
+"Job Signature" internal none IPVS_1765138352_981772
 "Pegasus Job Mode" internal none lvs
 "GUI Flow" internal none virtuoso6
 "GUI Preset" internal none /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/.preset.autosave
 "Pegasus Version" internal none 23.14-s006
 "Binary Name" internal none pegasusgui
 "Pegasus Build Date" internal none "Thu Jan 25 18:41:38 PST 2024"
-"Pegasus Job Time" internal none 1764623692
+"Pegasus Job Time" internal none 1765138354
 "DFII version" internal none IC23.1.0
 "Rule File" input text /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl
 "Layout Scale" internal none 0.001
 "Layout TechLib" internal none sky130_fd_pr_main
 "Layout Library Name" internal none Group2_VLSI_EE5900
-"Layout Cell Name" internal none AND3
+"Layout Cell Name" internal none 4_1_MUX_Schematic
 "Layout View Name" internal none layout
-"Layout ConvertPin" internal text geometry
+"Layout ConvertPin" internal text geometryAndText
 "Layout HierDepth" internal none 32
 "Layout MaxVertices" internal none 2048
-"Layout Top Cell" internal none AND3
-"Layout GDSII" input none /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.gds.gz
-"Intermediate GDSII File" output none /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.gds.gz
+"Layout Top Cell" internal none 4_1_MUX_Schematic
+"Layout GDSII" input none /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.gds.gz
+"Intermediate GDSII File" output none /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.gds.gz
 "Intermediate GDSII File creation Errors" internal text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/PIPO1.LOG
 "Intermediate OASIS File creation Errors" internal text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/PIPO1.LOG
 "Enable Coloring" input none yes
 "Layout ReplaceBusBitChar" input none nil
 "Layout NoConvertHalfWidthPath" input none nil
-"Schematic Library Name" internal none Group2_VLSI_EE5900
-"Schematic Cell Name" internal none AND3
-"Schematic View Name" internal none schematic
-"Schematic Top Cell" internal none AND3
-"Schematic Netlist" output text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.cdl
-"Extracted Spice File" output text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.spi
+"Schematic Top Cell" internal none 4_1_MUX_Schematic
+"Schematic Netlist" input text /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus_LVS/4_1_MUX_Schematic.net
+"Extracted Spice File" output text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.spi
 "Do not check rules files before run" internal none ENABLED
 "Control File" input text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/pegasuslvsctl
-"CDL Out Stop List" internal text cdl
-"CDL Out View List" internal text cdl schematic cmos_sch gate_sch cmos.sch gate.sch symbol
-"CDL Out Display Pin Information" internal none ENABLED
 "Pegasus Job Log" log text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/pegasusuilvs.log
 "It is Pegasus flow" internal none ENABLED
 "Pegasus Log Dir" internal none LOGS
 "PIPO Setup File I" internal text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/pipo1.setup
 "PIPO Log I" log text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/PIPO1.LOG
 "PIPO Output I" internal text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/PIPO1.OUT
-"SI Setup File" internal text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/si.env
-"SI Log" log text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/SI.LOG
-"SI Output" log text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/SI.OUT
-"SI OSS Directory" internal none /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/
-"Simulator Mode" internal none cdl
-"Input Layout" input none OA: Group2_VLSI_EE5900 AND3 layout
-"Input Schematic" input none OA: Group2_VLSI_EE5900 AND3 schematic
+"Input Layout" input none OA: Group2_VLSI_EE5900 4_1_MUX_Schematic layout
 "Output Layout Cellmap I" internal text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/lay_cellMap.txt
 "Binary Name" internal none pegasusvirt
-"Comparison Report" output cls /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.rep.cls
-"Extraction Report" output erc /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.rep
+"Comparison Report" output cls /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.rep.cls
+"Extraction Report" output erc /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.rep
 "LVS Report Options" internal none -none
-"SCONNECT Info" output text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/.AND3.info.softchk
-"ERC Summary" output text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.sum
+"SCONNECT Info" output text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/.4_1_MUX_Schematic.info.softchk
+"ERC Summary" output text /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.sum
 "Extraction Result" internal none WARNINGS
 "ERC Result" internal none EMPTY
 "UI Data" internal none ENABLED
-"Pegasus Mode Info" internal none MIFIFDPEMBFCGKEOMOJEPDAPOGOBPMPE
+"Pegasus Mode Info" internal none DFEDGFLGMAKNPEHJGOFNNFABHHLMPFFN
 "Report MaxResults" internal none 1000
 "Binary Name" internal none Pegasus
-"Comparison Result" internal none MISMATCH
-"LVS Run Name" internal none AND3.rep
+"Comparison Result" internal none MATCH
+"LVS Run Name" internal none 4_1_MUX_Schematic.rep
 "Pegasus Version" internal none 23.14-s006
 "Binary Name" internal none pegasusnvn
 "Pegasus Build Date" internal none "Thu Jan 25 18:41:38 PST 2024"
-"Pegasus Job Time" internal none 1764623721
+"Pegasus Job Time" internal none 1765138363

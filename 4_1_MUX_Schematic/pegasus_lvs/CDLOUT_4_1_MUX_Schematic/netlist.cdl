@@ -1,0 +1,83 @@
+
+
+***********************************************************
+* CDL produced by pvsBuildNetlist on Dec  7 15:28:29 2025 *
+***********************************************************
+
+
+*pvsViewList = auLvs schematic
+*pvsStopList = ("auLvs")
+*pvsSimName  = auLvs
+
+
+
+*.EXPAND_ON_M_FACTOR
+*.MEGA
+
+
+
+.subckt NOT A Out Vdd Vss
+*PVSCELL netlisted from Group2_VLSI_EE5900 NOT schematic
+  MNM0 Out A Vss Vss nfet_01v8 m=1 l=150n w=420n
+  MPM0 Out A Vdd Vdd pfet_01v8 m=1 l=150n w=550n
+.ends NOT
+
+
+.subckt NAND A B Out Vdd Vss
+*PVSCELL netlisted from Group2_VLSI_EE5900 NAND schematic
+  MNM0 Out A net1 Vss nfet_01v8 m=1 l=150n w=420n
+  MNM1 net1 B Vss Vss nfet_01v8 m=1 l=150n w=420n
+  MPM0 Out A Vdd Vdd pfet_01v8 m=1 l=150n w=550n
+  MPM1 Out B Vdd Vdd pfet_01v8 m=1 l=150n w=550n
+.ends NAND
+
+
+.subckt AND A B Out Vdd Vss
+*PVSCELL netlisted from Group2_VLSI_EE5900 AND schematic
+  XI0 NAND $PINS A=A B=B Out=net6 Vdd=Vdd Vss=Vss
+  XI1 NOT $PINS A=net6 Out=Out Vdd=Vdd Vss=Vss
+.ends AND
+
+
+.subckt AND3 A B C Vdd Vout Vss
+*PVSCELL netlisted from Group2_VLSI_EE5900 AND3 schematic
+  XI0 AND $PINS A=A B=B Out=net3 Vdd=Vdd Vss=Vss
+  XI1 AND $PINS A=net3 B=C Out=Vout Vdd=Vdd Vss=Vss
+.ends AND3
+
+
+.subckt NOR A B Out Vdd Vss
+*PVSCELL netlisted from Group2_VLSI_EE5900 NOR schematic
+  MNM0 Out A Vss Vss nfet_01v8 m=1 l=150n w=420n
+  MNM1 Out B Vss Vss nfet_01v8 m=1 l=150n w=420n
+  MPM0 net4 B Vdd Vdd pfet_01v8 m=1 l=150n w=550n
+  MPM1 Out A net4 Vdd pfet_01v8 m=1 l=150n w=550n
+.ends NOR
+
+
+.subckt OR4 A B C D Out Vdd Vss
+*PVSCELL netlisted from Group2_VLSI_EE5900 OR4 schematic
+  XI0 NOR $PINS A=A B=B Out=net3 Vdd=Vdd Vss=Vss
+  XI1 NOR $PINS A=C B=D Out=net8 Vdd=Vdd Vss=Vss
+  XI2 NOR $PINS A=net2 B=net1 Out=net13 Vdd=Vdd Vss=Vss
+  XI3 NOT $PINS A=net3 Out=net1 Vdd=Vdd Vss=Vss
+  XI4 NOT $PINS A=net8 Out=net2 Vdd=Vdd Vss=Vss
+  XI5 NOT $PINS A=net13 Out=Out Vdd=Vdd Vss=Vss
+.ends OR4
+
+
+.subckt 4_1_MUX_Schematic A B C D S0 S1 Vdd Vout Vss
+*PVSCELL netlisted from Group2_VLSI_EE5900 4_1_MUX_Schematic schematic
+  XI0 AND3 $PINS A=A B=net2 C=net1 Vdd=Vdd Vout=net25 Vss=Vss
+  XI1 AND3 $PINS A=B B=net2 C=S0 Vdd=Vdd Vout=net10 Vss=Vss
+  XI2 AND3 $PINS A=C B=S1 C=net1 Vdd=Vdd Vout=net16 Vss=Vss
+  XI3 AND3 $PINS A=D B=S1 C=S0 Vdd=Vdd Vout=net22 Vss=Vss
+  XI5 NOT $PINS A=S1 Out=net2 Vdd=Vdd Vss=Vss
+  XI6 NOT $PINS A=S0 Out=net1 Vdd=Vdd Vss=Vss
+  XI4 OR4 $PINS A=net25 B=net10 C=net16 D=net22 Out=Vout Vdd=Vdd Vss=Vss
+.ends 4_1_MUX_Schematic
+
+
+***********************************************************
+*             Completed at Dec  7 15:28:29 2025           *
+***********************************************************

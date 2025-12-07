@@ -25,18 +25,18 @@ LVS_ABORT -softchk no;
 LVS_ABORT -supply_error no;
 LVS_FIND_SHORTS no;
 SCONNECT_UPPER_SHAPE_COUNT no;
-LVS_REPORT_FILE "AND3.rep";
+LVS_REPORT_FILE "4_1_MUX_Schematic.rep";
 LVS_REPORT_MAX 50 -mismatched_net_limit 100;
 LVS_RUN_ERC_CHECKS yes;
 LVS_REPORT_OPT -none;
-REPORT_SUMMARY -erc "AND3.sum" -replace;
+REPORT_SUMMARY -erc "4_1_MUX_Schematic.sum" -replace;
 MAX_RESULTS -erc 1000;
-RESULTS_DB -erc "/home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.erc_errors.ascii" -ascii;
+RESULTS_DB -erc "/home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.erc_errors.ascii" -ascii;
 SCHEMATIC_FORMAT cdl;
-SCHEMATIC_PATH "/home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.cdl";
+SCHEMATIC_PATH "/home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus_LVS/4_1_MUX_Schematic.net";
 ABORT_ON_LAYOUT_ERROR yes;
 LAYOUT_FORMAT gdsii;
-LAYOUT_PATH "/home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.gds.gz";
+LAYOUT_PATH "/home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.gds.gz";
 
 ########################################################################
 Parsing Rule File /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl ...
@@ -46,10 +46,10 @@ LAYOUT_FORMAT gdsii;
 LAYOUT_PATH "./sky130_fd_sc_ls__bufinv_16.gds";
 [WARN]: LAYOUT_PATH at line 28 in file /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl is skipped. It is set in control file.
 LAYOUT_PRIMARY "sky130_fd_sc_ls__bufinv_16";
-[WARN] Cmd-line override: LAYOUT_PRIMARY "AND3";
+[WARN] Cmd-line override: LAYOUT_PRIMARY "4_1_MUX_Schematic";
 REPORT_SUMMARY -drc "sky130_fd_sc_ls__bufinv_16.sum" -replace;
 [WARN] REPORT_SUMMARY statement at line 36 in file /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl is ignored.
-       summary file has been specified as AND3.sum
+       summary file has been specified as 4_1_MUX_Schematic.sum
 RESULTS_DB -drc "./sky130_fd_sc_ls__bufinv_16.drc_errors.ascii" -ascii;
 [WARN] option -drc is skipped at line 40 in file /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl
 MAX_RESULTS -erc 100000;
@@ -1640,6 +1640,6 @@ operation group: 106/106
 Completed execution after parsing the rules, as requested by the "-p" flag or "-get_rules" flag 
 
 
-Netlist extraction finished normally. Mon Dec  1 16:15:08 2025
+Netlist extraction finished normally. Sun Dec  7 15:12:36 2025
 
 

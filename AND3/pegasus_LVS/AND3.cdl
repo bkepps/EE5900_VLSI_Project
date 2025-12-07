@@ -1,78 +1,58 @@
-*****************************************************************************
-* CDL Netlist:
-* Cell Name: AND3
-* Netlisted on: Dec  1 16:14:57 2025
-*****************************************************************************
-
-*****************************************************************************
-* BIPOLAR Declarations
-*****************************************************************************
-*.BIPOLAR
-*.RESI = 2000.000000
-*.RESVAL
-*.CAPVAL
-*.DIOPERI
-*.DIOAREA
-*.SCALE METER
+*******************************************************************
+* CDL Produced by pegasusBuildNetlist on Sun Dec 07 14:45:07 2025 *
+*******************************************************************
 
 
-*****************************************************************************
-* Parameter Statement
-*****************************************************************************
-.PARAM
+
+* File content...
 
 
-*******************************************************************************
-* Sub-Circuit Netlist:                                                        *
-*                                                                             *
-* Library: Group2_VLSI_EE5900                                                 *
-* Cell   : NOT                                                                *
-* View   : schematic                                                          *
-* Last Time Saved: Nov 10 16:51:06 2025                                       *
-*******************************************************************************
-.subckt NOT Out A Vdd Vss
-*.PININFO Out:O A:I Vdd:I Vss:I 
+***********************************************************
+* CDL produced by pvsBuildNetlist on Dec  7 14:45:15 2025 *
+***********************************************************
+
+
+*pvsViewList = auLvs schematic
+*pvsStopList = ("auLvs")
+*pvsSimName  = auLvs
+
+
+
+*.EXPAND_ON_M_FACTOR
+*.MEGA
+
+
+
+.subckt NOT A Out Vdd Vss
+*PVSCELL netlisted from Group2_VLSI_EE5900 NOT schematic
+  MNM0 Out A Vss Vss nfet_01v8 m=1 l=150n w=420n
+  MPM0 Out A Vdd Vdd pfet_01v8 m=1 l=150n w=550n
 .ends NOT
 
 
-*******************************************************************************
-* Sub-Circuit Netlist:                                                        *
-*                                                                             *
-* Library: Group2_VLSI_EE5900                                                 *
-* Cell   : NAND                                                               *
-* View   : schematic                                                          *
-* Last Time Saved: Nov  3 17:14:07 2025                                       *
-*******************************************************************************
-.subckt NAND Out Vdd Vss A B
-*.PININFO Out:O Vdd:B Vss:B A:I B:I 
+.subckt NAND A B Out Vdd Vss
+*PVSCELL netlisted from Group2_VLSI_EE5900 NAND schematic
+  MNM0 Out A net1 Vss nfet_01v8 m=1 l=150n w=420n
+  MNM1 net1 B Vss Vss nfet_01v8 m=1 l=150n w=420n
+  MPM0 Out A Vdd Vdd pfet_01v8 m=1 l=150n w=550n
+  MPM1 Out B Vdd Vdd pfet_01v8 m=1 l=150n w=550n
 .ends NAND
 
 
-*******************************************************************************
-* Sub-Circuit Netlist:                                                        *
-*                                                                             *
-* Library: Group2_VLSI_EE5900                                                 *
-* Cell   : AND                                                                *
-* View   : schematic                                                          *
-* Last Time Saved: Nov 19 19:59:50 2025                                       *
-*******************************************************************************
-.subckt AND Out Vdd Vss A B
-*.PININFO Out:O Vdd:B Vss:B A:I B:I 
-XI1 Out net6 Vdd Vss NOT
-XI0 net6 Vdd Vss A B NAND
+.subckt AND A B Out Vdd Vss
+*PVSCELL netlisted from Group2_VLSI_EE5900 AND schematic
+  XI0 NAND $PINS A=A B=B Out=net6 Vdd=Vdd Vss=Vss
+  XI1 NOT $PINS A=net6 Out=Out Vdd=Vdd Vss=Vss
 .ends AND
 
 
-*******************************************************************************
-* Main Circuit Netlist:                                                       *
-*                                                                             *
-* Library: Group2_VLSI_EE5900                                                 *
-* Cell   : AND3                                                               *
-* View   : schematic                                                          *
-* Last Time Saved: Nov 30 18:09:09 2025                                       *
-*******************************************************************************
-.subckt AND3 Vout A B C Vdd Vss
-*.PININFO Vout:O A:I B:I C:I Vdd:I Vss:I 
-XI1 Vout Vdd Vss net3 C AND
-XI0 net3 Vdd Vss A B AND
+.subckt AND3 A B C Vdd Vout Vss
+*PVSCELL netlisted from Group2_VLSI_EE5900 AND3 schematic
+  XI0 AND $PINS A=A B=B Out=net3 Vdd=Vdd Vss=Vss
+  XI1 AND $PINS A=net3 B=C Out=Vout Vdd=Vdd Vss=Vss
 .ends AND3
+
+
+***********************************************************
+*             Completed at Dec  7 14:45:15 2025           *
+***********************************************************

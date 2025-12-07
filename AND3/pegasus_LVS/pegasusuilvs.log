@@ -6,21 +6,16 @@ Running: /opt/cadence-suite/pegasus/tools.lnx86/Pegasus/bin/64bit/pegasusvirt \
   -df2_version IC23.1.0 \
   -run_dir /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS \
   -no_rules_check \
-  -schLibName Group2_VLSI_EE5900 \
-  -schCellName AND3 \
-  -schViewName schematic \
-  -simViewList cdl\ schematic\ cmos_sch\ gate_sch\ cmos.sch\ gate.sch\ symbol \
-  -simStopList cdl \
-  -displayPinInfo \
-  -source_cdl /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.cdl \
-  -spice /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.spi \
+  -source_top_cell 4_1_MUX_Schematic \
+  -source_cdl /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus_LVS/4_1_MUX_Schematic.net \
+  -spice /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.spi \
   -layLibName Group2_VLSI_EE5900 \
-  -layCellName AND3 \
+  -layCellName 4_1_MUX_Schematic \
   -layViewName layout \
-  -igds /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.gds.gz \
+  -igds /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.gds.gz \
   -layScale 0.001 \
   -layTechLib sky130_fd_pr_main \
-  -convertPin geometry \
+  -convertPin geometryAndText \
   -replaceBusBitChar nil \
   -noConvertHalfWidthPath nil \
   -layHierDepth 32 \
@@ -31,19 +26,20 @@ Running: /opt/cadence-suite/pegasus/tools.lnx86/Pegasus/bin/64bit/pegasusvirt \
 
 
 
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.03s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 ********************************************************************************
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 04/22/2025 22:31 (cpgbld17) $
           : sub-version  IC23.1-64b.ISR14.32 
-Started at: 01-Dec-2025  16:14:55
+Started at: 07-Dec-2025  15:12:35
 User Name : mmunoria
-Host Name : c17-orng-10.ad.mtu.edu
+Host Name : c17-orng-07.ad.mtu.edu
 Directory : /home/campus15/mmunoria
 CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
+WARNING (XSTRM-20): Output Stream file '/home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.gds.gz' already exists. It will be overwritten.
 Loading sky130_fd_pr_main/libInit.il ...
 	Loading sky130_fd_pr_main/loadCxt.ile ... done!
 	Loading context 'sky130_fd_pr_main' from library 'sky130_fd_pr_main' ... done!
@@ -60,8 +56,8 @@ INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess desi
 
 Summary of Options :
 library                                 Group2_VLSI_EE5900
-strmFile                                /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.gds.gz
-topCell                                 AND3
+strmFile                                /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.gds.gz
+topCell                                 4_1_MUX_Schematic
 view                                    layout
 runDir                                  /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS
 logFile                                 /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/PIPO1.LOG
@@ -73,29 +69,41 @@ userSkillFile                           /home/campus15/mmunoria/Group2_VLSI_EE59
 labelDepth                              32
 case                                    Preserve
 convertDot                              node
+convertPin                              geometryAndText
 
 INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
-INFO (XSTRM-223): 1. Translating customVia sky130_fd_pr_main/subTap/layout as STRUCTURE subTap_CDNS_764623695850.
-INFO (XSTRM-223): 2. Translating customVia sky130_fd_pr_main/polyConn/layout as STRUCTURE polyConn_CDNS_764623695851.
-INFO (XSTRM-223): 3. Translating customVia sky130_fd_pr_main/nwellTap/layout as STRUCTURE nwellTap_CDNS_764623695852.
-INFO (XSTRM-223): 4. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_764623695850.
-INFO (XSTRM-223): 5. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_764623695853.
-INFO (XSTRM-223): 6. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_764623695854.
-INFO (XSTRM-223): 7. Translating cellview Group2_VLSI_EE5900/NOT/layout as STRUCTURE NOT.
-INFO (XSTRM-223): 8. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_764623695855.
-INFO (XSTRM-223): 9. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_764623695856.
-INFO (XSTRM-223): 10. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_764623695857.
-INFO (XSTRM-223): 11. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_764623695858.
-INFO (XSTRM-223): 12. Translating cellview Group2_VLSI_EE5900/NAND/layout as STRUCTURE NAND.
-INFO (XSTRM-223): 13. Translating cellview Group2_VLSI_EE5900/AND/layout as STRUCTURE AND.
-INFO (XSTRM-223): 14. Translating cellview Group2_VLSI_EE5900/AND3/layout as STRUCTURE AND3.
+INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_765138355380.
+INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_765138355381.
+INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_765138355382.
+INFO (XSTRM-223): 4. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_765138355383.
+INFO (XSTRM-223): 5. Translating customVia sky130_fd_pr_main/subTap/layout as STRUCTURE subTap_CDNS_765138355380.
+INFO (XSTRM-223): 6. Translating customVia sky130_fd_pr_main/polyConn/layout as STRUCTURE polyConn_CDNS_765138355381.
+INFO (XSTRM-223): 7. Translating customVia sky130_fd_pr_main/nwellTap/layout as STRUCTURE nwellTap_CDNS_765138355382.
+INFO (XSTRM-223): 8. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_765138355384.
+INFO (XSTRM-223): 9. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_765138355383.
+INFO (XSTRM-223): 10. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_765138355384.
+INFO (XSTRM-223): 11. Translating cellview Group2_VLSI_EE5900/NOT/layout as STRUCTURE NOT.
+INFO (XSTRM-223): 12. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_765138355385.
+INFO (XSTRM-223): 13. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_765138355386.
+INFO (XSTRM-223): 14. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_765138355387.
+INFO (XSTRM-223): 15. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_765138355388.
+INFO (XSTRM-223): 16. Translating cellview Group2_VLSI_EE5900/NAND/layout as STRUCTURE NAND.
+INFO (XSTRM-223): 17. Translating cellview Group2_VLSI_EE5900/AND/layout as STRUCTURE AND.
+INFO (XSTRM-223): 18. Translating cellview Group2_VLSI_EE5900/AND3/layout as STRUCTURE AND3.
+INFO (XSTRM-223): 19. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_765138355389.
+INFO (XSTRM-223): 20. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7651383553810.
+INFO (XSTRM-223): 21. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7651383553811.
+INFO (XSTRM-223): 22. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7651383553812.
+INFO (XSTRM-223): 23. Translating cellview Group2_VLSI_EE5900/NOR/layout as STRUCTURE NOR.
+INFO (XSTRM-223): 24. Translating cellview Group2_VLSI_EE5900/OR4/layout as STRUCTURE OR4.
+INFO (XSTRM-223): 25. Translating cellview Group2_VLSI_EE5900/4_1_MUX_Schematic/layout as STRUCTURE 4_1_MUX_Schematic.
 
 Summary of Objects Translated:
-	Scalar Instances:                       10
+	Scalar Instances:                       27
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             132
+	Rectangles:                             223
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -108,67 +116,34 @@ Summary of Objects Translated:
 	Markers:                                0
 	Rows:                                   0
 	Stitch:                                 0
-	Standard Vias                           5
-	Custom Vias:                            5
+	Standard Vias                           39
+	Custom Vias:                            9
 	CdsGen Vias:                            0
-	Pathsegs:                               59
+	Pathsegs:                               179
 	Text:                                   0
 	TextDisplay:                            0
-	Cells:                                  14
+	Cells:                                  25
 
-Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 36116KB
-INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
-
-Creation of CDL for Group2_VLSI_EE5900/AND3/schematic is started
- si -batch /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/ >/home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/SI.OUT 2>/home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/SI.LOG 
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
-
-Running simulation in directory: "/home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/".
+Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 37028KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.
 
 
-Running netlist
-Begin Incremental Netlisting Dec  1 16:14:57 2025
-Loading sky130_fd_pr_main/libInit.il ...
-	Loading sky130_fd_pr_main/loadCxt.ile ... done!
-	Loading context 'sky130_fd_pr_main' from library 'sky130_fd_pr_main' ... done!
-	Loading context 'pdkUtils' from library 'sky130_fd_pr_main' ... done!
-	Loading sky130_fd_pr_main/libInitCktPro.il ... done!
-	Loading sky130_fd_pr_main/libInitCustomExit.il ... 	Loading Environment Settings ...
-done!
-Loaded sky130_fd_pr_main/libInit.il successfully!
-WARNING (OSSHNL-117): Ignoring switch view 'symbol' of cell 'pfet_01v8' in library 'sky130_fd_pr_main', as it does not contain
-any instance. To netlist this cell, add this switch view to the stop list or to
-ignore any specific instance set the property 'nlAction' to value "ignore" on
-this cell view.
-
-WARNING (OSSHNL-117): Ignoring switch view 'symbol' of cell 'nfet_01v8' in library 'sky130_fd_pr_main', as it does not contain
-any instance. To netlist this cell, add this switch view to the stop list or to
-ignore any specific instance set the property 'nlAction' to value "ignore" on
-this cell view.
-
-
-End netlisting Dec  1 16:14:57 2025
-
-
-CDL netlist completed successfully.
-
-
-Pegasus 23.14-s006 W6eUyhvWDSmkstMrnkYP8g 2025-12-01 16:15:01 1017340 c17-orng-10.ad.mtu.edu
+Pegasus 23.14-s006 W6eUyhvWDSmkstMrnkYP8g 2025-12-07 15:12:35 1040188 c17-orng-07.ad.mtu.edu
 Copyright 2024 Cadence Design Systems, Inc.
 All rights reserved worldwide.
 
-INFO:    Command Line Options: -lvs -top_cell AND3 -log_dir LOGS -source_top_cell AND3 -spice /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.spi -control /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/pegasuslvsctl -ui_data -gdb_data /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl
-INFO:    Launch host CPU: Model: 13th Gen Intel(R) Core(TM) i7-13700, OS: Red Hat Enterprise Linux release 9.6 (Plow), Logical cores: 24, Physical cores: 16, Cache: 30720 KB, CPU Speed: 969.57 MHz
-         Launch host Memory: MemTotal: 31522 MB,  MemFree: 8967 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 215 MB
+INFO:    Command Line Options: -lvs -top_cell 4_1_MUX_Schematic -log_dir LOGS -source_top_cell 4_1_MUX_Schematic -spice /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.spi -control /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/pegasuslvsctl -ui_data -gdb_data /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl
+INFO:    Launch host CPU: Model: 13th Gen Intel(R) Core(TM) i7-13700, OS: Red Hat Enterprise Linux release 9.6 (Plow), Logical cores: 24, Physical cores: 16, Cache: 30720 KB, CPU Speed: 2747.88 MHz
+         Launch host Memory: MemTotal: 31522 MB,  MemFree: 13282 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 207 MB
 INFO:    Current path: /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS
 INFO:    Run directory same as current path
 INFO:    Log directory: /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/LOGS
 INFO:    PVL parsing results:
 WARNING: LAYOUT_FORMAT at line 24 in file /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl is skipped. It is set in control file.
 WARNING: LAYOUT_PATH at line 28 in file /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl is skipped. It is set in control file.
-WARNING: Cmd-line override: LAYOUT_PRIMARY "AND3";
+WARNING: Cmd-line override: LAYOUT_PRIMARY "4_1_MUX_Schematic";
 WARNING: REPORT_SUMMARY statement at line 36 in file /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl is ignored.
-       summary file has been specified as /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.sum
+       summary file has been specified as /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.sum
 WARNING: option -drc is skipped at line 40 in file /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl
 WARNING: MAX_RESULTS -erc at line 44 in file /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl is skipped. It is set in control file.
 WARNING: option -drc is skipped at line 48 in file /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl
@@ -179,76 +154,87 @@ WARNING: LVS_RECOGNIZE_GATES at line 972 in file /opt/cadence-suite/sky130_relea
 INFO:    See "/home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/LOGS/pvl.log" for additional details.
 
 INFO:    Checking out 1 license(s) of feature: 'Pegasus_LVS' version 23.1
-INFO:    License checkout successful ... 2025-12-01 16:15:09
+INFO:    License checkout successful ... 2025-12-07 15:12:37
 
 INFO:    Checking out 1 license(s) of feature: 'Pegasus_16nm' version 23.1
-INFO:    License checkout successful ... 2025-12-01 16:15:09
+INFO:    License checkout successful ... 2025-12-07 15:12:37
 WARNING: Neither hcell nor -automatch option is specified.
-INFO:    Worker 0 started on host c17-orng-10.ad.mtu.edu with 1 cpu(s)
+INFO:    Worker 0 started on host c17-orng-07.ad.mtu.edu with 1 cpu(s)
 sh: line 1: lsb_release: command not found
          CPU: Model: 13th Gen Intel(R) Core(TM) i7-13700, OS: , Logical cores: 24, Physical cores: 16, Cache: 30720 KB, CPU Speed: 800 MHz
-         Memory: MemTotal: 31522 MB,  MemFree: 9004 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 215 MB
-INFO:    LVS report file: /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.rep 
-INFO:    Extracted layout netlist: /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.spi 
-INFO:    Setting LAYOUT_PATH to: /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.gds.gz 
-INFO:    Setting LAYOUT_PRIMARY to: AND3 
-INFO:    Setting SCHEMATIC_PATH to: /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.cdl 
-INFO:    Setting SCHEMATIC_PRIMARY to: AND3 
+         Memory: MemTotal: 31522 MB,  MemFree: 13188 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 207 MB
+INFO:    LVS report file: /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.rep 
+INFO:    Extracted layout netlist: /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.spi 
+INFO:    Setting LAYOUT_PATH to: /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.gds.gz 
+INFO:    Setting LAYOUT_PRIMARY to: 4_1_MUX_Schematic 
+INFO:    Setting SCHEMATIC_PATH to: /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus_LVS/4_1_MUX_Schematic.net 
+INFO:    Setting SCHEMATIC_PRIMARY to: 4_1_MUX_Schematic 
 
 INFO:    Gdsii input summary
-         File name: /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.gds.gz
-         File size: 2240
+         File name: /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.gds.gz
+         File size: 5068
          Version: 5.0
          Library name: Group2_VLSI_EE5900
-         Last modified: 2025-12-1 14:11:18
-         Last accessed: 2025-12-1 16:14:55
+         Last modified: 2025-12-7 14:56:22
+         Last accessed: 2025-12-7 15:12:35
          Database unit in user units: 0.001
          Database unit in meters: 1e-09
          Magnification: 1 
 
 INFO:    Cell Summary:
          ----------------------------------------------------------------------------
-             CELL                           INSTANCE    GEOMETRY      LABELS        HREF        FREF
+             CELL                            INSTANCE    GEOMETRY      LABELS        HREF        FREF
          ----------------------------------------------------------------------------
-         subTap_CDNS_764623695850                  0           6           0           1           2
-         polyConn_CDNS_764623695851                0           6           0           3           6
-         nwellTap_CDNS_764623695852                0           7           0           1           2
-         L1M1_C_CDNS_764623695850                  0           3           0           5          10
-         pfet_01v8_CDNS_764623695853               0          14           0           1           2
-         nfet_01v8_CDNS_764623695854               0          13           0           1           2
-         NOT                                       7          20           0           1           2
-         nfet_01v8_CDNS_764623695855               0          17           0           1           2
-         nfet_01v8_CDNS_764623695856               0          11           0           1           2
-         pfet_01v8_CDNS_764623695857               0          14           0           1           2
-         pfet_01v8_CDNS_764623695858               0          18           0           1           2
-         NAND                                      9          31           0           1           2
-         AND                                       2          11           0           2           2
-         AND3                                      2          20           0           1           1
+         M1M2_C_CDNS_765138355380                   0           3           0          14          14
+         M1M2_C_CDNS_765138355381                   0           3           0           6           6
+         M1M2_C_CDNS_765138355382                   0           3           0          11          11
+         M1M2_C_CDNS_765138355383                   0           3           0           2           2
+         subTap_CDNS_765138355380                   0           6           0           2          16
+         polyConn_CDNS_765138355381                 0           6           0           5          35
+         nwellTap_CDNS_765138355382                 0           7           0           2          16
+         L1M1_C_CDNS_765138355384                   0           3           0           6          53
+         pfet_01v8_CDNS_765138355383                0          14           0           1          13
+         nfet_01v8_CDNS_765138355384                0          13           0           1          13
+         NOT                                        7          20           0           6          13
+         nfet_01v8_CDNS_765138355385                0          17           0           1           8
+         nfet_01v8_CDNS_765138355386                0          11           0           1           8
+         pfet_01v8_CDNS_765138355387                0          14           0           1           8
+         pfet_01v8_CDNS_765138355388                0          18           0           1           8
+         NAND                                       9          31           0           1           8
+         AND                                        2          11           0           2           8
+         AND3                                       2          14           6           4           4
+         nfet_01v8_CDNS_765138355389                0          11           0           1           3
+         pfet_01v8_CDNS_7651383553810               0          12           0           1           3
+         pfet_01v8_CDNS_7651383553811               0          12           0           1           3
+         nfet_01v8_CDNS_7651383553812               0          13           0           1           3
+         NOR                                        9          29           0           3           3
+         OR4                                       10          33           0           1           1
+         4_1_MUX_Schematic                         36          95           0           1           1
          ----------------------------------------------------------------------------
-         TOTAL CELL = 14;  INSTANCE = 20;  GEOMETRY = 191;  LABEL = 0
+         TOTAL CELL = 25;  INSTANCE = 75;  GEOMETRY = 402;  LABEL = 6
 
 INFO:    Layer Summary:
          ----------------------------------------------------------------------------
              LAYER                            ID       HPN      HTC        FPN       FTC
          ----------------------------------------------------------------------------
-         diff                               1001        18         0        36         0
-         tap                                1003         4         0         8         0
-         nwell_in                           1004         7         0        14         0
+         diff                               1001        30         0       210         0
+         tap                                1003         4         0        48         0
+         nwell_in                           1004        16         0        92         0
          hvtp                               1009         0         0         0         0
          hvi                                1011         0         0         0         0
          lvtn                               1013         0         0         0         0
-         poly_in                            1014        38         0        80         0
-         nsdm                               1017         5         0        10         0
-         psdm                               1018         5         0        10         0
+         poly_in                            1014        64         0       464         0
+         nsdm                               1017         9         0        61         0
+         psdm                               1018         7         0        59         0
          rpm                                1019         0         0         0         0
          urpm                               1020         0         0         0         0
-         npc                                1021         1         0         6         0
-         licon1                             1022        14         0        32         0
-         li1_in                             1023        31         0        74         0
-         mcon                               1025         6         0        24         0
-         met1_in                            1026        62         0       116         0
-         via                                1028         0         0         0         0
-         met2_in                            1029         0         0         0         0
+         npc                                1021         1         0        35         0
+         licon1                             1022        19         0       190         0
+         li1_in                             1023        44         0       430         0
+         mcon                               1025         6         0       136         0
+         met1_in                            1026       149         0       664         0
+         via                                1028         4         0        33         0
+         met2_in                            1029        43         0        72         0
          via2                               1031         0         0         0         0
          met3_in                            1032         0         0         0         0
          via3_in                            1034         0         0         0         0
@@ -270,7 +256,7 @@ INFO:    Layer Summary:
          pwell_label                        1124         0         0         0         0
          nwell_label                        1128         0         0         0         0
          li1_pin                            1139         0         0         0         0
-         met1_pin                           1141         0         0         0         0
+         met1_pin                           1141         6         6        24        24
          met2_pin                           1143         0         0         0         0
          met3_pin                           1145         0         0         0         0
          met4_pin                           1147         0         0         0         0
@@ -284,7 +270,7 @@ INFO:    Layer Summary:
          met5_res                           1269         0         0         0         0
          ----------------------------------------------------------------------------
 
-INFO:    CHIP EXTENT: 0 0 10280 10040
+INFO:    CHIP EXTENT: 0 10 22660 17380
 
 
 INFO:    Ports ...
@@ -292,6 +278,12 @@ INFO:    Ports ...
 
 INFO:    Texts For Connectivity ...
          ========================================================================
+         Vss (3.400, 0.070) 1141 AND3
+         Vout (8.080, 1.470) 1141 AND3
+         Vdd (3.180, 3.930) 1141 AND3
+         C (0.070, 1.040) 1141 AND3
+         B (0.070, 1.630) 1141 AND3
+         A (0.070, 2.080) 1141 AND3
 
 INFO:    Texts For SELECT -LABEL ...
          ========================================================================
@@ -312,6 +304,7 @@ INFO:    Layer Summary(Texts For Connectivity):
          ----------------------------------------------------------------------------
              LAYER                            ID       TEXTS
          ----------------------------------------------------------------------------
+         met1_pin                           1141         6
          ----------------------------------------------------------------------------
 
 INFO:    Layer Summary(Texts For SELECT -LABEL):
@@ -333,56 +326,67 @@ INFO:    Layer Summary(Texts For DFM_TEXT):
          ----------------------------------------------------------------------------
 
 INFO:    Expanded Cell Summary
-         subTap_CDNS_764623695850 is expanded.
-         nwellTap_CDNS_764623695852 is expanded.
-INFO:    Status: Runset 100% complete as of 2025-12-01 16:15:10   Elapsed: 00:00:02
+INFO:    Status: Runset 100% complete as of 2025-12-07 15:12:38   Elapsed: 00:00:01
          Worker: Active CPUs  Total Mem(MB)  Active Mem(MB)  CPU time(s)
               0:    1 /   1             24              14            1
-INFO:	 Status: Finishing as of 2025-12-01 16:15:10   Elapsed: 00:00:02   CPU time[s]: 2
+INFO:	 Status: Finishing as of 2025-12-07 15:12:38   Elapsed: 00:00:01   CPU time[s]: 1
 INFO:    Resource usage by worker at exit:
                   CPU      Elapsed  CPUs       CPU       Peak        Peak engine
          Worker:  time[s]  time[s]  Allocated  usage[%]  Memory[MB]  Memory[MB]
-              0:        1        2          1     49.39          24           14
-         Worker resource usage  summary: Total CPU[s]: 1  Run duration[s]: 2  Max peak memory[MB]: 24
-         Worker CPU utilization summary: 1 of 2 available CPU seconds (50.00%) with 1 average available CPU(s)
+              0:        1        1          1     75.11          24           14
+         Worker resource usage  summary: Total CPU[s]: 1  Run duration[s]: 1  Max peak memory[MB]: 24
+         Worker CPU utilization summary: 1 of 1 available CPU seconds (100.00%) with 1 average available CPU(s)
 INFO:    Extraction result: WARNINGS (Reporter)
-INFO:    Generating summary in /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.sum
+INFO:    Generating summary in /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.sum
 INFO:    All selected rules completed
          Total CPU Time                    : 1(s)
-         Total Real Time                   : 2(s)
-         Total Original Geometry           : 191(410)
+         Total Real Time                   : 1(s)
+         Total Original Geometry           : 402(2518)
          Total ERC RuleChecks              : 0
          Total ERC Results                 : 0 (0)
 INFO:    Pegasus extracted connectivity database creation started
-INFO:    CmdLine: /opt/cadence-suite/PEGASUS/tools.lnx86/Pegasus/bin/64bit/edbToEcdb -kf -edb AND3_1017340.db -ecdb ./ -topcell AND3 -netlist ./AND3.net -layermap ./AND3.ecdbmap -textmap ./AND3.ports -dependmap AND3.lmap.perc -kvp ifs:KZ -lvsfile ./AND3.lvsfile -saveFloatingNets .AND3.info.softchk 
-INFO:    Opening layer file 'AND3_1017340.db/__layer'...
-INFO:    Loading layer map file './AND3.ecdbmap'...
-INFO:    Loading text map file './AND3.ports'...
-INFO:    Loading dependency map file 'AND3.lmap.perc'...
+INFO:    CmdLine: /opt/cadence-suite/PEGASUS/tools.lnx86/Pegasus/bin/64bit/edbToEcdb -kf -edb 4_1_MUX_Schematic_1040188.db -ecdb ./ -topcell 4_1_MUX_Schematic -netlist ./4_1_MUX_Schematic.net -layermap ./4_1_MUX_Schematic.ecdbmap -textmap ./4_1_MUX_Schematic.ports -dependmap 4_1_MUX_Schematic.lmap.perc -kvp ifs:CFL -lvsfile ./4_1_MUX_Schematic.lvsfile -saveFloatingNets .4_1_MUX_Schematic.info.softchk 
+INFO:    Opening layer file '4_1_MUX_Schematic_1040188.db/__layer'...
+INFO:    Loading layer map file './4_1_MUX_Schematic.ecdbmap'...
+INFO:    Loading text map file './4_1_MUX_Schematic.ports'...
+INFO:    Loading dependency map file '4_1_MUX_Schematic.lmap.perc'...
 INFO:    Pre loading edb directory contents...
-INFO:    ECDB file name './/.AND3.ecdb'...
-INFO:    Loading Floating nets file '.AND3.info.softchk'...
-INFO:    Loading lvs file './AND3.lvsfile'...
+INFO:    ECDB file name './/.4_1_MUX_Schematic.ecdb'...
+INFO:    Loading Floating nets file '.4_1_MUX_Schematic.info.softchk'...
+INFO:    Loading lvs file './4_1_MUX_Schematic.lvsfile'...
 INFO:    Writing db header information...(0s)
 INFO:    Transfering cdl structures to ecdb structures...
 INFO:    Read Netlist (32 threads)...
-INFO:      DONE - (5s)
+INFO:      DONE - (2s)
 INFO:    Process (32 threads)...
-INFO:    Cell(       3):   8% Done...(5s), nfet_01v8_CDNS_764623695854             
-INFO:    Cell(       9):  16% Done...(5s), NAND                                    
-INFO:    Cell(       6):  25% Done...(5s), nfet_01v8_CDNS_764623695856             
-INFO:    Cell(       0):  33% Done...(5s), polyConn_CDNS_764623695851              
-INFO:    Cell(      10):  41% Done...(5s), AND                                     
-INFO:    Cell(       8):  50% Done...(5s), pfet_01v8_CDNS_764623695858             
-INFO:    Cell(       5):  58% Done...(5s), nfet_01v8_CDNS_764623695855             
-INFO:    Cell(       4):  66% Done...(5s), NOT                                     
-INFO:    Cell(      11):  75% Done...(5s), AND3                                    
-INFO:    Cell(       7):  83% Done...(6s), pfet_01v8_CDNS_764623695857             
-INFO:    Cell(       2):  91% Done...(7s), pfet_01v8_CDNS_764623695853             
-INFO:    Cell(       1): 100% Done...(8s), L1M1_C_CDNS_764623695850                
-INFO:      DONE - (3s)
-INFO:    Cells creation time: (8s)
-INFO:    Write netlist items...         (8s)
+INFO:    Cell(       0):   4% Done...(2s), M1M2_C_CDNS_765138355380                
+INFO:    Cell(      24):   8% Done...(2s), 4_1_MUX_Schematic                       
+INFO:    Cell(       4):  12% Done...(2s), subTap_CDNS_765138355380                
+INFO:    Cell(       9):  16% Done...(2s), nfet_01v8_CDNS_765138355384             
+INFO:    Cell(       3):  20% Done...(2s), M1M2_C_CDNS_765138355383                
+INFO:    Cell(       6):  24% Done...(2s), nwellTap_CDNS_765138355382              
+INFO:    Cell(       7):  28% Done...(2s), L1M1_C_CDNS_765138355384                
+INFO:    Cell(      15):  32% Done...(2s), NAND                                    
+INFO:    Cell(      20):  36% Done...(2s), pfet_01v8_CDNS_7651383553811            
+INFO:    Cell(      19):  40% Done...(2s), pfet_01v8_CDNS_7651383553810            
+INFO:    Cell(      17):  44% Done...(2s), AND3                                    
+INFO:    Cell(      12):  48% Done...(2s), nfet_01v8_CDNS_765138355386             
+INFO:    Cell(      10):  52% Done...(2s), NOT                                     
+INFO:    Cell(      23):  56% Done...(2s), OR4                                     
+INFO:    Cell(       2):  60% Done...(2s), M1M2_C_CDNS_765138355382                
+INFO:    Cell(      13):  64% Done...(2s), pfet_01v8_CDNS_765138355387             
+INFO:    Cell(       1):  68% Done...(2s), M1M2_C_CDNS_765138355381                
+INFO:    Cell(      11):  72% Done...(2s), nfet_01v8_CDNS_765138355385             
+INFO:    Cell(      16):  76% Done...(3s), AND                                     
+INFO:    Cell(       8):  80% Done...(3s), pfet_01v8_CDNS_765138355383             
+INFO:    Cell(      21):  84% Done...(3s), nfet_01v8_CDNS_7651383553812            
+INFO:    Cell(       5):  88% Done...(3s), polyConn_CDNS_765138355381              
+INFO:    Cell(      22):  92% Done...(3s), NOR                                     
+INFO:    Cell(      18):  96% Done...(3s), nfet_01v8_CDNS_765138355389             
+INFO:    Cell(      14): 100% Done...(4s), pfet_01v8_CDNS_765138355388             
+INFO:      DONE - (2s)
+INFO:    Cells creation time: (4s)
+INFO:    Write netlist items...         (4s)
 INFO:    Saving name table to db...
 INFO:    Save device templates to the db...
 INFO:    Save connect rules to the db...
@@ -391,52 +395,52 @@ INFO:    Erasing cdl subckts...          (0s)
 
 INFO:    edbToEcdb Header Information:
   ECDB file version   : 38
-  DevTmpl offset      : 12712
-  Connect offset      : 13036
-  NameTable offset    : 11724
+  DevTmpl offset      : 26070
+  Connect offset      : 26394
+  NameTable offset    : 24616
   Layer Map offset    : 167
-  Cell Start offset   : 10884
-  Cell End offset     : 11724
-  Aux Data offset     : 13400
+  Cell Start offset   : 22866
+  Cell End offset     : 24616
+  Aux Data offset     : 26758
   Labels     offset   : 0
   Layer RW   offset   : 0
   NVP                 : ifs:0.01 
   Scale               : 4000
   GDS Scale           : 1000
-  File size (static)  : 17345
+  File size (static)  : 30703
   File size (dynamic) : 0
-  Cell count          : 12
-  ECDB create time    : 8
+  Cell count          : 25
+  ECDB create time    : 4
   EDB info            : 10
-  Top Cell            : AND3
+  Top Cell            : 4_1_MUX_Schematic
   EDB info (Trans)    : WRITTEN_64 W_NOT_NET_ORDER 
 
 INFO:    edbToEcdb Sizes written to disk (MB):
-  NameTbl             :     0.000988
-  Layers              :     0.003592
-  Shapes              :     0.002914
-  XYTree              :     0.002171
-  LookUpTbls          :     0.000500
-  Cells               :     0.000947
-  Insts               :     0.000432
-  Ports               :     0.000462
-  Nets                :     0.000408
-  Pins                :     0.000135
-  Labels              :     0.000000
+  NameTbl             :     0.001454
+  Layers              :     0.004296
+  Shapes              :     0.007149
+  XYTree              :     0.005477
+  LookUpTbls          :     0.001121
+  Cells               :     0.002005
+  Insts               :     0.001692
+  Ports               :     0.001482
+  Nets                :     0.000816
+  Pins                :     0.000247
+  Labels              :     0.000168
   DevTmpl             :     0.000324
   Connect             :     0.000360
   Header              :     0.000167
   AuxData             :     0.003943
   NvnLabels           :     0.000002
 ---------------------------------
-  Total               :     0.017345
+  Total               :     0.030703
 
-INFO:    Manager summary: CPU(s): 2 Elapsed(s): 8 Peak memory(MB): 882.73
-INFO:    Pegasus extracted connectivity database creation completed. 2025-12-01 16:15:20
+INFO:    Manager summary: CPU(s): 0 Elapsed(s): 4 Peak memory(MB): 1721.55
+INFO:    Pegasus extracted connectivity database creation completed. 2025-12-07 15:12:42
 INFO:    Pegasus REPORTDB creation started...
-INFO:    Processing file AND3.rep
-INFO:    Manager summary: CPU(s): 0 Elapsed(s): 0 Peak memory(MB): 0.00
-INFO:    Pegasus REPORTDB creation completed. 2025-12-01 16:15:21
+INFO:    Processing file 4_1_MUX_Schematic.rep
+INFO:    Manager summary: CPU(s): 0 Elapsed(s): 1 Peak memory(MB): 0.00
+INFO:    Pegasus REPORTDB creation completed. 2025-12-07 15:12:43
 
 
 INFO:    Comparing netlists ...
@@ -447,20 +451,14 @@ INFO:    Init structures (0s)
 INFO:    Set cells to delete (0s)
 INFO:    Check expand on pin error (0s)
 INFO:    Reading schematic network
-INFO:     inputting cdl netlist /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.cdl...
-WARNING (NVN-13002): *.BIPOLAR is not supported.
-WARNING (NVN-13002): *.RESI is not supported.
-WARNING (NVN-13002): *.RESVAL is not supported.
-WARNING (NVN-13002): *.CAPVAL is not supported.
-WARNING (NVN-13002): *.DIOPERI is not supported.
-WARNING (NVN-13002): *.DIOAREA is not supported.
-INFO:     finished loading cdl netlist /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.cdl (0s)
+INFO:     inputting cdl netlist /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus_LVS/4_1_MUX_Schematic.net...
+INFO:     finished loading cdl netlist /home/campus15/mmunoria/Group2_VLSI_EE5900/4_1_MUX_Schematic/pegasus_LVS/4_1_MUX_Schematic.net (0s)
 INFO:     commit cdl netlist(s)...
 INFO:     finished committing cdl netlists (0s)
 INFO:    Post sch netlist rule processing (0s)
 INFO:    Reading layout network
-INFO:     inputting (fast parser) cdl netlist  /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.spi...
-INFO:     finished loading cdl netlist /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.spi (0s)
+INFO:     inputting (fast parser) cdl netlist  /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.spi...
+INFO:     finished loading cdl netlist /home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.spi (0s)
 INFO:     commit cdl netlist(s)...
 INFO:     finished committing cdl netlists (0s)
 INFO:    Post lay netlist rule processing (0s)
@@ -585,14 +583,14 @@ INFO:    Cleanup after VLDB processing (0s)
 WARNING (NVN-15320): The rule 'lvs_short_equivalent_nodes' was set to 'yes' and 
            the rule 'lvs_reduce_split_gates' was not specified. 
            Changing the default setting of 'lvs_reduce_split_gates' from 'yes' to 'no'.
-INFO (NVN-10007): Found ecdb file .AND3.ecdb, will use during comparison.
+INFO (NVN-10007): Found ecdb file .4_1_MUX_Schematic.ecdb, will use during comparison.
 
 INFO:    Cell comparison output format:
             <Comparing|Top Cell> <Layout Cell> vs <Schematic Cell>
                <Layout instances> insts vs <Schematic instances> insts  (<Time>)-<Status>
 
-         Top Cell  AND3 vs AND3
-            12 insts vs 4 insts. . . . . . . . . . . . . . . . . . . . . .  (0s)-mismatch
+         Top Cell  4_1_MUX_Schematic vs 4_1_MUX_Schematic
+            70 insts vs 70 insts . . . . . . . . . . . . . . . . . . . . . . . (0s)-match
 
 INFO:    Generating the LVS report...
            Report Init (0s)
@@ -603,37 +601,36 @@ INFO:    Report finished
 
 INFO:    Extraction Run Summary
          Total CPU Time        : 1(s)
-         Total Real Time       : 2(s)
+         Total Real Time       : 1(s)
          Peak Memory Used      : 25.00(M)
 
 
 INFO:    NVN Run Summary
          Total CPU Time        : 0(s)
          Total Real Time       : 0(s)
-         Peak Memory Used      : 249.01(M)
+         Peak Memory Used      : 263.34(M)
 
 
 INFO:    LVS Summary
          Total CPU Time        : 1(s)
-         Total Real Time       : 2(s)
-         Peak Memory Used      : 249.01(M)
+         Total Real Time       : 1(s)
+         Peak Memory Used      : 263.34(M)
 
     ###########################################################################################
     #                                                                                         #
-    # Run Result             : MISMATCH                                                       #
+    # Run Result             : MATCH                                                          #
     #                                                                                         #
-    # Run Summary            : [ERROR] Connectivity Mismatches                                #
-    #                        : [WARN]  Extraction Warnings (refer to Extraction Report File)  #
+    # Run Summary            : [WARN]  Extraction Warnings (refer to Extraction Report File)  #
     #                        : [INFO]  ERC Results: Empty                                     #
     #                                                                                         #
-    # ERC Summary File       : AND3.sum                                                       #
-    # Extraction Report File : AND3.rep                                                       #
-    # Comparison Report File : AND3.rep.cls                                                   #
+    # ERC Summary File       : 4_1_MUX_Schematic.sum                                          #
+    # Extraction Report File : 4_1_MUX_Schematic.rep                                          #
+    # Comparison Report File : 4_1_MUX_Schematic.rep.cls                                      #
     #                                                                                         #
     ###########################################################################################
 
 INFO:    Checking in all SoftShare licenses.
 
-Pegasus finished normally. 2025-12-01 16:15:22
+Pegasus finished normally. 2025-12-07 15:12:44
 
 

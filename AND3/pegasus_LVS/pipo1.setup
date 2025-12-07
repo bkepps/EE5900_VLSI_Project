@@ -1,6 +1,6 @@
 case	"preserve"
 convertDot	"node"
-convertPin	"geometry"
+convertPin	"geometryAndText"
 hierDepth	32
 labelCase	"preserve"
 labelDepth	32
@@ -9,9 +9,9 @@ logFile	"/home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/PIPO1.LOG"
 maxVertices	2048
 pinAttNum	0
 runDir	"/home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS"
-strmFile	"/home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/AND3.gds.gz"
+strmFile	"/home/campus15/mmunoria/Group2_VLSI_EE5900/AND3/pegasus_LVS/4_1_MUX_Schematic.gds.gz"
 strmVersion	5
 techLib	"sky130_fd_pr_main"
-topCell	"AND3"
+topCell	"4_1_MUX_Schematic"
 view	"layout"
 enableColoring
