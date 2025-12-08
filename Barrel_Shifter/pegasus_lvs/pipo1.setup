@@ -1,0 +1,17 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometryAndText"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"Group2_VLSI_EE5900"
+logFile	"/home/campus15/mmunoria/Group2_VLSI_EE5900/Barrel_Shifter/pegasus_lvs/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/home/campus15/mmunoria/Group2_VLSI_EE5900/Barrel_Shifter/pegasus_lvs"
+strmFile	"/home/campus15/mmunoria/Group2_VLSI_EE5900/Barrel_Shifter/pegasus_lvs/Barrel_Shifter.gds.gz"
+strmVersion	5
+techLib	"sky130_fd_pr_main"
+topCell	"Barrel_Shifter"
+view	"layout"
+enableColoring

@@ -1,0 +1,17 @@
+
+/opt/cadence-suite/PEGASUS/tools.lnx86/Pegasus/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : Barrel_Shifter_1293725.db
+ECDB dir        : ./
+Top Cell        : Barrel_Shifter
+CDL netlist     : ./Barrel_Shifter.net
+Layer map file  : ./Barrel_Shifter.ecdbmap
+Text map file   : ./Barrel_Shifter.ports
+Dependency map  : Barrel_Shifter.lmap.perc
+Lvs file        : ./Barrel_Shifter.lvsfile
+Float net file  : .Barrel_Shifter.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : Barrel_Shifter_1293725
