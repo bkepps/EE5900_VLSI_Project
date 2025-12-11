@@ -5,14 +5,14 @@
 "Run Directory" internal none /home/campus15/mmunoria/Group2_VLSI_EE5900/Barrel_Shifter/pegasus_lvs
 "Current Directory" internal none /home/campus15/mmunoria
 "Cadence Directory" internal none /home/campus15/mmunoria/.cadence/
-"Job Signature" internal none IPVS_1765153643_1289692
+"Job Signature" internal none IPVS_1765471964_1863894
 "Pegasus Job Mode" internal none lvs
 "GUI Flow" internal none virtuoso6
 "GUI Preset" internal none /home/campus15/mmunoria/Group2_VLSI_EE5900/Barrel_Shifter/pegasus_lvs/.preset.autosave
 "Pegasus Version" internal none 23.14-s006
 "Binary Name" internal none pegasusgui
 "Pegasus Build Date" internal none "Thu Jan 25 18:41:38 PST 2024"
-"Pegasus Job Time" internal none 1765153643
+"Pegasus Job Time" internal none 1765471967
 "DFII version" internal none IC23.1.0
 "Rule File" input text /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl
 "Layout Scale" internal none 0.001
@@ -52,12 +52,12 @@
 "Extraction Result" internal none CLEAN
 "ERC Result" internal none EMPTY
 "UI Data" internal none ENABLED
-"Pegasus Mode Info" internal none DFEDGFLGMAKNPEHJEEPCFKLHKDOJJPGF
+"Pegasus Mode Info" internal none DFEDGFLGMAKNPEHJPGKBEGCFGINFCBGE
 "Report MaxResults" internal none 1000
 "Binary Name" internal none Pegasus
-"Comparison Result" internal none MISMATCH
+"Comparison Result" internal none MATCH
 "LVS Run Name" internal none Barrel_Shifter.rep
 "Pegasus Version" internal none 23.14-s006
 "Binary Name" internal none pegasusnvn
 "Pegasus Build Date" internal none "Thu Jan 25 18:41:38 PST 2024"
-"Pegasus Job Time" internal none 1765153653
+"Pegasus Job Time" internal none 1765471993

@@ -26,14 +26,14 @@ Running: /opt/cadence-suite/pegasus/tools.lnx86/Pegasus/bin/64bit/pegasusvirt \
 
 
 
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.07s.
 ********************************************************************************
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 04/22/2025 22:31 (cpgbld17) $
           : sub-version  IC23.1-64b.ISR14.32 
-Started at: 07-Dec-2025  19:27:23
+Started at: 11-Dec-2025  11:52:51
 User Name : mmunoria
-Host Name : c17-orng-07.ad.mtu.edu
+Host Name : c28-0112-15.ad.mtu.edu
 Directory : /home/campus15/mmunoria
 CADENCE Design Systems, Inc.
 ********************************************************************************
@@ -72,28 +72,28 @@ convertDot                              node
 convertPin                              geometryAndText
 
 INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
-INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_765153643590.
-INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_765153643591.
-INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_765153643592.
-INFO (XSTRM-223): 4. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_765153643593.
-INFO (XSTRM-223): 5. Translating customVia sky130_fd_pr_main/subTap/layout as STRUCTURE subTap_CDNS_765153643590.
-INFO (XSTRM-223): 6. Translating customVia sky130_fd_pr_main/polyConn/layout as STRUCTURE polyConn_CDNS_765153643591.
-INFO (XSTRM-223): 7. Translating customVia sky130_fd_pr_main/nwellTap/layout as STRUCTURE nwellTap_CDNS_765153643592.
-INFO (XSTRM-223): 8. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_765153643594.
-INFO (XSTRM-223): 9. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_765153643593.
-INFO (XSTRM-223): 10. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_765153643594.
+INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_765471971190.
+INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_765471971191.
+INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_765471971192.
+INFO (XSTRM-223): 4. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_765471971193.
+INFO (XSTRM-223): 5. Translating customVia sky130_fd_pr_main/subTap/layout as STRUCTURE subTap_CDNS_765471971190.
+INFO (XSTRM-223): 6. Translating customVia sky130_fd_pr_main/polyConn/layout as STRUCTURE polyConn_CDNS_765471971191.
+INFO (XSTRM-223): 7. Translating customVia sky130_fd_pr_main/nwellTap/layout as STRUCTURE nwellTap_CDNS_765471971192.
+INFO (XSTRM-223): 8. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_765471971194.
+INFO (XSTRM-223): 9. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_765471971193.
+INFO (XSTRM-223): 10. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_765471971194.
 INFO (XSTRM-223): 11. Translating cellview Group2_VLSI_EE5900/NOT/layout as STRUCTURE NOT.
-INFO (XSTRM-223): 12. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_765153643595.
-INFO (XSTRM-223): 13. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_765153643596.
-INFO (XSTRM-223): 14. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_765153643597.
-INFO (XSTRM-223): 15. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_765153643598.
+INFO (XSTRM-223): 12. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_765471971195.
+INFO (XSTRM-223): 13. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_765471971196.
+INFO (XSTRM-223): 14. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_765471971197.
+INFO (XSTRM-223): 15. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_765471971198.
 INFO (XSTRM-223): 16. Translating cellview Group2_VLSI_EE5900/NAND/layout as STRUCTURE NAND.
 INFO (XSTRM-223): 17. Translating cellview Group2_VLSI_EE5900/AND/layout as STRUCTURE AND.
 INFO (XSTRM-223): 18. Translating cellview Group2_VLSI_EE5900/AND3/layout as STRUCTURE AND3.
-INFO (XSTRM-223): 19. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_765153643599.
-INFO (XSTRM-223): 20. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7651536435910.
-INFO (XSTRM-223): 21. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7651536435911.
-INFO (XSTRM-223): 22. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7651536435912.
+INFO (XSTRM-223): 19. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_765471971199.
+INFO (XSTRM-223): 20. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7654719711910.
+INFO (XSTRM-223): 21. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7654719711911.
+INFO (XSTRM-223): 22. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7654719711912.
 INFO (XSTRM-223): 23. Translating cellview Group2_VLSI_EE5900/NOR/layout as STRUCTURE NOR.
 INFO (XSTRM-223): 24. Translating cellview Group2_VLSI_EE5900/OR4/layout as STRUCTURE OR4.
 INFO (XSTRM-223): 25. Translating cellview Group2_VLSI_EE5900/4_1_MUX_Schematic/layout as STRUCTURE 4_1_MUX_Schematic.
@@ -120,22 +120,22 @@ Summary of Objects Translated:
 	Standard Vias                           117
 	Custom Vias:                            9
 	CdsGen Vias:                            0
-	Pathsegs:                               262
+	Pathsegs:                               263
 	Text:                                   0
 	TextDisplay:                            0
 	Cells:                                  26
 
-Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 37176KB
+Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 37192KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.
 
 
-Pegasus 23.14-s006 W6eUyhvWDSmkstMrnkYP8g 2025-12-07 19:27:23 1293725 c17-orng-07.ad.mtu.edu
+Pegasus 23.14-s006 W6eUyhvWDSmkstMrnkYP8g 2025-12-11 11:52:52 1870116 c28-0112-15.ad.mtu.edu
 Copyright 2024 Cadence Design Systems, Inc.
 All rights reserved worldwide.
 
 INFO:    Command Line Options: -lvs -top_cell Barrel_Shifter -log_dir LOGS -source_top_cell Barrel_Shifter -spice /home/campus15/mmunoria/Group2_VLSI_EE5900/Barrel_Shifter/pegasus_lvs/Barrel_Shifter.spi -control /home/campus15/mmunoria/Group2_VLSI_EE5900/Barrel_Shifter/pegasus_lvs/pegasuslvsctl -ui_data -gdb_data /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl
-INFO:    Launch host CPU: Model: 13th Gen Intel(R) Core(TM) i7-13700, OS: Red Hat Enterprise Linux release 9.6 (Plow), Logical cores: 24, Physical cores: 16, Cache: 30720 KB, CPU Speed: 2144.94 MHz
-         Launch host Memory: MemTotal: 31522 MB,  MemFree: 12246 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 208 MB
+INFO:    Launch host CPU: Model: 12th Gen Intel(R) Core(TM) i7-12700, OS: Red Hat Enterprise Linux release 9.6 (Plow), Logical cores: 20, Physical cores: 12, Cache: 25600 KB, CPU Speed: 800.246 MHz
+         Launch host Memory: MemTotal: 31547 MB,  MemFree: 6629 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 204 MB
 INFO:    Current path: /home/campus15/mmunoria/Group2_VLSI_EE5900/Barrel_Shifter/pegasus_lvs
 INFO:    Run directory same as current path
 INFO:    Log directory: /home/campus15/mmunoria/Group2_VLSI_EE5900/Barrel_Shifter/pegasus_lvs/LOGS
@@ -155,15 +155,15 @@ WARNING: LVS_RECOGNIZE_GATES at line 972 in file /opt/cadence-suite/sky130_relea
 INFO:    See "/home/campus15/mmunoria/Group2_VLSI_EE5900/Barrel_Shifter/pegasus_lvs/LOGS/pvl.log" for additional details.
 
 INFO:    Checking out 1 license(s) of feature: 'Pegasus_LVS' version 23.1
-INFO:    License checkout successful ... 2025-12-07 19:27:25
+INFO:    License checkout successful ... 2025-12-11 11:53:01
 
 INFO:    Checking out 1 license(s) of feature: 'Pegasus_16nm' version 23.1
-INFO:    License checkout successful ... 2025-12-07 19:27:25
+INFO:    License checkout successful ... 2025-12-11 11:53:01
 WARNING: Neither hcell nor -automatch option is specified.
-INFO:    Worker 0 started on host c17-orng-07.ad.mtu.edu with 1 cpu(s)
+INFO:    Worker 0 started on host c28-0112-15.ad.mtu.edu with 1 cpu(s)
 sh: line 1: lsb_release: command not found
-         CPU: Model: 13th Gen Intel(R) Core(TM) i7-13700, OS: , Logical cores: 24, Physical cores: 16, Cache: 30720 KB, CPU Speed: 3787.28 MHz
-         Memory: MemTotal: 31522 MB,  MemFree: 12200 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 208 MB
+         CPU: Model: 12th Gen Intel(R) Core(TM) i7-12700, OS: , Logical cores: 20, Physical cores: 12, Cache: 25600 KB, CPU Speed: 866.161 MHz
+         Memory: MemTotal: 31547 MB,  MemFree: 6592 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 204 MB
 INFO:    LVS report file: /home/campus15/mmunoria/Group2_VLSI_EE5900/Barrel_Shifter/pegasus_lvs/Barrel_Shifter.rep 
 INFO:    Extracted layout netlist: /home/campus15/mmunoria/Group2_VLSI_EE5900/Barrel_Shifter/pegasus_lvs/Barrel_Shifter.spi 
 INFO:    Setting LAYOUT_PATH to: /home/campus15/mmunoria/Group2_VLSI_EE5900/Barrel_Shifter/pegasus_lvs/Barrel_Shifter.gds.gz 
@@ -173,11 +173,11 @@ INFO:    Setting SCHEMATIC_PRIMARY to: Barrel_Shifter
 
 INFO:    Gdsii input summary
          File name: /home/campus15/mmunoria/Group2_VLSI_EE5900/Barrel_Shifter/pegasus_lvs/Barrel_Shifter.gds.gz
-         File size: 6564
+         File size: 6575
          Version: 5.0
          Library name: Group2_VLSI_EE5900
-         Last modified: 2025-12-7 19:16:44
-         Last accessed: 2025-12-7 19:27:23
+         Last modified: 2025-12-10 21:26:54
+         Last accessed: 2025-12-11 11:52:51
          Database unit in user units: 0.001
          Database unit in meters: 1e-09
          Magnification: 1 
@@ -186,34 +186,34 @@ INFO:    Cell Summary:
          ----------------------------------------------------------------------------
              CELL                            INSTANCE    GEOMETRY      LABELS        HREF        FREF
          ----------------------------------------------------------------------------
-         M1M2_C_CDNS_765153643590                   0           3           0          71         104
-         M1M2_C_CDNS_765153643591                   0           3           0          29          71
-         M1M2_C_CDNS_765153643592                   0           3           0           9          27
-         M1M2_C_CDNS_765153643593                   0           3           0           2           8
-         subTap_CDNS_765153643590                   0           6           0           2          64
-         polyConn_CDNS_765153643591                 0           6           0           5         140
-         nwellTap_CDNS_765153643592                 0           7           0           2          64
-         L1M1_C_CDNS_765153643594                   0           3           0           6         212
-         pfet_01v8_CDNS_765153643593                0          14           0           1          52
-         nfet_01v8_CDNS_765153643594                0          13           0           1          52
+         M1M2_C_CDNS_765471971190                   0           3           0          71         104
+         M1M2_C_CDNS_765471971191                   0           3           0          29          71
+         M1M2_C_CDNS_765471971192                   0           3           0           9          27
+         M1M2_C_CDNS_765471971193                   0           3           0           2           8
+         subTap_CDNS_765471971190                   0           6           0           2          64
+         polyConn_CDNS_765471971191                 0           6           0           5         140
+         nwellTap_CDNS_765471971192                 0           7           0           2          64
+         L1M1_C_CDNS_765471971194                   0           3           0           6         212
+         pfet_01v8_CDNS_765471971193                0          14           0           1          52
+         nfet_01v8_CDNS_765471971194                0          13           0           1          52
          NOT                                        7          20           0           6          52
-         nfet_01v8_CDNS_765153643595                0          17           0           1          32
-         nfet_01v8_CDNS_765153643596                0          11           0           1          32
-         pfet_01v8_CDNS_765153643597                0          14           0           1          32
-         pfet_01v8_CDNS_765153643598                0          18           0           1          32
+         nfet_01v8_CDNS_765471971195                0          17           0           1          32
+         nfet_01v8_CDNS_765471971196                0          11           0           1          32
+         pfet_01v8_CDNS_765471971197                0          14           0           1          32
+         pfet_01v8_CDNS_765471971198                0          18           0           1          32
          NAND                                       9          31           0           1          32
          AND                                        2          11           0           2          32
          AND3                                       2          14           6           4          16
-         nfet_01v8_CDNS_765153643599                0          11           0           1          12
-         pfet_01v8_CDNS_7651536435910               0          12           0           1          12
-         pfet_01v8_CDNS_7651536435911               0          12           0           1          12
-         nfet_01v8_CDNS_7651536435912               0          13           0           1          12
+         nfet_01v8_CDNS_765471971199                0          11           0           1          12
+         pfet_01v8_CDNS_7654719711910               0          12           0           1          12
+         pfet_01v8_CDNS_7654719711911               0          12           0           1          12
+         nfet_01v8_CDNS_7654719711912               0          13           0           1          12
          NOR                                        9          29           0           3          12
          OR4                                       10          33           0           1           4
          4_1_MUX_Schematic                         36          94           9           4           4
-         Barrel_Shifter                            82          95          12           1           1
+         Barrel_Shifter                            82          96          12           1           1
          ----------------------------------------------------------------------------
-         TOTAL CELL = 26;  INSTANCE = 157;  GEOMETRY = 496;  LABEL = 27
+         TOTAL CELL = 26;  INSTANCE = 157;  GEOMETRY = 497;  LABEL = 27
 
 INFO:    Layer Summary:
          ----------------------------------------------------------------------------
@@ -234,7 +234,7 @@ INFO:    Layer Summary:
          licon1                             1022        19         0       760         0
          li1_in                             1023        44         0      1720         0
          mcon                               1025         6         0       544         0
-         met1_in                            1026       181         0      2739         0
+         met1_in                            1026       182         0      2740         0
          via                                1028         4         0       210         0
          met2_in                            1029        85         0       408         0
          via2                               1031         0         0         0         0
@@ -349,67 +349,67 @@ INFO:    Layer Summary(Texts For DFM_TEXT):
          ----------------------------------------------------------------------------
 
 INFO:    Expanded Cell Summary
-INFO:    Status: Runset 100% complete as of 2025-12-07 19:27:26   Elapsed: 00:00:01
+INFO:    Status: Runset 100% complete as of 2025-12-11 11:53:02   Elapsed: 00:00:02
          Worker: Active CPUs  Total Mem(MB)  Active Mem(MB)  CPU time(s)
-              0:    1 /   1             24              14            0
-INFO:	 Status: Finishing as of 2025-12-07 19:27:26   Elapsed: 00:00:01   CPU time[s]: 1
+              0:    1 /   1             24              14            1
+INFO:	 Status: Finishing as of 2025-12-11 11:53:02   Elapsed: 00:00:02   CPU time[s]: 2
 INFO:    Resource usage by worker at exit:
                   CPU      Elapsed  CPUs       CPU       Peak        Peak engine
          Worker:  time[s]  time[s]  Allocated  usage[%]  Memory[MB]  Memory[MB]
-              0:        0        1          1     70.94          24           14
-         Worker resource usage  summary: Total CPU[s]: 0  Run duration[s]: 1  Max peak memory[MB]: 24
-         Worker CPU utilization summary: 0 of 1 available CPU seconds ( 0.00%) with 1 average available CPU(s)
+              0:        1        2          1     45.36          24           14
+         Worker resource usage  summary: Total CPU[s]: 1  Run duration[s]: 2  Max peak memory[MB]: 24
+         Worker CPU utilization summary: 1 of 2 available CPU seconds (50.00%) with 1 average available CPU(s)
 INFO:    Extraction result: CLEAN (Reporter)
 INFO:    Generating summary in /home/campus15/mmunoria/Group2_VLSI_EE5900/Barrel_Shifter/pegasus_lvs/Barrel_Shifter.sum
 INFO:    All selected rules completed
          Total CPU Time                    : 1(s)
-         Total Real Time                   : 2(s)
-         Total Original Geometry           : 496(10397)
+         Total Real Time                   : 3(s)
+         Total Original Geometry           : 497(10398)
          Total ERC RuleChecks              : 0
          Total ERC Results                 : 0 (0)
 INFO:    Pegasus extracted connectivity database creation started
-INFO:    CmdLine: /opt/cadence-suite/PEGASUS/tools.lnx86/Pegasus/bin/64bit/edbToEcdb -kf -edb Barrel_Shifter_1293725.db -ecdb ./ -topcell Barrel_Shifter -netlist ./Barrel_Shifter.net -layermap ./Barrel_Shifter.ecdbmap -textmap ./Barrel_Shifter.ports -dependmap Barrel_Shifter.lmap.perc -kvp ifs:acL -lvsfile ./Barrel_Shifter.lvsfile -saveFloatingNets .Barrel_Shifter.info.softchk 
-INFO:    Opening layer file 'Barrel_Shifter_1293725.db/__layer'...
+INFO:    CmdLine: /opt/cadence-suite/PEGASUS/tools.lnx86/Pegasus/bin/64bit/edbToEcdb -kf -edb Barrel_Shifter_1870116.db -ecdb ./ -topcell Barrel_Shifter -netlist ./Barrel_Shifter.net -layermap ./Barrel_Shifter.ecdbmap -textmap ./Barrel_Shifter.ports -dependmap Barrel_Shifter.lmap.perc -kvp ifs:lcL -lvsfile ./Barrel_Shifter.lvsfile -saveFloatingNets .Barrel_Shifter.info.softchk 
+INFO:    Opening layer file 'Barrel_Shifter_1870116.db/__layer'...
 INFO:    Loading layer map file './Barrel_Shifter.ecdbmap'...
 INFO:    Loading text map file './Barrel_Shifter.ports'...
 INFO:    Loading dependency map file 'Barrel_Shifter.lmap.perc'...
 INFO:    Pre loading edb directory contents...
 INFO:    ECDB file name './/.Barrel_Shifter.ecdb'...
 INFO:    Loading lvs file './Barrel_Shifter.lvsfile'...
-INFO:    Writing db header information...(1s)
+INFO:    Writing db header information...(0s)
 INFO:    Transfering cdl structures to ecdb structures...
 INFO:    Read Netlist (32 threads)...
-INFO:      DONE - (5s)
+INFO:      DONE - (3s)
 INFO:    Process (32 threads)...
-INFO:    Cell(      14):   3% Done...(5s), pfet_01v8_CDNS_765153643598             
-INFO:    Cell(       9):   7% Done...(5s), nfet_01v8_CDNS_765153643594             
-INFO:    Cell(       8):  11% Done...(5s), pfet_01v8_CDNS_765153643593             
-INFO:    Cell(      12):  15% Done...(5s), nfet_01v8_CDNS_765153643596             
-INFO:    Cell(       5):  19% Done...(5s), polyConn_CDNS_765153643591              
-INFO:    Cell(      24):  23% Done...(5s), 4_1_MUX_Schematic                       
-INFO:    Cell(       7):  26% Done...(5s), L1M1_C_CDNS_765153643594                
-INFO:    Cell(      23):  30% Done...(5s), OR4                                     
-INFO:    Cell(      20):  34% Done...(5s), pfet_01v8_CDNS_7651536435911            
-INFO:    Cell(      21):  38% Done...(5s), nfet_01v8_CDNS_7651536435912            
-INFO:    Cell(      11):  42% Done...(5s), nfet_01v8_CDNS_765153643595             
-INFO:    Cell(      13):  46% Done...(5s), pfet_01v8_CDNS_765153643597             
-INFO:    Cell(      18):  50% Done...(5s), nfet_01v8_CDNS_765153643599             
-INFO:    Cell(      16):  53% Done...(5s), AND                                     
-INFO:    Cell(      15):  57% Done...(5s), NAND                                    
-INFO:    Cell(       2):  61% Done...(5s), M1M2_C_CDNS_765153643592                
-INFO:    Cell(      10):  65% Done...(5s), NOT                                     
-INFO:    Cell(       3):  69% Done...(5s), M1M2_C_CDNS_765153643593                
-INFO:    Cell(      25):  73% Done...(5s), Barrel_Shifter                          
-INFO:    Cell(       4):  76% Done...(5s), subTap_CDNS_765153643590                
-INFO:    Cell(      17):  80% Done...(5s), AND3                                    
-INFO:    Cell(       0):  84% Done...(5s), M1M2_C_CDNS_765153643590                
-INFO:    Cell(       6):  88% Done...(5s), nwellTap_CDNS_765153643592              
-INFO:    Cell(       1):  92% Done...(5s), M1M2_C_CDNS_765153643591                
-INFO:    Cell(      22):  96% Done...(6s), NOR                                     
-INFO:    Cell(      19): 100% Done...(6s), pfet_01v8_CDNS_7651536435910            
+INFO:    Cell(      18):   3% Done...(3s), nfet_01v8_CDNS_765471971199             
+INFO:    Cell(       0):   7% Done...(3s), M1M2_C_CDNS_765471971190                
+INFO:    Cell(      16):  11% Done...(3s), AND                                     
+INFO:    Cell(       1):  15% Done...(3s), M1M2_C_CDNS_765471971191                
+INFO:    Cell(       6):  19% Done...(3s), nwellTap_CDNS_765471971192              
+INFO:    Cell(      25):  23% Done...(3s), Barrel_Shifter                          
+INFO:    Cell(       7):  26% Done...(3s), L1M1_C_CDNS_765471971194                
+INFO:    Cell(      12):  30% Done...(3s), nfet_01v8_CDNS_765471971196             
+INFO:    Cell(       5):  34% Done...(3s), polyConn_CDNS_765471971191              
+INFO:    Cell(      17):  38% Done...(3s), AND3                                    
+INFO:    Cell(       3):  42% Done...(3s), M1M2_C_CDNS_765471971193                
+INFO:    Cell(      21):  46% Done...(3s), nfet_01v8_CDNS_7654719711912            
+INFO:    Cell(       2):  50% Done...(3s), M1M2_C_CDNS_765471971192                
+INFO:    Cell(      13):  53% Done...(3s), pfet_01v8_CDNS_765471971197             
+INFO:    Cell(      15):  57% Done...(3s), NAND                                    
+INFO:    Cell(      10):  61% Done...(3s), NOT                                     
+INFO:    Cell(       4):  65% Done...(3s), subTap_CDNS_765471971190                
+INFO:    Cell(      11):  69% Done...(3s), nfet_01v8_CDNS_765471971195             
+INFO:    Cell(       8):  73% Done...(3s), pfet_01v8_CDNS_765471971193             
+INFO:    Cell(       9):  76% Done...(3s), nfet_01v8_CDNS_765471971194             
+INFO:    Cell(      24):  80% Done...(3s), 4_1_MUX_Schematic                       
+INFO:    Cell(      14):  84% Done...(3s), pfet_01v8_CDNS_765471971198             
+INFO:    Cell(      22):  88% Done...(4s), NOR                                     
+INFO:    Cell(      20):  92% Done...(4s), pfet_01v8_CDNS_7654719711911            
+INFO:    Cell(      23):  96% Done...(4s), OR4                                     
+INFO:    Cell(      19): 100% Done...(4s), pfet_01v8_CDNS_7654719711910            
 INFO:      DONE - (1s)
-INFO:    Cells creation time: (6s)
-INFO:    Write netlist items...         (6s)
+INFO:    Cells creation time: (4s)
+INFO:    Write netlist items...         (4s)
 INFO:    Saving name table to db...
 INFO:    Save device templates to the db...
 INFO:    Save connect rules to the db...
@@ -418,36 +418,36 @@ INFO:    Erasing cdl subckts...          (0s)
 
 INFO:    edbToEcdb Header Information:
   ECDB file version   : 38
-  DevTmpl offset      : 32480
-  Connect offset      : 32804
-  NameTable offset    : 30817
+  DevTmpl offset      : 32416
+  Connect offset      : 32740
+  NameTable offset    : 30756
   Layer Map offset    : 167
-  Cell Start offset   : 28997
-  Cell End offset     : 30817
-  Aux Data offset     : 33168
+  Cell Start offset   : 28936
+  Cell End offset     : 30756
+  Aux Data offset     : 33104
   Labels     offset   : 0
   Layer RW   offset   : 0
   NVP                 : ifs:0.01 
   Scale               : 4000
   GDS Scale           : 1000
-  File size (static)  : 37297
+  File size (static)  : 37233
   File size (dynamic) : 0
   Cell count          : 26
-  ECDB create time    : 7
+  ECDB create time    : 4
   EDB info            : 10
   Top Cell            : Barrel_Shifter
   EDB info (Trans)    : WRITTEN_64 W_NOT_NET_ORDER 
 
 INFO:    edbToEcdb Sizes written to disk (MB):
-  NameTbl             :     0.001663
+  NameTbl             :     0.001660
   Layers              :     0.004256
-  Shapes              :     0.009444
-  XYTree              :     0.006772
-  LookUpTbls          :     0.001224
+  Shapes              :     0.009441
+  XYTree              :     0.006760
+  LookUpTbls          :     0.001210
   Cells               :     0.002081
   Insts               :     0.003006
   Ports               :     0.001914
-  Nets                :     0.000896
+  Nets                :     0.000864
   Pins                :     0.000305
   Labels              :     0.000756
   DevTmpl             :     0.000324
@@ -456,14 +456,14 @@ INFO:    edbToEcdb Sizes written to disk (MB):
   AuxData             :     0.004127
   NvnLabels           :     0.000002
 ---------------------------------
-  Total               :     0.037297
+  Total               :     0.037233
 
-INFO:    Manager summary: CPU(s): 0 Elapsed(s): 7 Peak memory(MB): 1770.79
-INFO:    Pegasus extracted connectivity database creation completed. 2025-12-07 19:27:33
+INFO:    Manager summary: CPU(s): 2 Elapsed(s): 4 Peak memory(MB): 1706.79
+INFO:    Pegasus extracted connectivity database creation completed. 2025-12-11 11:53:09
 INFO:    Pegasus REPORTDB creation started...
 INFO:    Processing file Barrel_Shifter.rep
-INFO:    Manager summary: CPU(s): 0 Elapsed(s): 0 Peak memory(MB): 0.00
-INFO:    Pegasus REPORTDB creation completed. 2025-12-07 19:27:33
+INFO:    Manager summary: CPU(s): 0 Elapsed(s): 1 Peak memory(MB): 0.00
+INFO:    Pegasus REPORTDB creation completed. 2025-12-11 11:53:11
 
 
 INFO:    Comparing netlists ...
@@ -613,48 +613,47 @@ INFO:    Cell comparison output format:
                <Layout instances> insts vs <Schematic instances> insts  (<Time>)-<Status>
 
          Top Cell  Barrel_Shifter vs Barrel_Shifter
-            280 insts vs 280 insts . . . . . . . . . . . . . . . . . . . .  (0s)-mismatch
+            280 insts vs 280 insts . . . . . . . . . . . . . . . . . . . . . . (0s)-match
 
 INFO:    Generating the LVS report...
            Report Init (0s)
-           Load common queries (1s)
+           Load common queries (0s)
            Create report (0s)
            Cleanup (0s)
 INFO:    Report finished
 
 INFO:    Extraction Run Summary
          Total CPU Time        : 1(s)
-         Total Real Time       : 2(s)
+         Total Real Time       : 3(s)
          Peak Memory Used      : 25.00(M)
 
 
 INFO:    NVN Run Summary
-         Total CPU Time        : 0(s)
+         Total CPU Time        : 2(s)
          Total Real Time       : 1(s)
-         Peak Memory Used      : 247.65(M)
+         Peak Memory Used      : 247.64(M)
 
 
 INFO:    LVS Summary
-         Total CPU Time        : 1(s)
-         Total Real Time       : 3(s)
-         Peak Memory Used      : 247.65(M)
+         Total CPU Time        : 3(s)
+         Total Real Time       : 4(s)
+         Peak Memory Used      : 247.64(M)
 
-    #############################################################
-    #                                                           #
-    # Run Result             : MISMATCH                         #
-    #                                                           #
-    # Run Summary            : [ERROR] Connectivity Mismatches  #
-    #                        : [INFO]  ERC Results: Empty       #
-    #                        : [INFO]  Extraction Clean         #
-    #                                                           #
-    # ERC Summary File       : Barrel_Shifter.sum               #
-    # Extraction Report File : Barrel_Shifter.rep               #
-    # Comparison Report File : Barrel_Shifter.rep.cls           #
-    #                                                           #
-    #############################################################
+    ########################################################
+    #                                                      #
+    # Run Result             : MATCH                       #
+    #                                                      #
+    # Run Summary            : [INFO]  ERC Results: Empty  #
+    #                        : [INFO]  Extraction Clean    #
+    #                                                      #
+    # ERC Summary File       : Barrel_Shifter.sum          #
+    # Extraction Report File : Barrel_Shifter.rep          #
+    # Comparison Report File : Barrel_Shifter.rep.cls      #
+    #                                                      #
+    ########################################################
 
 INFO:    Checking in all SoftShare licenses.
 
-Pegasus finished normally. 2025-12-07 19:27:34
+Pegasus finished normally. 2025-12-11 11:53:13
 
 

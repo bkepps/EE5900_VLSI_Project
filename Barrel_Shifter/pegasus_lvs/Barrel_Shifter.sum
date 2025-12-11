@@ -1,7 +1,7 @@
 ********************************************************************************
 *** Pegasus ERC SUMMARY
 ***
-Execute on Date/Time    : Sun Dec  7 19:27:25 2025
+Execute on Date/Time    : Thu Dec 11 11:53:00 2025
 Pegasus VERSION         : 23.14-s006 Thu Jan 25 18:41:38 PST 2024
 Rule Deck Path          : /opt/cadence-suite/sky130_release_0.0.4/Sky130_LVS/sky130.lvs.pvl
 Rule Deck Title         :
@@ -42,7 +42,7 @@ LAYER npc .................................. Total Original Geometry:          1
 LAYER licon1 ............................... Total Original Geometry:         19 (       760)
 LAYER li1_in ............................... Total Original Geometry:         44 (      1720)
 LAYER mcon ................................. Total Original Geometry:          6 (       544)
-LAYER met1_in .............................. Total Original Geometry:        181 (      2739)
+LAYER met1_in .............................. Total Original Geometry:        182 (      2740)
 LAYER via .................................. Total Original Geometry:          4 (       210)
 LAYER met2_in .............................. Total Original Geometry:         85 (       408)
 LAYER via2 ................................. Total Original Geometry:          0 (         0)
@@ -88,7 +88,7 @@ LAYER met5_res ............................. Total Original Geometry:          0
 --- SUMMARY
 ---
 Total CPU Time                    : 1(s)
-Total Real Time                   : 2(s)
-Total Original Geometry           : 496 (10397)
+Total Real Time                   : 3(s)
+Total Original Geometry           : 497 (10398)
 Total ERC RuleChecks              : 0
 Total ERC Results                 : 0 (0)

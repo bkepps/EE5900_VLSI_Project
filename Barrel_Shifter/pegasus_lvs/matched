@@ -3,22 +3,15 @@
 #####                                       Pegasus LVS COMPARISON
 #####  
 #####  Version                       :   23.14-s006
-#####  NVN Run Start                 :   Sun Dec  7 19:27:33 2025
+#####  NVN Run Start                 :   Thu Dec 11 11:53:13 2025
 #####  ERC Summary File              :   Barrel_Shifter.sum
 #####  Extraction Report File        :   Barrel_Shifter.rep
 #####  Comparison Report File        :   Barrel_Shifter.rep.cls
 #####  Top Cell                      :   Barrel_Shifter  <vs>  Barrel_Shifter
 #####  
-#####                                :      @     @
-#####                                :       @   @ 
-#####                                :        @ @  
-#####  Run Result                    :     MISMATCH
-#####                                :        @ @  
-#####                                :       @   @ 
-#####                                :      @     @
+#####  Run Result                    :   MATCH
 #####  
-#####  Run Summary                   :   [ERROR] Connectivity Mismatches
-#####                                :   [INFO]  ERC Results: Empty
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
 #####                                :   [INFO]  Extraction Clean
 #####  
 #####  Layout Design                 :   Group2_VLSI_EE5900 Barrel_Shifter layout
@@ -27,14 +20,14 @@
 #####  Pin Swap File                 :   Barrel_Shifter.rep.cps
 #####  
 #####  Extraction CPU Time           :   0h 0m 1s - (1s)
-#####  Extraction Exec Time          :   0h 0m 2s - (2s)
+#####  Extraction Exec Time          :   0h 0m 3s - (3s)
 #####  Extraction Peak Memory Usage  :   25.00MB
-#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN CPU Time                  :   0h 0m 2s - (2s)                 
 #####  NVN Exec Time                 :   0h 0m 1s - (1s)                 
-#####  NVN Peak Memory Usage         :   247.65MB
-#####  LVS Total CPU Time            :   0h 0m 1s - (1s)                 
-#####  LVS Total Exec Time           :   0h 0m 3s - (3s)                 
-#####  LVS Total Peak Memory Usage   :   247.65MB
+#####  NVN Peak Memory Usage         :   247.64MB
+#####  LVS Total CPU Time            :   0h 0m 3s - (3s)                 
+#####  LVS Total Exec Time           :   0h 0m 4s - (4s)                 
+#####  LVS Total Peak Memory Usage   :   247.64MB
 #####  
 ##############################################################################################################
 

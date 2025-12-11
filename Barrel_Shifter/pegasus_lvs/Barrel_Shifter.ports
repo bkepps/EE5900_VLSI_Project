@@ -1,6 +1,5 @@
 # SVDB: Port Table (ports)
 # SVDB: Layout Primary Barrel_Shifter
-Y0 13 Y0 102130 130 met1
 S1 1 S1 70 16620 met1
 S0 2 S0 70 17480 met1
 W2 3 W2 26910 21760 met1
@@ -12,3 +11,4 @@ Y3 8 Y3 25700 130 met1
 Vdd 9 Vdd 12020 21410 met1
 Y2 10 Y2 51270 130 met1
 Y1 11 Y1 76860 130 met1
+Y0 12 Y0 102130 130 met1

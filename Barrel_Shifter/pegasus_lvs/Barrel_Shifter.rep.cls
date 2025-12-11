@@ -3,22 +3,15 @@
 #####                                       Pegasus LVS COMPARISON
 #####  
 #####  Version                       :   23.14-s006
-#####  NVN Run Start                 :   Sun Dec  7 19:27:33 2025
+#####  NVN Run Start                 :   Thu Dec 11 11:53:13 2025
 #####  ERC Summary File              :   Barrel_Shifter.sum
 #####  Extraction Report File        :   Barrel_Shifter.rep
 #####  Comparison Report File        :   Barrel_Shifter.rep.cls
 #####  Top Cell                      :   Barrel_Shifter  <vs>  Barrel_Shifter
 #####  
-#####                                :      @     @
-#####                                :       @   @ 
-#####                                :        @ @  
-#####  Run Result                    :     MISMATCH
-#####                                :        @ @  
-#####                                :       @   @ 
-#####                                :      @     @
+#####  Run Result                    :   MATCH
 #####  
-#####  Run Summary                   :   [ERROR] Connectivity Mismatches
-#####                                :   [INFO]  ERC Results: Empty
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
 #####                                :   [INFO]  Extraction Clean
 #####  
 #####  Layout Design                 :   Group2_VLSI_EE5900 Barrel_Shifter layout
@@ -27,14 +20,14 @@
 #####  Pin Swap File                 :   Barrel_Shifter.rep.cps
 #####  
 #####  Extraction CPU Time           :   0h 0m 1s - (1s)
-#####  Extraction Exec Time          :   0h 0m 2s - (2s)
+#####  Extraction Exec Time          :   0h 0m 3s - (3s)
 #####  Extraction Peak Memory Usage  :   25.00MB
-#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN CPU Time                  :   0h 0m 2s - (2s)                 
 #####  NVN Exec Time                 :   0h 0m 1s - (1s)                 
-#####  NVN Peak Memory Usage         :   247.65MB
-#####  LVS Total CPU Time            :   0h 0m 1s - (1s)                 
-#####  LVS Total Exec Time           :   0h 0m 3s - (3s)                 
-#####  LVS Total Peak Memory Usage   :   247.65MB
+#####  NVN Peak Memory Usage         :   247.64MB
+#####  LVS Total CPU Time            :   0h 0m 3s - (3s)                 
+#####  LVS Total Exec Time           :   0h 0m 4s - (4s)                 
+#####  LVS Total Peak Memory Usage   :   247.64MB
 #####  
 ##############################################################################################################
 
@@ -47,10 +40,10 @@
 
 Cell Statistic Descriptions                  | Count
 ---------------------------------------------+----------
-Cells matched                                |         0
+Cells matched                                |         1
 Cells expanded                               |         0
 Cells not run                                |         0
-Cells which mismatch                         |         1
+Cells which mismatch                         |         0
 ---------------------------------------------+----------
 Total                                        |         1
 
@@ -68,10 +61,10 @@ Cells that have been blackboxed              |         0
 #
 ##############################################################################################################
 
-                   |     Initial Pins     |     Compare Pins     |              | 
-Cell               |   lay    :    sch    |   lay    :    sch    | Status       | Detail
--------------------+----------+-----------+----------+-----------+--------------+-----------
-Barrel_Shifter     |       12 :        12 |       12 :        12 | mismatch     | 
+                   |     Initial Pins     |     Compare Pins     |            | 
+Cell               |   lay    :    sch    |   lay    :    sch    | Status     | Detail
+-------------------+----------+-----------+----------+-----------+------------+-----------
+Barrel_Shifter     |       12 :        12 |       12 :        12 | match      | 
 
 
 ##############################################################################################################
@@ -316,34 +309,33 @@ Effective LVS Rule Values
 #
 ##############################################################################################################
 
-                              ##################################################
-                              #                                                #
-                              #       ------->>> $ MISMATCH $ <<<-------       #
-                              #                                                #
-                              #      Barrel_Shifter  <vs>  Barrel_Shifter      #
-                              #                                                #
-                              #            CONNECTIVITY MISMATCHES             #
-                              #                                                #
-                              ##################################################
+                              +------------------------------------------------+
+                              |                                                |
+                              |        ------->>>   MATCH   <<<-------         |
+                              |                                                |
+                              |      Barrel_Shifter  <vs>  Barrel_Shifter      |
+                              |                                                |
+                              |                                                |
+                              +------------------------------------------------+
 
 +===[Barrel_Shifter]==========================================================================================
 |                                                 STATISTICS                                                  
 +=============================================================================================================
 
 
-                   |     Original      |      Reduced       |     Unmatched     
-Cell               |   lay   :   sch   |   lay    :   sch   |   lay   :   sch
--------------------+---------+---------+----------+---------+---------+---------
-MP [4 pins]        |         :         |          :         |         :         
- MP(PFET_01V8)     |     140 :     140 |      140 :     140 |       0 :        0
-MN [4 pins]        |         :         |          :         |         :         
- MN(NFET_01V8)     |     140 :     140 |      140 :     140 |       0 :        0
--------------------+---------+---------+----------+---------+---------+---------
-Total              |     280 :     280 |      280 :     280 |       0 :        0
-===================+=========+=========+==========+=========+=========+=========
-Pins               |         :         |       12 :      12 |       0 :        0
-Nets               |         :         |     *139 :     136 |      *3 :        0
-===================+=========+=========+==========+=========+=========+=========
+                   |     Original      |     Reduced      
+Cell               |   lay   :   sch   |   lay   :  sch
+-------------------+---------+---------+---------+--------
+MP [4 pins]        |         :         |         :        
+ MP(PFET_01V8)     |     140 :     140 |     140 :     140
+MN [4 pins]        |         :         |         :        
+ MN(NFET_01V8)     |     140 :     140 |     140 :     140
+-------------------+---------+---------+---------+--------
+Total              |     280 :     280 |     280 :     280
+===================+=========+=========+=========+========
+Pins               |         :         |      12 :      12
+Nets               |         :         |     136 :     136
+===================+=========+=========+=========+========
 
 +===[Barrel_Shifter]==========================================================================================
 |                                           INITIAL CORRESPONDENCES                                           
@@ -352,29 +344,6 @@ Nets               |         :         |     *139 :     136 |      *3 :        0
 Type     | Name
 ---------+------------------------------------------
 Pin      | S0 S1 Vdd Vss W0 W1 W2 W3 Y0 Y1 Y2 Y3
-
-
-+===[Barrel_Shifter]==========================================================================================
-|                                              SHORTS AND OPENS                                               
-+=============================================================================================================
-                                          
-                                          
-Layout Pin: W2     | Schematic Pin: W2
-===================+===============(sao 1)
-Layout Net: 16     |         OPEN
-===================+======================
-                                          
-                                          
-Layout Pin: W1     | Schematic Pin: W1
-===================+===============(sao 2)
-Layout Net: 15     |         OPEN
-===================+======================
-                                          
-                                          
-Layout Pin: W0     | Schematic Pin: W0
-===================+===============(sao 3)
-Layout Net: 14     |         OPEN
-===================+======================
 
 
 ##############################################################################################################

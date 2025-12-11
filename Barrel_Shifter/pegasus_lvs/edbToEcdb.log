@@ -3,7 +3,7 @@
 ========================================================================
 
 Delete EDB      : N
-EDB Library dir : Barrel_Shifter_1293725.db
+EDB Library dir : Barrel_Shifter_1870116.db
 ECDB dir        : ./
 Top Cell        : Barrel_Shifter
 CDL netlist     : ./Barrel_Shifter.net
@@ -14,4 +14,4 @@ Lvs file        : ./Barrel_Shifter.lvsfile
 Float net file  : .Barrel_Shifter.info.softchk
 threads         : 32
 debug           : 0
-Source Library  : Barrel_Shifter_1293725
+Source Library  : Barrel_Shifter_1870116
